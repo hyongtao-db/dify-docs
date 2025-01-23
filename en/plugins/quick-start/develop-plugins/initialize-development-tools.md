@@ -29,7 +29,7 @@ After running the command, if the terminal returns version information like `v0.
 
 > If you want to use the `dify` command globally in your system to run the scaffolding tool, it's recommended to rename the binary file to `dify` and copy it to the `/usr/local/bin` system path.
 >
-> After configuration, entering the `dify -v` command in the terminal will output the version number.
+> After configuration, entering the `dify version` command in the terminal will output the version number.
 
 #### **2. Initialize Python Environment**
 
