@@ -94,3 +94,4 @@ meta:
     * `language` (string): Currently only supports python
     * `version` (string): Language version, currently only supports `3.12`
     * `entrypoint` (string): Program entry point, should be `main` for Python
+* `privacy` (string): Privacy file path or link to website contains privacy policy
