@@ -159,7 +159,7 @@
       * [接入预定义模型](plugins/quick-start/develop-plugins/model-plugin/integrate-the-predefined-model.md)
       * [接入自定义模型](plugins/quick-start/develop-plugins/model-plugin/customizable-model.md)
       * [调试插件](plugins/quick-start/develop-plugins/model-plugin/debug-plugin.md)
-    * [Agent 策略插件](plugins/quick-start/develop-plugins/agent-strategy.md)
+    * [Agent 策略插件](plugins/quick-start/develop-plugins/agent-strategy-plugin.md)
     * [Extension 插件](plugins/quick-start/develop-plugins/extension-plugin.md)
     * [Bundle 插件包](plugins/quick-start/develop-plugins/bundle.md)
     * [最佳实践](plugins/quick-start/develop-plugins/best-practice/README.md)
