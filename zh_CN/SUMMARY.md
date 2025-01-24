@@ -153,7 +153,7 @@
   * [安装与使用插件](plugins/quick-start/install-plugins.md)
   * [插件开发](plugins/quick-start/develop-plugins/README.md)
     * [初始化开发工具](plugins/quick-start/develop-plugins/initialize-development-tools.md)
-    * [Tool 插件](plugins/quick-start/develop-plugins/tool-type-plugin.md)
+    * [Tool 插件](plugins/quick-start/develop-plugins/tool-plugin.md)
     * [Model 插件](plugins/quick-start/develop-plugins/model-plugin/README.md)
       * [创建模型供应商](plugins/quick-start/develop-plugins/model-plugin/create-model-providers.md)
       * [接入预定义模型](plugins/quick-start/develop-plugins/model-plugin/integrate-the-predefined-model.md)
