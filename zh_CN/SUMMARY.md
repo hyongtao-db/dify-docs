@@ -181,7 +181,9 @@
 * [最佳实践](plugins/best-practice/README.md)
   * [开发 Slack Bot 插件](plugins/best-practice/develop-a-slack-bot-plugin.md)
 * [发布插件](plugins/publish-plugins/README.md)
-  * [发布至 Dify Marketplace](plugins/publish-plugins/publish-to-dify-marketplace.md)
+  * [发布至 Dify Marketplace](plugins/publish-plugins/publish-to-dify-marketplace/README.md)
+    * [插件开发者准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-developer-guidelines.md)
+    * [插件隐私政策准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)
   * [发布至个人 GitHub 仓库](plugins/publish-plugins/publish-plugin-on-personal-github-repo.md)
   * [本地发布与分享](plugins/publish-plugins/package-and-publish-plugin-file.md)
 

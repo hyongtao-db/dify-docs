@@ -215,6 +215,25 @@ In Q\&A chunking mode, each content chunk consists of a question and an answer. 
 {% endtab %}
 {% endtabs %}
 
+### Modify Text Chunks for Uploaded Documents
+
+Knowledge Base supports reconfiguring document segmentation.
+
+**Larger Chunks**
+- Retain more context within each chunk, ideal for tasks requiring a broader understanding of the text.
+- Reduce the total number of chunks, lowering processing time and storage overhead.
+
+**Smaller Chunks**
+- Provide finer granularity, improving accuracy for tasks like extraction or summarization.
+- Reduce the risk of exceeding model token limits, making it safer for models with stricter constraints.
+
+Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to save changes and reprocess the document.
+The chunk list will update automatically once processing is complete—no page refresh needed.
+
+![Chunk Settings](https://assets-docs.dify.ai/2025/01/36cb20be8aae1f368ebf501c0d579051.png)
+
+<img src="https://assets-docs.dify.ai/2025/01/a47b890c575a7693c40303d3d7cb4952.png" width="400" alt="Save & Process">
+
 ***
 
 ### Metadata Management
