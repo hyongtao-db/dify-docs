@@ -1,4 +1,4 @@
-# Developing Slack Bot Plugin
+# Develop a Slack Bot Plugin
 
 **What You’ll Learn:**
 
