@@ -82,6 +82,12 @@ Two deployment options available:
 5. **Notifications**
    - Use QingLong's built-in notification system
 
+## 📸 Notification Preview
+
+| WeChat Notification Example | Email Notification Example |
+|:------------:|:------------:|
+| <img src="https://assets-docs.dify.ai/2025/01/48d250d297950452a2c1a95babc06638.png" alt="WeChat" width="400px" /> | <img src="https://assets-docs.dify.ai/2025/01/192e3ec292686129198a45562fad26cf.png" alt="Email" width="400px" /> |
+
 ## ❓ Troubleshooting Guide
 
 ### Getting API Keys
@@ -91,7 +97,7 @@ Two deployment options available:
 3. Visit API Reference page
 4. Get API key
 
-![](https://assets-docs.dify.ai/2025/01/569b0b346dbaf9f8b142fe39f3be93a5.png)
+![](https://assets-docs.dify.ai/2025/01/f7239b198b4aeac98d209bfcebae153d.png)
 
 ## Common Issues
 

@@ -97,7 +97,7 @@ ql repo https://github.com/leochen-g/dify-schedule.git "ql_" "utils" "sdk"
 
 | 微信通知示例 | 邮件通知示例 |
 |:------------:|:------------:|
-| ![微信](https://assets-docs.dify.ai/2025/01/48d250d297950452a2c1a95babc06638.png) | ![邮件](https://assets-docs.dify.ai/2025/01/192e3ec292686129198a45562fad26cf.png) |
+| ![微信](https://assets-docs.dify.ai/2025/01/854f7a601a7dc277f8df095f06b2d5f0.png) | ![邮件](https://assets-docs.dify.ai/2025/01/192e3ec292686129198a45562fad26cf.png) |
 
 ## ❓ 故障排查指南
 
@@ -108,7 +108,7 @@ ql repo https://github.com/leochen-g/dify-schedule.git "ql_" "utils" "sdk"
 3. 访问 API 参考页面
 4. 获取 API 密钥
 
-![](https://assets-docs.dify.ai/2025/01/569b0b346dbaf9f8b142fe39f3be93a5.png)
+![](https://assets-docs.dify.ai/2025/01/f7239b198b4aeac98d209bfcebae153d.png)
 
 ## 常见问题
 
