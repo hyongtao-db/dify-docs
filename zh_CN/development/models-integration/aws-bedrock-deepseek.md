@@ -1,10 +1,10 @@
-# 接入 AWS Bedrock 上的模型（DeepSeek）
+# 接入 AWS Bedrock 上的模型
 
 ## 功能介绍
 
 [AWS Bedrock Marketplace](https://aws.amazon.com/bedrock/marketplace/) 是一个综合的 LLM 部署平台，开发人员可以在该平台发现、测试和使用 100 多种常用的新兴专业基础模型（FM）并轻松部署与访问。
 
-本文将为你介绍如何在 Bedrock Marketplace 平台内部署 DeepSeek 模型并集成至 Dify 平台，帮助你快速搭建基于 DeepSeek 模型的 AI 应用。
+本文将以部署 DeepSeek 模型为例，演示如何在 Bedrock Marketplace 平台部署模型并集成至 Dify 平台，帮助你快速搭建基于 DeepSeek 模型的 AI 应用。
 
 ## 前置准备
 

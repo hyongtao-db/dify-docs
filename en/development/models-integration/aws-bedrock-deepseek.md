@@ -4,7 +4,7 @@
 
 The [AWS Bedrock Marketplace](https://aws.amazon.com/bedrock/marketplace/) is a comprehensive platform for deploying large language models (LLMs). It allows developers to discover, test, and deploy over 100 emerging foundation models (FMs) seamlessly. 
 
-This guide will walk you through deploying a DeepSeek model on the Bedrock Marketplace and integrating it with the Dify platform to enable rapid development of AI applications.
+This guide will take the deployment of DeepSeek models as an example to demonstrate how to deploy model on the Bedrock Marketplace platform and integrate it into the Dify platform, helping you quickly build AI applications based on DeepSeek models.
 
 ## Prerequisites
 
