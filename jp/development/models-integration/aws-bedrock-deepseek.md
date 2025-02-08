@@ -2,14 +2,14 @@
 
 ## 概要
 
-[ AWS Bedrock マーケットプレイス ](https://aws.amazon.com/bedrock/marketplace/) は、大規模な言語モデル (LLMs) をデプロイするための総合的なプラットフォームです。開発者は、このプラットフォームを活用して、100 を超える新興の基盤モデル (FMs) を無断配布で検出、テスト、デプロイすることができます。
+[AWS Bedrock マーケットプレイス](https://aws.amazon.com/bedrock/marketplace/) は、大規模な言語モデル (LLMs) をデプロイするための総合的なプラットフォームです。開発者は、このプラットフォームを活用して、100 を超える新興の基盤モデル (FMs) を無断配布で検出、テスト、デプロイすることができます。
 
 本文は、DeepSeek モデルのデプロイを例として、Bedrock Marketplace プラットフォーム上でモデルをデプロイし、Dify プラットフォームに統合する方法を説明します。これにより、DeepSeek モデルを基盤とした AI アプリケーションの迅速な構築をサポートします。
 
 ## 前提条件
 
-- [ Bedrock ](https://aws.amazon.com/bedrock/) にアクセスできる AWS アカウント。
-- [ Dify.AI アカウント ](https://cloud.dify.ai/)。
+- [Bedrock](https://aws.amazon.com/bedrock/) にアクセスできる AWS アカウント。
+- [Dify.AI アカウント](https://cloud.dify.ai/)。
 
 ## デプロイ手順
 

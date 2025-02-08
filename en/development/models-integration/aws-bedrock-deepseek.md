@@ -17,14 +17,15 @@ This guide will take the deployment of DeepSeek models as an example to demonstr
 
 #### 1.1 Searching and Selecting the Model
 
-1. Navigate to the **Bedrock Marketplace** and search for **DeepSeek**
-2. Choose a **DeepSeek** model based on your requirements
+1. Navigate to the **Bedrock Marketplace** and search for **DeepSeek**.
+2. Choose a **DeepSeek** model based on your requirements.
 
 ![](https://assets-docs.dify.ai/2025/02/9c6e17fc0cf262b2005013bf122251d1.png)
 
 #### 1.2 Initiating Deployment
-1. Go to the **Model detail** page and click **Deploy**
-2. Follow the instructions to configure the deployment settings
+
+1. Go to the **Model detail** page and click **Deploy**.
+2. Follow the instructions to configure the deployment settings.
 
 > **Note:** Model versions require different compute configurations, affecting costs.
 
@@ -40,8 +41,9 @@ Once deployment is complete, navigate to the **Marketplace Deployments** page to
 
 #### 2.1 Accessing Configuration Settings
 
-1. Log in to the Dify management panel and go to the **Settings** page
-2. On the **Model Provider** page, select **Amazon SageMaker**
+1. Log in to the Dify management panel and go to the **Settings** page.
+
+2. On the **Model Provider** page, select **Amazon SageMaker**.
 
 ![Add Model](https://assets-docs.dify.ai/2025/02/864fc8476c47b460b67f14152cbbf360.png)
 
@@ -57,10 +59,10 @@ Click **Add Model** and fill in the following information:
 
 ### 3. Testing the Model
 
-1. Open Dify and select Create a Blank App
-2. Select either Chatflow or Workflow
-3. Add an LLM node
-4. Verify model responses (see screenshot below for expected responses)
+1. Open Dify and select Create a Blank App.
+2. Select either Chatflow or Workflow.
+3. Add an LLM node.
+4. Verify model responses (see screenshot below for expected responses).
 
 ![Model Running](https://assets-docs.dify.ai/2025/02/e7fb06888101662ecb970401fdba63b5.png)
 
