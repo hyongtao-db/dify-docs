@@ -110,11 +110,11 @@ Difyプラットフォームの **Profile → Settings → Model Providers** に
 
 2.	LLMノードを追加し、Ollama の下にある `deepseek-r1:7b` モデルを選択し、`{{#sys.query#}}` 変数をシステムプロンプトに使用して、最初のノードに接続します。APIの問題が発生した場合は、[ロードバランシング](https://docs.dify.ai/guides/model-configuration/load-balancing)または[エラー処理](https://docs.dify.ai/guides/workflow/error-handling)ノードを使用して処理できます。
 
-	2.	LLMノードを追加し、Ollamaフレームワークの下にあるdeepseek-r1:7bモデルを選択し、{{#sys.query#}}変数をシステムプロンプトに挿入して、最初のノードに接続します。APIの問題が発生した場合は、ロードバランシングまたはエラー処理ノードを使用して処理できます。
+3.	LLMノードを追加し、Ollamaフレームワークの下にあるdeepseek-r1:7bモデルを選択し、{{#sys.query#}}変数をシステムプロンプトに挿入して、最初のノードに接続します。APIの問題が発生した場合は、ロードバランシングまたはエラー処理ノードを使用して処理できます。
 
 ![](https://assets-docs.dify.ai/2025/01/c21f076398eb09d773d3e543561293e6.png)
 
-3.	Endノードを追加して構成を完了します。クエリを入力してワークフローをテストします。応答が正しければ、セットアップは完了です。
+4.	Endノードを追加して構成を完了します。クエリを入力してワークフローをテストします。応答が正しければ、セットアップは完了です。
 
 ![](https://assets-docs.dify.ai/2025/01/820c37c70cb029cba60ca289e8d6e89a.png)
 
