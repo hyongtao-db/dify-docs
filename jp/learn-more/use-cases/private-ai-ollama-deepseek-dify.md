@@ -77,6 +77,7 @@ Difyプラットフォームの **Profile → Settings → Model Providers** に
 モデルを構成します。
 •	モデル名：デプロイしたモデル名（例：`deepseek-r1:7b`）を入力します。
 •	ベースURL：OllamaクライアントのローカルサービスURL（通常は `http://your_server_ip:11434`）を設定します。
+接続問題が発生した場合は、[よくある質問](https://docs.dify.ai/ja-jp/learn-more/use-cases/private-ai-ollama-deepseek-dify#id-1-docker-noer)をご参照ください。
 •	その他の設定：デフォルト値を保持します。[DeepSeekモデルの仕様](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)によると、最大トークン長は32,768です。
 
 ![](https://assets-docs.dify.ai/2025/01/6f3b53427e46786ba7d1374739344142.png)
