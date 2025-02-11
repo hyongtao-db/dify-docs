@@ -1,38 +1,38 @@
-# Telegram Bot連携プラグインの開発
+# Slack Bot連携プラグインの開発
 
 ### **プロジェクトの背景**
 
-LLMサービスを一般的なリアルタイムチャットプラットフォーム（IM）と連携させることは、常に重要な取り組みとして注目されています。Difyプラグインのエコシステムは、よりシンプルで使いやすい連携方法を提供することを目指しています。この記事では、Telegramを例に、Telegram Botに接続するプラグインを開発する方法を詳しく解説します。
+LLMサービスを一般的なリアルタイムチャットプラットフォーム（IM）と連携させることは、常に重要な取り組みとして注目されています。Difyプラグインのエコシステムは、よりシンプルで使いやすい連携方法を提供することを目指しています。この記事では、Telegramを例に、Slack Botに接続するプラグインを開発する方法を詳しく解説します。
 
-[Telegram](https://telegram.org/)は、豊富なAPIを提供する無料のオープンなリアルタイムコミュニプラットフォームです。イベントベースの仕組みである使いやすいWebhook機能も備えています。この仕組みを利用して、次の図に示すようにTelegram Botプラグインを作成します。
+[Telegram](https://telegram.org/)は、豊富なAPIを提供する無料のオープンなリアルタイムコミュニプラットフォームです。イベントベースの仕組みである使いやすいWebhook機能も備えています。この仕組みを利用して、次の図に示すようにSlack Botプラグインを作成します。
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/08d0cc0074efe3b81b15ade2d888e785.png" alt=""><figcaption></figcaption></figure>
 
 **連携の流れ:**
 
-1.  **ユーザーがTelegram Botを使用**
+1.  **ユーザーがSlack Botを使用**
 
     ユーザーがTelegramでメッセージを送信すると、TelegramはDifyプラグインにHTTPリクエストを送信します。
 
-2.  **メッセージがTelegram Botプラグインに転送される**
+2.  **メッセージがSlack Botプラグインに転送される**
 
-    メールシステムで受信者のアドレスが必要なように、Telegram Botを使用する場合、メッセージは処理のためにDifyアプリに転送される必要があります。これは、Telegram APIを通じてTelegram Webhookアドレスを設定し、そのアドレスをプラグインに入力することで実現できます。
+    メールシステムで受信者のアドレスが必要なように、Slack Botを使用する場合、メッセージは処理のためにDifyアプリに転送される必要があります。これは、Telegram APIを通じてTelegram Webhookアドレスを設定し、そのアドレスをプラグインに入力することで実現できます。
 
 3.  **プラグインがメッセージを受信し、Difyアプリに返す**
 
     プラグインはTelegramからのリクエストを処理し、ユーザーが入力した内容を解析します。そして、Difyアプリを呼び出して、返信内容を取得します。
     
-4.  **Difyアプリが応答し、Telegram Botにメッセージを返す**
+4.  **Difyアプリが応答し、Slack Botにメッセージを返す**
 
-    Difyアプリからの応答を受信した後、プラグインは同じ経路でTelegram Botにメッセージを返します。これにより、ユーザーはTelegramを使いながらDifyアプリと直接対話できます。
+    Difyアプリからの応答を受信した後、プラグインは同じ経路でSlack Botにメッセージを返します。これにより、ユーザーはTelegramを使いながらDifyアプリと直接対話できます。
 
 ### 前提条件
 
-*   Telegram Botの作成
+*   Slack Botの作成
 *   Difyプラグインのスキャフォールディングツール
 *   Python環境（バージョン3.10以上）
 
-#### **Telegram Botの作成**
+#### **Slack Botの作成**
 
 [@BotFather](https://t.me/BotFather)のガイドに従って、新しいBotを作成してください。詳しい作成手順については、[Telegramの公式ドキュメント](https://core.telegram.org/bots/tutorial)を参照してください。
 
@@ -265,9 +265,9 @@ class TelegramWebhook(Endpoint):
             )
 ```
 
-このコードでは、`self.session.app.chat.invoke` を使用してDifyプラットフォーム内のアプリを呼び出します。`app_id` や `query` などの情報を渡し、最終的にその応答をTelegram Botに返します。
+このコードでは、`self.session.app.chat.invoke` を使用してDifyプラットフォーム内のアプリを呼び出します。`app_id` や `query` などの情報を渡し、最終的にその応答をSlack Botに返します。
 
-プラグインを再起動し、再度デバッグを実行すると、Telegram BotがDifyアプリからの返信メッセージを正しく出力していることを確認できます。
+プラグインを再起動し、再度デバッグを実行すると、Slack BotがDifyアプリからの返信メッセージを正しく出力していることを確認できます。
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/5987709c373903925ba8f639606aa554.png" alt=""><figcaption></figcaption></figure>
 
