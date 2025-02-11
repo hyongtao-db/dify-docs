@@ -27,6 +27,7 @@
 * [构建应用](guides/application-orchestrate/README.md)
   * [创建应用](guides/application-orchestrate/creating-an-application.md)
   * [聊天助手](guides/application-orchestrate/conversation-application.md)
+    * [多模型调试](guides/application-orchestrate/multiple-llms.md)
   * [Agent](guides/application-orchestrate/agent.md)
   * [应用工具箱](guides/application-orchestrate/app-toolkits/README.md)
     * [敏感内容审查](guides/application-orchestrate/app-toolkits/moderation-tool.md)
