@@ -68,6 +68,8 @@ If the results are not satisfactory, you can adjust the prompts and model parame
 
 ![](../../.gitbook/assets/adjust-model-parameters.png)
 
+**Multiple Model Debugging:**
+
 If the LLM’s response is unsatisfactory, you can refine the prompt or switch to different underlying models for comparison. To simultaneously observe how multiple models respond to the same question, see [Multiple Model Debugging](./multiple-llms-debugging.md).
 
 
@@ -76,3 +78,9 @@ If the LLM’s response is unsatisfactory, you can refine the prompt or switch t
 After debugging your application, click the **"Publish"** button in the top right corner to create a standalone AI application. In addition to experiencing the application via a public URL, you can also perform secondary development based on APIs, embed it into websites, and more. For details, please refer to [Publishing](https://docs.dify.ai/guides/application-publishing).
 
 If you want to customize the application that you share, you can Fork our open source [WebApp template](https://github.com/langgenius/webapp-conversation). Based on the template, you can modify the application to meet your specific needs and style requirements.
+
+### FAQ
+
+**How ​​to add a third-party tool within the chatbot?**
+
+The chatbot app does not support adding third-party tools. You can add third-party tools within your [agent](../application-orchestrate/agent.md).

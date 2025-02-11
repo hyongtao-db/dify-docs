@@ -26,7 +26,7 @@
   * [负载均衡](guides/model-configuration/load-balancing.md)
 * [构建应用](guides/application-orchestrate/README.md)
   * [创建应用](guides/application-orchestrate/creating-an-application.md)
-  * [聊天助手](guides/application-orchestrate/conversation-application.md)
+  * [聊天助手](guides/application-orchestrate/chatbot-application.md)
     * [多模型调试](guides/application-orchestrate/multiple-llms-debugging.md)
   * [Agent](guides/application-orchestrate/agent.md)
   * [应用工具箱](guides/application-orchestrate/app-toolkits/README.md)
