@@ -1,16 +1,16 @@
-# Conversation Assistant
+# Chatbot Application
 
-Conversation applications use a one-question-one-answer mode to have a continuous conversation with the user.
+Chatbot applications use a one-question-one-answer mode to have a continuous conversation with the user.
 
 ### Applicable scenarios
 
-Conversation applications can be used in fields such as customer service, online education, healthcare, financial services, etc. These applications can help organizations improve work efficiency, reduce labor costs, and provide a better user experience.
+Chatbot applications can be used in fields such as customer service, online education, healthcare, financial services, etc. These applications can help organizations improve work efficiency, reduce labor costs, and provide a better user experience.
 
 ### How to compose
 
-Conversation applications supports: prompts, variables, context, opening remarks, and suggestions for the next question.
+Chatbot applications supports: prompts, variables, context, opening remarks, and suggestions for the next question.
 
-Here, we use a interviewer application as an example to introduce the way to compose a conversation applications.
+Here, we use a interviewer application as an example to introduce the way to compose a Chatbot applications.
 
 #### Step 1 Create an application
 
@@ -68,17 +68,8 @@ If the results are not satisfactory, you can adjust the prompts and model parame
 
 ![](../../.gitbook/assets/adjust-model-parameters.png)
 
-**Debugging with multiple models:**
+If the LLM’s response is unsatisfactory, you can refine the prompt or switch to different underlying models for comparison. To simultaneously observe how multiple models respond to the same question, see [Multiple Model Debugging](./multiple-llms-debugging.md).
 
-If debugging with a single model feels inefficient, you can utilize the **Debug as Multiple Models** feature to batch-test the models’ response effectiveness.
-
-![](../../.gitbook/assets/multiple-models.png)
-
-Supports adding up to 4 LLMs at the same time.
-
-![](../../.gitbook/assets/multiple-models-2.png)
-
-> ⚠️ When using the multi-model debugging feature, if only some large models are visible, it is because other large models’ keys have not been added yet. You can manually add multiple models’ keys in [“Add New Provider”](https://docs.dify.ai/guides/model-configuration/new-provider).
 
 **2.4 Publish App**
 

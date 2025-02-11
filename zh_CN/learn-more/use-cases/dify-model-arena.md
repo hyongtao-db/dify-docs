@@ -2,13 +2,13 @@
 
 ## 概述
 
-Dify 聊天助手类型应用内预置的 [“多模型调试”](/zh_CN/guides/application-orchestrate/multiple-llms.md) 可以让你同时观测不同大模型对于同一问题的回答效果。本文将以 DeepSeek R1 VS o1 示例，演示在 Dify 内直观地比较各个不同大模型的回答质量。
+Dify 聊天助手类型应用内预置的 [“多模型调试”](/zh_CN/guides/application-orchestrate/multiple-llms-debugging.md) 可以让你同时观测不同大模型对于同一问题的回答效果。本文将以 DeepSeek R1 VS o1 示例，演示在 Dify 内直观地比较各个不同大模型的回答质量。
 
 ![](https://assets-docs.dify.ai/2025/02/dd2a54e05cf5bfa252ac980ec478e3d5.png)
 
 ## 前置准备
 
-- Dify.AI 云端版或社区版
+- Dify.AI 云端版/社区版
 - DeepSeek R1 API
 - OpenAI o1 API
 
@@ -16,7 +16,7 @@ Dify 聊天助手类型应用内预置的 [“多模型调试”](/zh_CN/guides/
 
 ### 1. 配置 LLM API Key
 
-开始测试前，点击 **“右上角” → [“增加新供应商”](https://docs.dify.ai/v/zh-hans/guides/model-configuration/new-provider)**，按照提示手动添加多个模型的 API Key。
+开始测试前，点击 **“右上角” → [“增加新供应商”](https://docs.dify.ai/zh-hans/guides/model-configuration)**，按照提示手动添加多个模型的 API Key。
 
 ### 2. 创建应用
 
@@ -36,5 +36,5 @@ Dify 聊天助手类型应用内预置的 [“多模型调试”](/zh_CN/guides/
 
 ![](https://assets-docs.dify.ai/2025/02/03ac1c1da6705d76b01f5867a1e24e32.gif)
 
-如需了解更多内容，或遇到使用问题，请参考[多模型调试](/zh_CN/guides/application-orchestrate/multiple-llms.md)。
+如需了解更多内容，或遇到使用问题，请参考[多模型调试](/zh_CN/guides/application-orchestrate/multiple-llms-debugging.md)。
 
