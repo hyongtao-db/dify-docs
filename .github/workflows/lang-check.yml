@@ -1,4 +1,4 @@
-name: Language Check
+name: Automatic Language Check
 
 on:
   pull_request:
