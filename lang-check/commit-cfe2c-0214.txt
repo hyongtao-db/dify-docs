@@ -1,0 +1,7 @@
+
+<start---lang-check/test.md---start>
+test content
+
+
+<end---/test.md---end>
+
