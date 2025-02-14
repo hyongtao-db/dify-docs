@@ -1,3 +1,0 @@
-# 使用 git 仓库根目录作为基准
-GIT_ROOT=$(git rev-parse --show-toplevel)
-bash "$GIT_ROOT/lang-check/git-diff.sh"
