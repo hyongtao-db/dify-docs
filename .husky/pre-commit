@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# 运行你的脚本
-bash ./lang-check/git-diff.sh
+# 使用 git 仓库根目录作为基准
+GIT_ROOT=$(git rev-parse --show-toplevel)
+bash "$GIT_ROOT/lang-check/git-diff.sh"
