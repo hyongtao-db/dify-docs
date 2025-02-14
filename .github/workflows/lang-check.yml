@@ -1,10 +1,10 @@
-name: Automatic Language Check
+name: Language Check
 
 on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - '**.md'  # Only trigger on markdown file changes
+      - '**.md'
 
 jobs:
   lang-check:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Get full git history for diff comparison
+          fetch-depth: 0
 
       - name: Setup Git
         run: |
@@ -29,45 +29,39 @@ jobs:
       - name: Run language check script
         env:
           DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
-        id: check  # Add ID to reference this step
         run: |
           chmod +x ./lang-check/git-diff.sh
-          output=$(./lang-check/git-diff.sh -t)
-          echo "$output"  # Display check results
+          output=$(./lang-check/git-diff.sh)
+          echo "$output" 
           
-          # Save output to step outputs
-          echo "result<<EOF" >> $GITHUB_OUTPUT
-          echo "$output" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          
-          # Check if output contains ❌ symbol
+          # Check ❌
           if echo "$output" | grep -q "❌"; then
-            echo "status=failed" >> $GITHUB_OUTPUT
-            exit 1  # Non-zero exit code will fail the Action
+            echo "Inspection found problems, PR Not approved"
+            exit 1  # Action run failed
           else
-            echo "status=passed" >> $GITHUB_OUTPUT
-            exit 0  # Zero exit code indicates Action success
+            echo "Passed"
+            exit 0  # Action run successfully
           fi
 
-      - name: Comment PR
-        if: always()  # Run even if previous step fails
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const output = `### Language Check Results 🔍
-            
-            ${process.env.RESULT}
-            
-            Status: ${process.env.STATUS === 'passed' ? '✅ Passed' : '❌ Failed'}
-            
-            *Automated message from Language Check Action*`;
-            
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: output
-            })
-        env:
-          RESULT: ${{ steps.check.outputs.result }}
-          STATUS: ${{ steps.check.outputs.status }}
+          - name: Comment PR
+          if: always()  # Run even if previous step fails
+          uses: actions/github-script@v7
+          with:
+            script: |
+              const output = `### Language Check Results 🔍
+              
+              ${process.env.RESULT}
+              
+              Status: ${process.env.STATUS === 'passed' ? '✅ Passed' : '❌ Failed'}
+              
+              *Automated message from Language Check Action*`;
+              
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: output
+              })
+          env:
+            RESULT: ${{ steps.check.outputs.result }}
+            STATUS: ${{ steps.check.outputs.status }}
