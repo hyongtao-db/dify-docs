@@ -1,6 +1,6 @@
 # 将社区版迁移至 v1.0.0
 
-> 本文主要介绍如何将旧社区版本升级为 v1.0.0。如果你未曾安装过 Dify 社区版，可以直接克隆 [Dify 项目](https://github.com/langgenius/dify)，并切换至 `1.0.0` 分支。参考[文档](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose)执行安装命令。
+> 本文主要介绍如何将旧社区版本升级为 [v1.0.0](https://github.com/langgenius/dify/releases/tag/1.0.0)。如果你未曾安装过 Dify 社区版，可以直接克隆 [Dify 项目](https://github.com/langgenius/dify)，并切换至 `1.0.0` 分支。参考[文档](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose)执行安装命令。
 
 如需在社区版中体验插件功能，需要将版本号升级为 v1.0.0。本文将为你介绍如何从旧版本升级至 `v1.0.0` 以体验插件生态功能。
 
@@ -80,7 +80,3 @@ poetry run flask install-plugins --workers=2
 访问 Dify 平台，轻点右上角 **“插件”** 查看此前所使用的工具是否被正确安装。随机使用某个插件，验证是否能够正常运行。如果无误，说明你已完成版本升级和数据迁移。
 
 ![](https://assets-docs.dify.ai/2025/02/6467b3578d3d3e96510f50a09442d5a5.png)
-
-## 常见问题
-
-### 数据库容器
