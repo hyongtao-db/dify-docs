@@ -2,7 +2,7 @@
 
 > 本文主要介绍如何将旧社区版本升级为 [v1.0.0](https://github.com/langgenius/dify/releases/tag/1.0.0)。如果你未曾安装过 Dify 社区版，可以直接克隆 [Dify 项目](https://github.com/langgenius/dify)，并切换至 `1.0.0` 分支。参考[文档](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose)执行安装命令。
 
-如需在社区版中体验插件功能，需要将版本号升级为 v1.0.0。本文将为你介绍如何从旧版本升级至 `v1.0.0` 以体验插件生态功能。
+如需在社区版中体验插件功能，需要将版本号升级为 `v1.0.0`。本文将为你介绍如何从旧版本升级至 `v1.0.0` 以体验插件生态功能。
 
 ## 开始迁移
 
@@ -10,8 +10,7 @@
 
 1. 备份数据
 2. 插件迁移
-3. 数据库迁移
-4. 主项目升级
+3. 主项目升级
 
 ### 1. 备份数据
 
