@@ -205,7 +205,7 @@
   * [接入 GPUStack 进行本地模型部署](development/models-integration/gpustack.md)
   * [接入 AWS Bedrock 上的模型（DeepSeek）](development/models-integration/aws-bedrock-deepseek.md)
 * [迁移](development/migration/README.md)
-  * [接入 AWS Bedrock 上的模型（DeepSeek）](development/migration/migrate-to-v1.md)
+  * [将社区版迁移至 v1.0.0](development/migration/migrate-to-v1.md)
 
 ## 阅读更多 <a href="#learn-more" id="learn-more"></a>
 
