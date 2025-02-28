@@ -45,9 +45,7 @@ docker compose -f docker-compose.yaml up -d
  
 该步骤的目的：将此前社区版本所使用的工具及模型供应商，自动进行数据迁移并安装至新版本的插件环境中。
 
-1. **前置准备**：运行命令：`pip install poetry`，在服务器内安装 `poetry`。
-
-2. 运行 docker ps 命令，查看 docker-api 容器 id 号。
+1. 运行 docker ps 命令，查看 docker-api 容器 id 号。
 
 示例：
 
@@ -55,15 +53,13 @@ docker compose -f docker-compose.yaml up -d
 a3cb19c2****   langgenius/dify-api:1.0.0                   "/bin/bash /entrypoi…"   10 minutes ago   Up 10 minutes             5001/tcp                                                                                                                          docker-api-1
 ```
 
-运行命令 `docker exec -it a3cb19c2**** bash` 进入容器终端。
-
-运行以下命令：
+运行命令 `docker exec -it a3cb19c2**** bash` 进入容器终端，在容器内运行：
 
 ```bash
 poetry run flask extract-plugins --workers=20
 ```
 
-> 如果提示报错，建议参考前置准备，先在服务器内安装 `poetry` 环境；运行命令后，若终端出现待输入项，点击 “回车” 跳过输入。
+> 如果提示报错，建议参考前置准备，先在服务器内安装 `poetry` 环境；运行命令后，若终端出现待输入项，点击 **“回车”** 跳过输入。
 
 此命令将提取当前环境中使用的所有模型和工具。workers 参数将决定提取过程中的所使用的并行进程数，可根据需要进行调整。命令运行完成后将生成 `plugins.jsonl` 文件保存结果，该文件包含了当前 Dify 实例中所有工作区的插件信息。
 
