@@ -193,19 +193,9 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
     > **时间** 字段类型仅支持使用常量筛选文档。
     -  **常量**：选择 **常量（Constant）**，并手动输入你需要的常量值。如果你选用时间字段筛选文档，系统会弹出时间选择器，供你选择具体的时间节点。
 
-<div class="tips-container" style="background-color: #f8f9ff; padding: 20px; border-radius: 8px; margin: 10px 0;">
-    <div class="tip-section">
-        <div style="display: flex; align-items: flex-start;">
-            <span style="color: #ffd700; margin-right: 10px;">💡</span>
-            <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-                <li style="margin-bottom: 8px;">
-                    <span style="color: #4a90e2; margin-right: 8px;">•</span>
-                    当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 <span style="background:#f5f5f5; padding:2px 6px; font-family:monospace;">starts with “App”</span> 或 <span style="background:#f5f5f5; padding:2px 6px; font-family:monospace;">contains “App”</span> 时，系统会返回标记为"Apple"的文档，但不会返回标记为“apple”或“APPLE”的文档。
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+{% hint style="warning" %}
+当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 starts with “App” 或 contains “App” 时，系统会返回标记为 “Apple” 的文档，但不会返回标记为 “apple” 或 “APPLE” 的文档。
+{% endhint %}
 
     6.  配置筛选条件之间的逻辑关系 `AND` 或 `OR`，以控制筛选的精确度。
 
