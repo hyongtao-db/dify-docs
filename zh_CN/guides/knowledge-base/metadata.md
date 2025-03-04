@@ -183,47 +183,20 @@
 ###### 功能
 
 -   **查看选中文档的元数据信息：** 在弹窗的上半部分的 **已有元数据** 区和下半部分的 **新增元数据** 区，你会看到所有选中文档的元数据字段和此次操作新增的元数据字段。
-<div class="tips-container" style="background-color: #f8f9ff; padding: 20px 20px 7px 20px; border-radius: 8px; margin: 10px 0;">
-    <div class="tip-section">
-        <div style="display: flex; align-items: flex-start;">
-            <span style="color: #ffd700; margin-right: 10px;">💡</span>
-            <p style="margin: 0;">每个字段的左侧会显示该字段的编辑状态：</p>
-        </div>
-        <ul style="list-style-type: none; padding-left: 25px; margin-top: 10px;">
-            <li style="margin-bottom: 8px;">
-                <span style="color: #4a90e2; margin-right: 8px;">○</span>
-                未编辑：字段左侧为空白，表示该字段未进行修改。
-            </li>
-            <li style="margin-bottom: 8px;">
-                <span style="color: #4a90e2; margin-right: 8px;">●</span>
-                已编辑：字段左侧显示蓝色圆点，表示该字段已经被编辑。
-            </li>
-            <li style="margin-bottom: 0px;">
-                <span style="color: #4a90e2; margin-right: 8px;">↺</span>
-                重置：将光标悬停在蓝色圆点上时，圆点会变为 <strong>重置</strong> 按钮。点击后，该字段的内容会恢复到未编辑时的状态。
-            </li>
-        </ul>
-    </div>
-</div>
+
+{% hint style="info" %}
+每个字段的左侧会显示该字段的编辑状态：
+未编辑：字段左侧为空白，表示该字段未进行修改。
+已编辑：字段左侧显示蓝色圆点，表示该字段已经被编辑。
+重置：将光标悬停在蓝色圆点上时，圆点会变为 **重置** 按钮。点击后，该字段的内容会恢复到未编辑时的状态。
+{% endhint %}
 
 -   **删改字段值：** 你可以在每条字段右侧的矩形框中删改其字段值。
-<div class="tips-container" style="background-color: #f8f9ff; padding: 20px; border-radius: 8px; margin: 10px 0;">
-    <div class="tip-section">
-        <div style="display: flex; align-items: flex-start;">
-            <span style="color: #ffd700; margin-right: 10px;">💡</span>
-            <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-                <li style="margin-bottom: 8px;">
-                    <span style="color: #4a90e2; margin-right: 8px;">•</span>
-                    如果某个字段只有一个值，你会看到该字段的值直接显示在字段右侧的矩形框中，可以直接修改或删除。
-                </li>
-                <li>
-                    <span style="color: #4a90e2; margin-right: 8px;">•</span>
-                    如果某个字段有多个值，矩形框内会显示 <strong> 多个值</strong> 卡片。如果删除该卡片，所有选中文档的该字段值将被清空，矩形框内会显示 <strong>空</strong> 标识。
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+
+{% hint style="info" %}
+如果某个字段只有一个值，你会看到该字段的值直接显示在字段右侧的矩形框中，可以直接修改或删除。
+如果某个字段有多个值，矩形框内会显示 **多个值** 卡片。如果删除该卡片，所有选中文档的该字段值将被清空，矩形框内会显示 **空** 标识。
+{% endhint %}
 
 -   **新增元数据字段：** 如果你需要为选中的文档添加新的元数据字段，可以点击弹窗正下方的 **+ 添加元数据** 按钮，在弹出的弹窗中 **新建字段、添加已创建的字段** 或 **管理已创建的字段**。
 
