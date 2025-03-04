@@ -29,6 +29,8 @@ docker-compose pull
 docker-compose -f docker-compose.yaml -f docker-compose.override.yaml up -d
 ```
 
+> バージョン v1.0.0 にアップグレードするには、[コミュニティ版を v1.0.0 に移行する](https://docs.dify.ai/ja-jp/development/migration/migrate-to-v1)をご参照ください。
+
 ### カスタマイズ
 
 セルフホスト展開の場合と同様に、EC2インスタンス内の.envファイルの環境変数を必要に応じて変更することができます。その後、以下のコマンドを使用してDifyを再起動してください：

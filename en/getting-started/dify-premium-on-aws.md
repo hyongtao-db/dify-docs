@@ -25,6 +25,8 @@ docker-compose pull
 docker-compose -f docker-compose.yaml -f docker-compose.override.yaml up -d
 ```
 
+> To upgrade to version v1.0.0, please refer to [Migrating Community Edition to v1.0.0](https://docs.dify.ai/development/migration/migrate-to-v1).
+
 ### Customizing
 
 Just like self-hosted deploy, you may modify the environment variables under `.env` in your EC2 instance as you see fit. Then, restart Dify with:

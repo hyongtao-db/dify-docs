@@ -3,7 +3,7 @@
 Dify Premium 是一款 [AWS AMI](https://docs.aws.amazon.com/zh\_cn/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html) 产品，允许自定义品牌，并可作为 EC2 一键部署到你的 AWS VPC 上。前往 [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-t22mebxzwjhu6) 进行订阅并使用，它适合以下场景：
 
 * 在中小型企业内，需在服务器上创建一个或多应用程序，并且关心数据私有化。
-* 你对 [Dify Cloud ](https://docs.dify.ai/v/zh-hans/getting-started/cloud)订阅计划感兴趣，但所需的用例资源超出了[计划](https://dify.ai/pricing)内所提供的资源。
+* 你对 [Dify Cloud](https://docs.dify.ai/v/zh-hans/getting-started/cloud)订阅计划感兴趣，但所需的用例资源超出了[计划](https://dify.ai/pricing)内所提供的资源。
 * 你希望在组织内采用 Dify Enterprise 之前进行 POC 验证。
 
 ### 设置
@@ -24,6 +24,8 @@ docker-compose down
 docker-compose pull
 docker-compose -f docker-compose.yaml -f docker-compose.override.yaml up -d
 ```
+
+> 如需将版本号升级至 v1.0.0，请参考[将社区版迁移至 v1.0.0](https://docs.dify.ai/zh-hans/development/migration/migrate-to-v1)。
 
 ### 定制化
 
