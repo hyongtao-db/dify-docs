@@ -745,7 +745,7 @@ Response example:
 200 success
 ```
 
-#### Enable/Disable Built-in Fields in Knowledge Base
+#### Enable/Disable Built-in Fields in the Knowledge Base
 
 Request example:
 
