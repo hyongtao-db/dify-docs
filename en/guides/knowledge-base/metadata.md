@@ -32,7 +32,7 @@ You can create, modify, and delete metadata fields in the knowledge base.
 
 ##### Access the Metadata Panel
 
-Go to **Knowledge Base** page and click **Metadata**.
+To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata**.
 
 ##### Work with the Metadata Panel
 
@@ -116,6 +116,8 @@ Go to **Knowledge Base** page and click **Metadata**.
 
 #### Create New Metadata Fields
 
+To create a new metadata field:
+
 1. Click **+Add Metadata** to open the **New Metadata** dialog.
 
 2. Choose the value type:
@@ -124,14 +126,14 @@ Go to **Knowledge Base** page and click **Metadata**.
     - Time (for dates/timestamps)
 
 3. Name the field.
-
 > Naming rules: Use lowercase letters, numbers, and underscores only.
 
 4. Click **Save** to apply changes.
-
 > Note: New fields are automatically available across all documents in your knowledge base.
 
-#### Modify Metadata Fields
+#### Edit Metadata Fields
+
+To edit a metadata field:
 
 1. Click the edit icon next to a field to open the **Rename** dialog.
 
@@ -142,7 +144,7 @@ Go to **Knowledge Base** page and click **Metadata**.
 
 #### Delete Metadata Fields
 
-Click the delete icon next to a field to delete it.
+To delete a metadata field, click the delete icon next to a field to delete it.
 > Note: Deleting a field deletes it and all its values from all documents in your knowledge base.
 
 ### Edit Metadata 
@@ -154,6 +156,8 @@ You can edit metadata in bulk in the knowledge base.
 ##### Get Started with the Metadata Editor
 
 ###### Access the Metadata Editor
+
+To access the Metadata Editor:
 
 1. In the knowledge base, select documents using the checkboxes on the left.
 
@@ -170,36 +174,40 @@ Blue dot: Modified.
 Reset option: Appears on hover over the blue dot.
 {% endhint %}
 
-- **Modify Metadata Value:** 
+- **Edit Values:** Modify values in the field box.
 
 {% hint style="info" %}
 Single values show directly in the field box.
 Multiple values show as a “Multiple Values” card. If you delete all values, the box will show “Empty”.
 {% endhint %}
 
-Add Fields: Click **+Add Metadata** to **create new fields**, **add existing fields ** and **manage all fields**.
+- **Add Fields:** Click **+Add Metadata** to **create new fields**, **add existing fields ** and **manage all fields**.
 
-**Delete Fields:** Click the delete icon to delete a field from selected documents.
+- **Delete Fields:** Click the delete icon to delete a field from selected documents.
 
-**Apply Changes:** Choose whether to apply changes to all selected documents.
+- **Apply Changes:** Choose whether to apply changes to all selected documents.
 
 ##### Bulk Add Metadata
+
+To add metadata in bulk:
 
 1. Click **+Add Metadata** in the editor to:
     - Create new fields via **+New Metadata**.
     > New fields are automatically added to the knowledge base.
     - Add existing fields from the dropdown or from the search box.
-    - Access metadata panel via **Manage**.
+    - Access the Metadata Panel via **Manage**.
 
 2. (Optional) Enter values for new fields.
 > The date picker is for time-type fields
 
 3. Click **Save** to apply changes.
 
-##### Bulk Edit Metadata
+##### Bulk Update Metadata
+
+To update metadata in bulk:
 
 1. In the editor:
-    - **Add Values:** Type directly into fields.
+    - **Add Values:** Type directly in the field boxes.
     - **Reset Values:** Click the blue dot that appears on hover.
     - **Delete Values:** Clear the field or delete the **Multiple Value** card.
     - **Delete fields:** Click the delete icon (fields appear struck through and grayed out).
@@ -238,7 +246,7 @@ To add a single document’s metadata fields and values:
     - Create new fields via **+New Metadata**.
     > New fields are automatically added to the knowledge base.
     - Add existing fields from the dropdown or from the search box.
-    - Access metadata panel via **Manage**.
+    - Access the Metadata Panel via **Manage**.
 
 2. (Optional) Enter values for new fields.
 
@@ -246,14 +254,14 @@ To add a single document’s metadata fields and values:
 
 ##### Edit Metadata
 
-To edit a single document’s metadata fields and values:
+To update a single document’s metadata fields and values:
 
 1. Click **Edit** in the top right to begin.
 
 2. Edit metadata:
-    - Update values: Type directly in value fields or delete it.
+    - **Update Values:** Type directly in value fields or delete it.
     > Note: You can only modify the value, not the value name.
-    - Delete fields: Click the delete icon.
+    - **Delete Fields:** Click the delete icon.
     > Note: This only deletes the field from this document, not from your knowledge base.
 
 3. Click **Save** to apply changes.
