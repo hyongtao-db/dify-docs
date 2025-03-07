@@ -230,4 +230,4 @@
 
 ### 元数据管理
 
-如需了解元数据的相关信息与管理方法，请参阅 [元数据](https://docs.dify.ai/zh-hans/guides/knowledge-base/metadata)。
+如需了解元数据的相关信息，请参阅 [元数据](https://docs.dify.ai/zh-hans/guides/knowledge-base/metadata)。
