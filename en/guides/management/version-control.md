@@ -15,6 +15,8 @@ Version Control Panel allows you to track changes, publish updates, and restore 
 
 - **Previous Version:** Any older published version.
 
+- **Restore:** Return to any earlier version of your application.
+
 ## Features
 
 - **View all versions:** Access and review details of all published versions.
@@ -64,7 +66,7 @@ To publish a new version:
 - Enter the release notes
 Or skip these fields to use the default name (“Untitled Version”) and blank information
 
-3. Click **Publish** to release the current version. The newly published version will be marked as Latest in the panel.
+3. Click **Publish** to release the current version. The newly published version will be marked as `Latest` in the panel.
 
 ## How to Edit a Published Version
 
@@ -190,5 +192,3 @@ When restoring a historical version, that version‘s content becomes your new d
 **Which apps support version management?**
 
 Version management is currently available for **Chatflow** and **Workflow** applications only. It is not yet supported for **Chatbot**, **Text Generator**, or **Agents**.
-
-

@@ -18,5 +18,5 @@
 * 发布为工具
 
 {% hint style="info" %}
-如需管理多个版本的 聊天流 / 工作流，请参阅 [版本管理](https://docs.dify.ai/zh-hans/guides/management/version-control)。
+如需管理多个版本的 聊天流/工作流，请参阅 [版本管理](https://docs.dify.ai/zh-hans/guides/management/version-control)。
 {% endhint %}
