@@ -39,11 +39,11 @@ _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 点击 " **New integration** " 按钮, 即默认为内部(不能修改), 选择关联的空间, 输入名称并上传logo, 点击"**提交**" 成功创建集成.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/features/datasets/2b26dc5f5b088304b65190e14f58423a.png" alt=""><figcaption></figcaption></figure>
 
 一旦创建了集成, 你可以根据需要更新其设置。 **性能** 此选项卡，然后再单击 "**显示**" 按钮后 **密钥** 复制你的密钥.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/features/datasets/764276a102e3264747c64f02dafa5f5d.png" alt=""><figcaption></figcaption></figure>
 
 将其复制并返回到dify源代码 , 在 **.env** 文件与配置相关的环境变量中，环境变量如下:
 
@@ -57,11 +57,11 @@ _**便笺:当前不支持导入图像和文件。表数据将转换为文本.**_
 
 要将开关切换到公共设置，你需要 **在组织信息中填写其他信息**, 包括你的公司名称, 网址, 和重定向目标路径, 然后点击 "提交" 按钮.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/features/datasets/4618b25f23d05de13f99f635459316ec.png" alt=""><figcaption></figcaption></figure>
 
 在你公共集成成功后， 在你的[集成设置页面](https://www.notion.so/my-integrations), 你将能够在[密钥]选项卡中访问集成的密钥.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/features/datasets/053643a0ec218c4e16a3e1b5753ad6a8.png" alt=""><figcaption></figcaption></figure>
 
 返回到dify源代码,在 **.env** 与文件配置相关的环境变量中, 环境变量如下:
 

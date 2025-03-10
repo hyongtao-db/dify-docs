@@ -40,7 +40,7 @@ Dify のナレッジベースでは、[Jina Reader](https://jina.ai/reader)や[F
 
 [Jina Readerの公式サイト](https://jina.ai/reader) にログインして登録を完了し、APIキーを取得してから入力し、保存します。
 
-<figure><img src="../../../../../zh_CN/.gitbook/assets/dataset-creation-step2(jina).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/create-knowledge-and-upload-documents/import-online-datasource/e16e5c7fd6b13e0bf8686817ddf360a7.png" alt=""><figcaption></figcaption></figure>
 
 ### Jina Reader を使用してWebコンテンツをクロールする
 

@@ -46,4 +46,4 @@ Dify Knowledge Base provides a comprehensive set of standard APIs. Developers ca
 [maintain-dataset-via-api.md](knowledge-and-documents-maintenance/maintain-dataset-via-api.md)
 {% endcontent-ref %}
 
-<figure><img src="../../.gitbook/assets/knowledge-base-api.png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/knowledge-base/02cf8bc06990606ff1d60b73ce7a82c8.png" alt=""><figcaption><p>Knowledge base API management</p></figcaption></figure>

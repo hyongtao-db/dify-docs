@@ -39,11 +39,11 @@ _**注: 現在、画像やファイルのインポートはサポートしてい
 
 " **New integration** " ボタンをクリックすると、デフォルトで内部（変更不可）となります。関連するスペースを選択し、名前を入力してロゴをアップロードし、"**提出**" をクリックして統合を成功させます。
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/12970502b2e202d1f890dcecadf2dcbd.png" alt=""><figcaption></figcaption></figure>
 
 統合が作成されると、必要に応じて設定を更新できます。 **性能** タブを選択し、 **シークレットキー** を表示するために "**表示**" ボタンをクリックしてシークレットキーをコピーします。
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/2e03a253db47e5f151a7465b4a78b0ed.png" alt=""><figcaption></figcaption></figure>
 
 それをコピーしてDifyのソースコードに戻り、関連する環境変数を **.env** ファイルに設定します。環境変数は以下の通りです：
 
@@ -57,11 +57,11 @@ _**注: 現在、画像やファイルのインポートはサポートしてい
 
 スイッチを公共設定に切り替えるには、**組織情報に追加情報を入力** する必要があります。会社名、Webサイト、およびリダイレクト目標パスを含む追加情報を入力してから、 "提出" ボタンをクリックします。
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/c2781fddfb5c7e76023ac59c926d9e37.png" alt=""><figcaption></figcaption></figure>
 
 公共統合が成功した後、[統合設定ページ](https://www.notion.so/my-integrations) で、[シークレットキー] タブにアクセスして統合のシークレットキーを確認できます。
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/cbf2149eb7fcf613599f50ff58381889.png" alt=""><figcaption></figcaption></figure>
 
 Difyのソースコードに戻り、関連する環境変数を **.env** ファイルに設定します。環境変数は以下の通りです：
 

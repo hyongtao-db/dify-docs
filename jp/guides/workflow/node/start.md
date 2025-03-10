@@ -8,7 +8,7 @@
 
 開始ノードの設定ページでは、**“入力フィールド”**とデフォルトの[**システム変数**](../variables.md#xi-tong-bian-liang)という二つの設定部分が見られます。
 
-<figure><img src="../../../../en/.gitbook/assets/image.png" alt=""><figcaption><p>チャットフロー と ワークフロー</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/c4a9bb46f636807f0b59710724fddc40.png" alt=""><figcaption><p>チャットフロー と ワークフロー</p></figcaption></figure>
 
 ### 入力フィールド
 
@@ -41,7 +41,7 @@ Difyに組み込まれているファイル抽出ノードは、特定のフォ�
 
 設定が完了した後、使用者はアプリを使用する前に、入力項目に従ってLLMに必要な情報を提供します。より多くの情報がLLMの質問応答効率を向上させるのに役立ちます。
 
-<figure><img src="../../../../zh_CN/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/2b26dc5f5b088304b65190e14f58423a.png" alt=""><figcaption></figcaption></figure>
 
 ### システム変数
 

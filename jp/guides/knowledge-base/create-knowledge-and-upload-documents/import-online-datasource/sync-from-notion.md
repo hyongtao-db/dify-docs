@@ -41,11 +41,11 @@ Notionの統合は、**インターナル統合**（internal integration）と**
 
 **New integration**ボタンをクリックし、タイプはデフォルトで**インターナル**（変更不可）です。関連付けるスペースを選択し、統合名を入力しロゴをアップロードした後、**Submit**をクリックして統合を作成します。
 
-<figure><img src="../../../../.gitbook/assets/integrate-notion-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/create-knowledge-and-upload-documents/import-online-datasource/87e612b70469281ed2ec2c45038daf1e.png" alt=""><figcaption></figcaption></figure>
 
 統合を作成したら、必要に応じてCapabilitiesタブで設定を更新し、Secretsタブで**Show**ボタンをクリックしてSecretsをコピーします。
 
-<figure><img src="../../../../.gitbook/assets/notion-secret.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/create-knowledge-and-upload-documents/import-online-datasource/a2e0a30fb3903d8cce6556ed9ecd3951.png" alt=""><figcaption></figcaption></figure>
 
 コピーした後、Difyのソースコードに戻り、**.env**ファイルに関連する環境変数を設定します。環境変数は以下の通りです：
 
@@ -57,11 +57,11 @@ Notionの統合は、**インターナル統合**（internal integration）と**
 
 **インターナル統合をパブリック統合にアップグレードする必要があります**。統合の配布ページに移動し、スイッチを切り替えて統合を公開します。スイッチをパブリック設定に切り替えるには、以下の組織情報フォームに会社名、Webサイト、リダイレクトURLなどの情報を入力し、**Submit**ボタンをクリックします。
 
-<figure><img src="../../../../.gitbook/assets/public-integration.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/create-knowledge-and-upload-documents/import-online-datasource/3e7a700f41464d88057e63050c6f2093.png" alt=""><figcaption></figcaption></figure>
 
 統合の設定ページで公開に成功すると、密鍵タブで統合の密鍵にアクセスできるようになります：
 
-<figure><img src="../../../../.gitbook/assets/notion-public-secret.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/create-knowledge-and-upload-documents/import-online-datasource/554557566ef3f56076be1e8542c4cddb.png" alt=""><figcaption></figcaption></figure>
 
 Difyのソースコードに戻り、**.env**ファイルに関連する環境変数を設定します。環境変数は以下の通りです：
 

@@ -12,13 +12,13 @@
 
 [AWS Bedrock](https://aws.amazon.com/bedrock/)にアクセスし、ナレッジベースサービスを作成してください。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (360).png" alt=""><figcaption><p>AWS Bedrock Knowledge Baseを作成</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/1bf24647a5ffeba4accecd1052011980.png" alt=""><figcaption><p>AWS Bedrock Knowledge Baseを作成</p></figcaption></figure>
 
 ### 2. バックエンドAPIサービスの構築
 
 Difyプラットフォームは、直接的にAWS Bedrock Knowledge Baseに接続することができません。開発チームは、Difyの外部ナレッジベース接続に関する[API定義](../../guides/knowledge-base/external-knowledge-api-documentation.md)を参照し、バックエンドAPIサービスを手動で構築してAWS Bedrockと接続する必要があります。具体的なアーキテクチャの概要は以下の通りです：
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>バックエンドAPIサービスの構築</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/c57ce0a77ee668268f53e91497bd5c2b.png" alt=""><figcaption><p>バックエンドAPIサービスの構築</p></figcaption></figure>
 
 以下の2つのコードファイルを参考にして、バックエンドサービスAPIを構築できます。
 
@@ -117,7 +117,7 @@ class ExternalDatasetService:
 
 AWS Bedrockの管理画面にログインし、作成したナレッジベースのIDを取得します。このパラメータは、Difyプラットフォームとの接続に使用されます。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (359).png" alt=""><figcaption><p>AWS Bedrock Knowledge BaseのIDを取得</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/03fd7e383daf419765bbfd05c3742923.png" alt=""><figcaption><p>AWS Bedrock Knowledge BaseのIDを取得</p></figcaption></figure>
 
 ### 4. 外部知識APIの関連付け
 
@@ -129,13 +129,13 @@ Difyプラットフォームの**"ナレッジベース"**ページに移動し�
 - APIエンドポイント（外部ナレッジベースへの接続アドレス、ステップ2でカスタマイズ可能）。例：`api-endpoint/retrieval`
 - API Key（外部ナレッジベースへの接続キー、ステップ2でカスタマイズ可能）
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/4f2ce69f8c59e788beb91303c68db571.png" alt=""><figcaption></figcaption></figure>
 
 ### 5. 外部ナレッジベースの接続
 
 **"ナレッジベース"**ページに移動し、ナレッジベースのカードの下にある **"外部ナレッジベースを接続"** をクリックして、パラメータ設定ページに移動します。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/c3c30c7ed923ee1d7986e92bb35186c6.png" alt=""><figcaption></figcaption></figure>
 
 以下のパラメータを入力してください：
 
@@ -154,7 +154,7 @@ Difyプラットフォームの**"ナレッジベース"**ページに移動し�
 
   **スコア閾値:** テキストセグメントの選択に使用される類似度の閾値です。設定されたスコアを超えるテキストセグメントのみが取得され、デフォルト値は0.5です。数値が高くなるほど、テキストと質問の類似度が高く、取得されるテキストの数は減少し、結果もより精度が高くなります。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/58c324c08c1c5fc23ab31e04967ae449.png" alt=""><figcaption></figcaption></figure>
 
 設定が完了すると、外部ナレッジベースAPIとの接続が確立されます。
 
@@ -162,8 +162,8 @@ Difyプラットフォームの**"ナレッジベース"**ページに移動し�
 
 外部ナレッジベースとの接続が確立された後、開発者は**"テスト取得"**で可能な質問のキーワードをシミュレートし、AWS Bedrock Knowledge Baseから取得したテキストセグメントをプレビューできます。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (366).png" alt=""><figcaption><p>外部データベースの接続と検索をテスト</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/fbc64f060f9fda83847428439b07c247.png" alt=""><figcaption><p>外部データベースの接続と検索をテスト</p></figcaption></figure>
 
 検索結果に満足できない場合は、検索設定を変更したり、AWS Bedrock Knowledge Baseの検索設定を調整したりすることができます。
 
-<figure><img src="../../../zh_CN/.gitbook/assets/image (367).png" alt=""><figcaption><p>AWS Bedrock Knowledge Base の検索設定を調整</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/0984a89e4cf2a1150ec3160da14c656e.png" alt=""><figcaption><p>AWS Bedrock Knowledge Base の検索設定を調整</p></figcaption></figure>

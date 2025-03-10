@@ -10,17 +10,17 @@ Agent 节点是 Dify Chatflow/Workflow 中用于实现自主工具调用的组�
 
 在 Dify Chatflow/Workflow 编辑器中，从组件栏拖拽 Agent 节点至画布。
 
-<figure><img src="../../../.gitbook/assets/zh-1-9-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/17317ea064e250fc603c32232f0e93d2.png" alt=""><figcaption></figcaption></figure>
 
 ### 选择 Agent 策略
 
 在节点配置面板中，点击 **Agent 策略**。
 
-<figure><img src="../../../.gitbook/assets/zh-1-9-0 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/2a6897e97b7ad534afdbe74bd7272426.png" alt=""><figcaption></figcaption></figure>
 
 从下拉菜单选择所需的 Agent 推理策略。Dify 内置了 **Function Calling 和 ReAct** 两种策略，可在 **Marketplace** → **Agent 策略**分类中安装使用。
 
-<figure><img src="../../../.gitbook/assets/zh-1-9-2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/41a147e0bfa027b801c09668adec7d19.png" alt=""><figcaption></figcaption></figure>
 
 #### 1. Function Calling
 
@@ -32,7 +32,7 @@ Agent 节点是 Dify Chatflow/Workflow 中用于实现自主工具调用的组�
 * **易于集成外部功能:** 可以将各种外部 API 或工具封装成函数供模型调用。
 * **结构化输出:** 模型输出的是结构化的函数调用信息，方便下游节点处理。
 
-<figure><img src="../../../.gitbook/assets/zh-agnent-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/312b854ad40f88a079f4ddaf7f99d0ee.png" alt=""><figcaption></figcaption></figure>
 
 2. **ReAct (Reason + Act)**
 
@@ -44,7 +44,7 @@ ReAct 策略使 Agent 交替进行思考和行动：LLM 首先思考当前状态
 * **可解释性较好:** 思考和行动的过程是交织的，可以一定程度上追踪 Agent 的推理路径。
 * **适用范围广:** 适用于需要外部知识或需要执行特定操作的场景，例如问答、信息检索、任务执行等。
 
-<figure><img src="../../../.gitbook/assets/zh-agnent-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/9196af3b81d8b02a8dcd21ac917825a6.png" alt=""><figcaption></figcaption></figure>
 
 开发者可以向[公开仓库](https://github.com/langgenius/dify-plugins)贡献 Agent 策略插件，经过审核后将在 Marketplace 上架，供其他用户安装使用。
 
@@ -62,10 +62,10 @@ ReAct 策略使 Agent 交替进行思考和行动：LLM 首先思考当前状态
 5. **最大迭代次数：** 设定 Agent 的最大执行步数。
 6. **输出变量：** 提示节点输出的数据结构。
 
-<figure><img src="../../../.gitbook/assets/zh-1-9-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/d028e9dc111eca4fe4f7f0b25e75c4b0.png" alt=""><figcaption></figcaption></figure>
 
 ## **查看日志**
 
 Agent 节点执行过程中将生成详细日志。显示节点执行的总体信息，包括输入和输出、token 开销、耗时和状态。点击 "详情" 查看 Agent 策略执行的每一轮输出信息。
 
-<figure><img src="../../../.gitbook/assets/zh-1-9-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/2dff44986829dfd100ee03c8eb89f94a.png" alt=""><figcaption></figcaption></figure>

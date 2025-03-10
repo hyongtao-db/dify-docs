@@ -11,7 +11,7 @@ Dify 不同版本支持的登录方式如下：
 
 > 注意：Dify 的云服务版本账户，如果 GitHub 或 Google 账户的绑定邮箱与使用邮箱验证码登录的邮箱相同，系统会自动将它们关联为同一账户，无需手动绑定，避免重复注册。
 
-![](../../../img/zh-personal-account-1.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/management/36e3f4fb5fc15ae6949e2b2693ecc9e7.png)
 
 ## 修改账号信息
 
@@ -24,7 +24,7 @@ Dify 不同版本支持的登录方式如下：
 
 > 注意：重置密码功能仅在社区版提供
 
-<figure><img src="../../../img/zh-personal-account-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/management/700817f2c2e3ba0bfce873bb5c5316c9.png" alt=""><figcaption></figcaption></figure>
 
 ### 登录方式
 

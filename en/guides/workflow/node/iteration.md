@@ -26,7 +26,7 @@ An iteration node consists of three core components: **Input Variables**, **Iter
 
 #### **Example 1: Long Article Iteration Generator**
 
-<figure><img src="../../../.gitbook/assets/long-article-iteration-generator.png" alt=""><figcaption><p>Long Story Generator</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/3a403551d48b178d0a41ce2a5748dd2d.png" alt=""><figcaption><p>Long Story Generator</p></figcaption></figure>
 
 1. Enter the story title and outline in the **Start Node**.
 2. Use a **Generate Subtitles and Outlines Node** to use LLM to generate the complete content from user input.
@@ -38,15 +38,15 @@ An iteration node consists of three core components: **Input Variables**, **Iter
 
 1. Configure the story title (title) and outline (outline) in the **Start Node**.
 
-<figure><img src="../../../.gitbook/assets/workflow-start-node.png" alt="" width="375"><figcaption><p>Start Node Configuration</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/3af1c2ed0df00f19e584bcf511302f55.png" alt="" width="375"><figcaption><p>Start Node Configuration</p></figcaption></figure>
 
 2. Use a **Generate Subtitles and Outlines Node** to convert the story title and outline into complete text.
 
-<figure><img src="../../../.gitbook/assets/workflow-generate-subtitles-node.png" alt="" width="375"><figcaption><p>Template Node</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/55f1eceb43bd6e301078a08584988b18.png" alt="" width="375"><figcaption><p>Template Node</p></figcaption></figure>
 
 3. Use a **Extract Subtitles and Outlines Node** to convert the story text into an array (Array) structure. The parameter to extract is `sections`, and the parameter type is `Array[Object]`.
 
-<figure><img src="../../../.gitbook/assets/workflow-extract-subtitles-and-outlines.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/d3beee536ff3c35f4e1eb1ab610f35d7.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
 
 {% hint style="info" %}
 The effectiveness of parameter extraction is influenced by the model's inference capability and the instructions given. Using a model with stronger inference capabilities and adding examples in the **instructions** can improve the parameter extraction results.
@@ -54,11 +54,11 @@ The effectiveness of parameter extraction is influenced by the model's inference
 
 4. Use the array-formatted story outline as the input for the iteration node and process it within the iteration node using an **LLM Node**.
 
-<figure><img src="../../../.gitbook/assets/workflow-iteration-node.png" alt="" width="375"><figcaption><p>Configure Iteration Node</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/ac91582998868004b298afe2f04e5589.png" alt="" width="375"><figcaption><p>Configure Iteration Node</p></figcaption></figure>
 
 Configure the input variables `GenerateOverallOutline/output` and `Iteration/item` in the LLM Node.
 
-<figure><img src="../../../.gitbook/assets/workflow-iteration-llm-node.png" alt="" width="375"><figcaption><p>Configure LLM Node</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/d849ff9164482a83ea8a091fde9cb4d1.png" alt="" width="375"><figcaption><p>Configure LLM Node</p></figcaption></figure>
 
 {% hint style="info" %}
 Built-in variables for iteration: `items[object]` and `index[number]`.
@@ -70,15 +70,15 @@ Built-in variables for iteration: `items[object]` and `index[number]`.
 
 5. Configure a **Direct Reply Node** inside the iteration node to achieve streaming output after each iteration.
 
-<figure><img src="../../../.gitbook/assets/workflow-configure-anwer-node.png" alt="" width="375"><figcaption><p>Configure Answer Node</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/64da09ab904f74c8ec45e098c81f95be.png" alt="" width="375"><figcaption><p>Configure Answer Node</p></figcaption></figure>
 
 6. Complete debugging and preview.
 
-<figure><img src="../../../.gitbook/assets/iteration-node-iteration-through-story-chapters.png" alt=""><figcaption><p>Generate by Iterating Through Story Chapters</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/f443508d9ecc6d30094297243f590e6a.png" alt=""><figcaption><p>Generate by Iterating Through Story Chapters</p></figcaption></figure>
 
 #### **Example 2: Long Article Iteration Generator (Another Arrangement)**
 
-<figure><img src="../../../.gitbook/assets/iteration-node-iteration-long-article-iteration-generator.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/6e973b52bb3960bf948f92df8ae2f910.png" alt=""><figcaption></figcaption></figure>
 
 * Enter the story title and outline in the **Start Node**.
 * Use an **LLM Node** to generate subheadings and corresponding content for the article.
@@ -135,11 +135,11 @@ Array variables can be generated via the following nodes as iteration node input
 
 * [Code Node](code.md)
 
-<figure><img src="../../../.gitbook/assets/workflow-extract-subtitles-and-outlines.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/d3beee536ff3c35f4e1eb1ab610f35d7.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
 
 * [Parameter Extraction](parameter-extractor.md)
 
-<figure><img src="../../../.gitbook/assets/workflow-parameter-extraction-node.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/b5a9d4bee95d7a1331bb7ff7433e47a3.png" alt="" width="375"><figcaption><p>Parameter Extraction</p></figcaption></figure>
 
 * [Knowledge Base Retrieval](knowledge-retrieval.md)
 * [Iteration](iteration.md)
@@ -154,7 +154,7 @@ The output variable of the iteration node is in array format and cannot be direc
 
 **Convert Using a Code Node**
 
-<figure><img src="../../../.gitbook/assets/iteration-code-node-convert.png" alt="" width="334"><figcaption><p>Code Node Conversion</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/8be2372b00a802e981efe6f0ceff815b.png" alt="" width="334"><figcaption><p>Code Node Conversion</p></figcaption></figure>
 
 CODE Example:
 
@@ -168,7 +168,7 @@ def main(articleSections: list):
 
 **Convert Using a Template Node**
 
-<figure><img src="../../../.gitbook/assets/workflow-template-node.png" alt="" width="332"><figcaption><p>Template Node Conversion</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/8c0bcc5de453dea2776d2755449bd971.png" alt="" width="332"><figcaption><p>Template Node Conversion</p></figcaption></figure>
 
 CODE Example:
 

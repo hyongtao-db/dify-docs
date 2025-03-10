@@ -16,7 +16,7 @@ _注：CODING DevOps 是腾讯云旗下的一站式研发管理平台及云原�
 
 例如这样 🔽
 
-<figure><img src="../../.gitbook/assets/640.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f7ddcb5342558d19fd51d7222be5209d.png" alt=""><figcaption></figcaption></figure>
 
 这里的“胡言乱语”指的是它会用其他不相关的概念进行回答，并且**你并不能够预期什么问题会有什么回答，这在商业场景下十分致命。在大多数情况下，ChatGPT 对于一些带有公理性质**的知识回答是没有问题的，作为一个可以日常侃大山闲聊的对象依然是合格的，可是你却看着它的强大的学习和理解能力望洋兴叹。
 
@@ -42,7 +42,7 @@ _注：CODING DevOps 是腾讯云旗下的一站式研发管理平台及云原�
 
 但是，它现在也只是一个**通用型聊天机器人**，离商业可用的**专用型问答机器人**还差一个语料的距离。
 
-<figure><img src="../../.gitbook/assets/640-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/e753c7f36e8a2f04c8180f771e63431b.png" alt=""><figcaption></figcaption></figure>
 
 ### **准备语料**
 
@@ -60,21 +60,21 @@ _是的没错，你也可以把电子书上传进来，用 AI 帮助你提炼书
 
 在正式开始训练前，我们得先把教材准备好。好在 CODING 之前的所有文档皆以 Git 代码仓库 + Markdown 的形式进行协作，因此我只需要先把文档先拉到本地中。不过我现在碰到了第一个问题，那就是如何把仓库中的这一系列 .md 文档文件合并至同一个文件中？
 
-<figure><img src="../../.gitbook/assets/640-7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/88018cc39f6b1244ffd5a1c11fc8ccbe.png" alt=""><figcaption></figcaption></figure>
 
 不怕，让 AI 给我们写一段 python 吧。
 
-<figure><img src="../../.gitbook/assets/640-8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/1cfbe712bec52acc0d1ee50d96e809f2.png" alt=""><figcaption></figcaption></figure>
 
 试着运行这个脚本，oh，输入路径后就成功生成了一篇总合文档！如果你想了解如何让 AI 给你写代码，不妨阅读[《如何用狗屁通（GPT ）解决一个套娃问题》](http://mp.weixin.qq.com/s?__biz=MzU2Njg1NDA3Mw==\&mid=2247484248\&idx=1\&sn=50809b40f520c767483e1a7b0eefb9c1\&chksm=fca76b8ecbd0e298e627140d63e7b3383d226ab293a2e8fefa04b5a1ee12f187520560ec1579\&scene=21#wechat_redirect)。
 
-<figure><img src="../../.gitbook/assets/640-9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/c8dbaf3241dbd50507165524c7ed6451.png" alt=""><figcaption></figcaption></figure>
 
 ### **开始训练**
 
 现在要做的事，就是上传这个文件并静待训练成果了。
 
-<figure><img src="../../.gitbook/assets/640.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f66100f8d87ea88b7f2d9be6f4db32c7.jpeg" alt=""><figcaption></figcaption></figure>
 
 数据自动分段与清洗完成后，在刚创建的应用设置中的上下文，关联这一篇文档。为了保证响应速度和成本控制，这里直接用 gpt-4o 模型。
 
@@ -84,17 +84,17 @@ _是的没错，你也可以把电子书上传进来，用 AI 帮助你提炼书
 
 现在再去和这个机器人互动，看看它会回答什么？
 
-<figure><img src="../../.gitbook/assets/640-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/22d5d5621a1b1eedfdf698cdf8a5ac2d.png" alt=""><figcaption></figcaption></figure>
 
 好了，你已经是个成熟的问答机器人了，可以回答更加复杂的产品问题了。
 
-<figure><img src="../../.gitbook/assets/640-11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/18558406335d11b26717e8b1cf70a673.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/640-12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f81842d0d74050c03cc4895c497a26b9.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/640-13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/038e6c5dab7a8625079669b6bfdb6adc.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/640-14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/829c51e5c45e149957df7b5531639d2a.png" alt=""><figcaption></figcaption></figure>
 
 这个问答机器人花了多久做出来，成本如何？
 

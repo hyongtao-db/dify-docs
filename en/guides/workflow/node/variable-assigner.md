@@ -22,7 +22,7 @@ Using the variable assigner node, you can write context from the conversation pr
 
 Example: After the conversation starts, LLM will automatically determine whether the user's input contains facts, preferences, or chat history that need to be remembered. If it has, LLM will first extract and store those information, then use it as context to respond. If there is no new information to remember, LLM will directly use the previously relevant memories to answer questions.
 
-![](../../../.gitbook/assets/conversation-variables-scenario-1.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/8d0492814b1515f50e87b2900ff400db.png)
 
 **Configuration process:**
 
@@ -108,7 +108,7 @@ def main(arg1: list) -> str:
 
 Example: Before the chatting, the user specifies "English" in the `language` input box. This language will be written to the conversation variable, and the LLM will reference this information when responding, continuing to use "English" in subsequent conversations.
 
-<figure><img src="../../../.gitbook/assets/conversation-var-scenario-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/1867d608a7d009431b73377ed65b427b.png" alt=""><figcaption></figcaption></figure>
 
 **Configuration Guide:**
 
@@ -124,7 +124,7 @@ Example: Before the chatting, the user specifies "English" in the `language` inp
 
 Example: After starting the conversation, the LLM will ask the user to input items related to the Checklist in the chatting box. Once the user mentions content from the Checklist, it will be updated and stored in the Conversation Variable. The LLM will remind the user to continue supplementing missing items after each round of dialogue.
 
-<figure><img src="../../../.gitbook/assets/conversation-var-scenario-2-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/c4362b01298b12e7d6fcd9e798f3165a.png" alt=""><figcaption></figcaption></figure>
 
 **Configuration Process:**
 

@@ -41,11 +41,11 @@ Notion 分为**内部集成**（internal integration）和**外部集成**（pub
 
 点击“**New integration**”按钮，类型默认是 **Internal**（不可修改），选择关联的空间，输入集成名称并上传 logo 后，点击“Submit”，集成创建成功。
 
-<figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/87e612b70469281ed2ec2c45038daf1e.png" alt=""><figcaption></figcaption></figure>
 
 创建集成后，你可以根据需要在 Capabilities 选项卡下更新其设置，并在 Secrets 下点击 “Show” 按钮然后复制 Secrets。
 
-<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/a2e0a30fb3903d8cce6556ed9ecd3951.png" alt=""><figcaption></figcaption></figure>
 
 复制后回到 Dify 源代码下，在 **.env** 文件里配置相关环境变量，环境变量如下：
 
@@ -58,11 +58,11 @@ NOTION_INTERNAL_SECRET=you-internal-secret
 
 **需要将 internal 集成升级为 public 集成**，导航到集成的 Distribution 页面，然后切换开关以公开集成。将开关切换到公共设置，你需要在下面的 Organization Information 表单中填写其他信息，包括你的公司名称、网站和重定向 URL 等信息，然后点击“Submit”按钮。
 
-<figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/3e7a700f41464d88057e63050c6f2093.png" alt=""><figcaption></figcaption></figure>
 
 在集成的设置页面中成功公开集成后，你将能够在密钥选项卡中访问集成的密钥：
 
-<figure><img src="../../../../.gitbook/assets/image (140).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/554557566ef3f56076be1e8542c4cddb.png" alt="" width="375"><figcaption></figcaption></figure>
 
 回到 Dify 源代码下，在 **.env** 文件里配置相关环境变量，环境变量如下：
 

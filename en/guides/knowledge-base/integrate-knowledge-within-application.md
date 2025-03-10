@@ -24,7 +24,7 @@ In applications that utilize multiple knowledge bases, it is essential to config
 
 The retriever scans all knowledge bases linked to the application for text content relevant to the user's question. The results are then consolidated. Below is the technical flowchart for the Multi-path Retrieval mode:
 
-<figure><img src="../../.gitbook/assets/rerank-flow-chart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/knowledge-base/64007d543f1c5c3f2e87d606d79d04d3.png" alt=""><figcaption></figcaption></figure>
 
 This method simultaneously queries all knowledge bases connected in **"Context"**, seeking relevant text chucks across multiple knowledge bases, collecting all content that aligns with the user's question, and ultimately applying the Rerank strategy to identify the most appropriate content to respond to the user. This retrieval approach offers more comprehensive and accurate results by leveraging multiple knowledge bases simultaneously.
 
@@ -60,7 +60,7 @@ While this method incurs some additional costs, it is more adept at handling com
 
 Dify currently supports multiple Rerank models. To use external Rerank models, you'll need to provide an API Key. Enter the API Key for the Rerank model (such as Cohere, Jina AI, etc.) on the "Model Provider" page.
 
-<figure><img src="../../.gitbook/assets/en-rerank-model-api.png" alt=""><figcaption><p>Configuring the Rerank model in the Model Provider</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/knowledge-base/d0cc2f102a918bd210f465816d8a726b.png" alt=""><figcaption><p>Configuring the Rerank model in the Model Provider</p></figcaption></figure>
 
 **Adjustable Parameters**
 
@@ -89,7 +89,7 @@ If the knowledge base is complex, making simple semantic or keyword matches insu
 
 Here's how the knowledge base retrieval method affects Multi-path Retrieval:
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/knowledge-base/07b5cf9a4a613298352128f80573103d.png" alt=""><figcaption></figcaption></figure>
 
 3. **What should I do if I cannot adjust the “Weight Score” when referencing multiple knowledge bases and an error message appears?**
 

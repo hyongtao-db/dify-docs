@@ -32,7 +32,7 @@
 
 本次实验中需要涉及使用 embedding 模型，目前支持 embedding 的模型提供商中有 OpenAI、Cohere 等，在 Dify 的模型供应商中有标注 `TEXT EMBEDDING` ，请确保至少添加了一个并且有充足余额。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-05 09.43.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/31d4f5cac17f1f699084d28abe186313.png" alt=""><figcaption></figcaption></figure>
 
 > **什么是 embedding？**
 >
@@ -56,7 +56,7 @@ Dify 支持三种数据源：上传文本文件、Notion、网页。
 
 上传文档后，会进入以下页面：
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-05 11.38.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/a7d53306d454c3518dee7380d1711ca5.png" alt=""><figcaption></figcaption></figure>
 
 可以看到右侧有分段预览。当前默认选择的是自动分段与清洗，Dify 会根据文本内容的不同自动将文章切分为许多个段落。你也可以在自定义中设置其他的切分规则。
 
@@ -78,11 +78,11 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 混合检索中可以设置权重或者使用重新排序（Rerank）模型。使用权重设置时，可以设置检索更侧重语义还是关键词，例如下图中语义占 70% 的权重，关键词占30%的权重。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-05 13.18.22.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/68dff8bc8c8adf5a3fabc9d22c49172b.png" alt="" width="375"><figcaption></figcaption></figure>
 
 点击**保存并处理**将会处理文档，完成处理后文档就可以在应用中使用了。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-05 13.41.43.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/607afc8c80b8cd512488614258c41850.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 同步自 Web 站点
 
@@ -90,7 +90,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 目前 Dify 支持最多 50 个页面的处理，请注意限制数量的设置。如果超出，可以再创建新的知识库。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-06 14.32.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/bda671bc8e94f8477a2ef433b4354d59.png" alt=""><figcaption></figcaption></figure>
 
 ### 调整知识库内容
 
@@ -106,7 +106,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 在知识库的文档页，左侧边栏中点击召回测试，可以输入关键词来测试检索结果的准确性。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 11.37.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/949e47271243bd107b82217cbfc84efb.png" alt=""><figcaption></figcaption></figure>
 
 ## 添加节点
 
@@ -125,7 +125,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 * 用户请求对技术名词的解释
 * 用户询问社群加入方式
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 10.38.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/78556651f204f3c68315f35b4470ded8.png" alt=""><figcaption></figcaption></figure>
 
 ### 直接回复节点
 
@@ -141,7 +141,7 @@ Dify 提供了向量检索、全文检索、混合检索三种检索功能，其
 
 Dify 支持 Markdown 格式的文本的输出。你可以在输出中用 Makrdown 来丰富文本的格式。甚至可以用 Markdown 格式在文中插入图片，效果如下：
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 11.13.50.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/6ab45c7935eb2feb91718bd91a6d2371.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 知识检索节点
 
@@ -165,13 +165,13 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 
 此外，你可以打开 LLM 记忆让用户的对话体验更加连贯。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 13.51.15.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/e6973701fcb109642fcb6fd258505825.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 思考题 1: 如何连接外部知识库
 
 在知识库功能中，你可以通过外部知识库 API 来连接外部知识库，例如 AWS Bedrock 知识库。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 14.08.07.png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/4c14bb53802f6e732f0f455c608944e8.png" alt="" width="352"><figcaption></figcaption></figure>
 
 有关 AWS Bedrock 知识库的最佳实践，请阅读：[如何连接 AWS Bedrock 知识库？](../../learn-more/use-cases/how-to-connect-aws-bedrock.md)
 
@@ -181,7 +181,7 @@ LLM 需要根据用户的提问，调整回复，使得回复内容更加得体�
 
 在搭载知识库的实例中，进入 **知识库 -> API**，并且创建 API 密钥。请妥善保管 API 密钥。
 
-<figure><img src="../../.gitbook/assets/截屏2024-11-07 14.11.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/71d5b7ad150fb2019af83aeb79eb5d76.png" alt=""><figcaption></figcaption></figure>
 
 ## 思考题 3: 如何将客服机器人嵌入网页
 

@@ -8,7 +8,7 @@
 
 在开始节点的设置页，你可以看到两部分设置，分别是 **“输入字段”** 和预设的[**系统变量**](../variables.md#xi-tong-bian-liang)。
 
-<figure><img src="../../../../en/.gitbook/assets/image.png" alt=""><figcaption><p>Chatflow 和 Workflow</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/c4a9bb46f636807f0b59710724fddc40.png" alt=""><figcaption><p>Chatflow 和 Workflow</p></figcaption></figure>
 
 ### 输入字段
 
@@ -41,7 +41,7 @@ Dify 内置的文档提取器节点只能够处理部分格式的文档文件。
 
 配置完成后，用户在使用应用前将按照输入项指引，向 LLM 提供必要信息。更多的信息将有助于 LLM 提升问答效率。
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/workflow/node/400679ae5cbbcd5dc0f84ec5861efc85.png" alt=""><figcaption></figcaption></figure>
 
 ### 系统变量
 

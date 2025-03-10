@@ -16,13 +16,13 @@
 
 ホームページで「最初から作成」をクリックしてアプリを作成します。アプリ名を入力し、アプリタイプは**チャットボット**を選択します。
 
-<figure><img src="../../.gitbook/assets/jp-create-chatbox.png" alt=""><figcaption><p>チャットボットの作成</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/24a6f30145d5005413fa75693996377c.png" alt=""><figcaption><p>チャットボットの作成</p></figcaption></figure>
 
 #### アプリの編成
 
 アプリを作成すると、自動的にアプリの概要ページに移動します。左側のメニューから編成をクリックしてアプリを編成します。
 
-<figure><img src="../../.gitbook/assets/jp-create-prompt.png" alt=""><figcaption><p>アプリの編成</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/4332c94f126ae1ce72e1881e91d81729.png" alt=""><figcaption><p>アプリの編成</p></figcaption></figure>
 
 **プロンプトの記入**
 
@@ -38,17 +38,17 @@
 
 オープニングダイアログを追加する方法は、底の「機能を追加」ボタンをクリックして、「会話の開始」機能を開きます：
 
-<figure><img src="../../.gitbook/assets/jp-conversation-remarkers.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/8ee49c47ed4b197e77d88e95b5bf4b2a.png" alt=""><figcaption></figcaption></figure>
 
 オープニングステートメントを編集する際に、いくつかのオープニング質問を追加することもできます：
 
-![](../../.gitbook/assets/jp-conversation-options.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/4bbcbecba6f3d826b9f7d0bf1d5e2079.png)
 
 #### コンテキストの追加
 
 AIの対話範囲を[ナレッジベース](../knowledge-base/)内に制限したい場合、企業内のカスタマーサービス用語規準などを「コンテキスト」で参照することができます。
 
-![](../../.gitbook/assets/jp-context.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/dd33b25175c48bf0776ad32e10ad9f33.png)
 
 ### ファイルのアップロード
 
@@ -62,11 +62,11 @@ AIの対話範囲を[ナレッジベース](../knowledge-base/)内に制限し�
 
 右側にユーザー入力項目を入力し、内容を入力してデバッグします。
 
-![](../../.gitbook/assets/jp-conversation-debug.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/58a59cfd677990426d6059008510b7ce.png)
 
 回答結果が望ましくない場合は、プロンプトやモデルを調整することができます。また、複数のモデルを同期してデバッグすることもでき、適切な構成を組み合わせることができます。
 
-![](../../.gitbook/assets/jp-modify-model.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/96c97bea71df343ddc8dc013602e8a32.jpeg)
 
 単一モデルでのデバッグが効率的ではない場合、[**「複数のモデルでのデバッグ」**](./multiple-llms-debugging.md)機能を使用して、複数のモデルの回答効果を一括確認することもできます。
 

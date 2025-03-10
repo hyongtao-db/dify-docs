@@ -11,7 +11,7 @@ Difyのバージョンによってサポートされるログイン方法は以�
 
 > 注意点：Difyのクラウドサービスでは、GitHubやGoogleアカウントに紐づくメールアドレスが、認証コードでログインする際のメールアドレスと一致している場合、システムが自動的にそれらを同一のアカウントとみなして紐づけます。これにより、手動でのアカウント連携を省略し、重複したアカウント作成を防ぎます。
 
-![ログイン方法の図解](../../../en/.gitbook/assets/image.png)
+![ログイン方法の図解](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/c4a9bb46f636807f0b59710724fddc40.png)
 
 ## 個人情報の変更
 
@@ -28,7 +28,7 @@ Difyのバージョンによってサポートされるログイン方法は以�
 * メールアドレス
 * パスワード
 
-<figure><img src="../../.gitbook/assets/personal-account-management-01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/40ea6368cd22021a3f1627738e40f597.png" alt=""><figcaption></figcaption></figure>
 
 ### ログイン方法
 

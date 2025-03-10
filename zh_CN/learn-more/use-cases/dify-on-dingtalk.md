@@ -27,20 +27,20 @@ IM 是天然的智能聊天机器人应用场景，校企用户有不少是使�
 
 下图是一个简易方法让你快速识别自己应用的类型，**后续配置时需要明确写明接入应用的类型**。
 
-<figure><img src="../../.gitbook/assets/dify_app_types.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/a0948a3eebe41df91bae84c263010767.png" alt=""><figcaption></figcaption></figure>
 
 另外需要说明的是，虽然所有类型的应用都可以接入，但是根据类型不同也有些限制和区别：
 
 * AGENT 也属于 CHATBOT，聊天助手应用在接入钉钉机器人后是可以保持聊天上下文的（即支持多轮对话），只有本身在 Dify 中支持会话的才可以
 * COMPLETION（文本生成）、WORKFLOW（纯工作流）应用在创建的时候有限制，接收的用户输入 **只能有一个且变量名为 `query`**，因为钉钉对话场景下用户输入是单条消息，所以这里只能设置一个变量。
 
-<figure><img src="../../.gitbook/assets/dify-completion-app-constraint.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/7d0d8387fe0dc230cc9cf87ff2451bca.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/dify-workflow-app-constraint.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f6eec15a3b735c01331784294df0cd2a.jpeg" alt=""><figcaption></figcaption></figure>
 
 这里我们假设你已经创建好等待接入的 Dify 应用了，这时就需要查看你这个应用的 `访问 API` 页面，创建该应用的 API 密钥④，并且记录 API 服务器访问地址⑤。
 
-<figure><img src="../../.gitbook/assets/get-dify-app-secret.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/b5191e352f280f2c7329cbc6917a1ac2.jpeg" alt=""><figcaption></figcaption></figure>
 
 所以，在此步骤中你创建了待接入的 Dify 应用，同时记录该应用的几个重要参数：**应用的类型**、**该应用 API 秘钥**、**API 服务器访问地址**。
 
@@ -48,23 +48,23 @@ IM 是天然的智能聊天机器人应用场景，校企用户有不少是使�
 
 登录进入 [钉钉开发平台](https://open-dev.dingtalk.com/)，选择合适的组织，进入企业内部应用开发页面，创建一个企业内部应用。
 
-<figure><img src="../../.gitbook/assets/dingtalk-app-creation.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/be96400ec39fd85d4791c3c94f8d4e04.jpeg" alt=""><figcaption></figcaption></figure>
 
 在弹出窗口里填好 **应用名称**、**应用描述**，上传应用图标点击保存。然后自动进入应用开发配置界面，通过 `添加应用能力` 添加机器人能力。
 
-<figure><img src="../../.gitbook/assets/dingtalk-add-robot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/c83acc5a77db86d8d52b2fe5a53d0bf6.jpeg" alt=""><figcaption></figcaption></figure>
 
 打开机器人配置开关，在下方出现的表单中按你的实际情况填入各必要信息，**在消息接收模式上选择 Stream 模式**。
 
-<figure><img src="../../.gitbook/assets/dingtalk-robot-config.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/5ff0892e2d4fe532f08e0adfdb4f7a4c.jpeg" alt=""><figcaption></figcaption></figure>
 
 点击发布后，再去到左边栏的应用发布 -> 版本管理与发布 -> 创建新版本，给应用建立一个新版本进行发布。
 
-<figure><img src="../../.gitbook/assets/dingtalk-app-versioning.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/792850d6c7d5f13a017f14e0b2afe9ef.jpeg" alt=""><figcaption></figcaption></figure>
 
 最后回到 `凭证与基础信息`，记录下该应用的 `Client ID` 和 `Client Secret`，此时左上角应用的状态应该是 **已发布**，到此完成钉钉机器人的配置。
 
-<figure><img src="../../.gitbook/assets/dingtalk-app-credential.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f451984aefd4b7186a6d9dd8f9cf4080.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### 2.3. 钉钉 AI 卡片配置
 
@@ -72,15 +72,15 @@ IM 是天然的智能聊天机器人应用场景，校企用户有不少是使�
 
 进入钉钉开发者后台，顶部菜单 -> 开放能力 ->[卡片平台](https://open-dev.dingtalk.com/fe/card) -> 新建模版，来新建一个 AI 卡片模板，填入你喜欢的模版名称，卡片类型选择 **消息卡片**，卡片模板场景选择 **AI 卡片**，并 **关联刚才创建的应用**。
 
-<figure><img src="../../.gitbook/assets/dingtalk-ai-card-template-creation.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/aab6222bfa21484406f07a477b412a4d.jpeg" alt=""><figcaption></figcaption></figure>
 
 点击 **创建** 后进入卡片编辑页面，这里基本不需要任何改动，如果希望机器人在出错时把具体错误信息也输出出来，可以把 `启用失败状态` 打开。
 
-<figure><img src="../../.gitbook/assets/dingtalk-ai-card-edit.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f9c3c75624e6584f27d078003d31e817.jpeg" alt=""><figcaption></figcaption></figure>
 
 最后点击保存，发布，显示 “模版发布成功”，然后返回到刚才的模版列表页面，复制 \*\* 模版 ID\*\*，保存下来一会儿会用到。
 
-<figure><img src="../../.gitbook/assets/dingtalk-ai-card-temp-id.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/25cf3ab088526aa4fb3caf2898ec8c61.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## 3. 部署 Dify-on-Dingtalk
 
@@ -165,7 +165,7 @@ docker compose up -d
 
 从群设置中找到创建的钉钉机器人，添加进群，即可开始在群众 @机器人进行对话，该示例图片中是使用了 Dify 应用的标注功能实现关键字 help 的固定输出。
 
-<figure><img src="../../.gitbook/assets/dingtalk-group-chat-demo.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/b6df3a21b488899975b3cf95fa6c5924.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### 4.2. 与机器人进行私聊
 

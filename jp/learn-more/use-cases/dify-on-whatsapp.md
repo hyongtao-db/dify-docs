@@ -23,7 +23,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 
 まず、[Dify公式アプリケーションプラットフォーム](https://cloud.dify.ai/signin)にログインします。GithubまたはGoogleのアカウントでログインすることができます。また、Dify公式チュートリアル[Docker Composeによるデプロイ | 日本語 | Dify](https://docs.dify.ai/v/ja-jp/getting-started/install-self-hosted/docker-compose)を参照して、プライベートデプロイを行うことも可能です。Difyはオープンソースプロジェクトであり、プライベートデプロイをサポートしています。
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/create-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/08ece9f6dd15b6ba3c44eb187ea73bdd.jpeg" alt=""><figcaption></figcaption></figure>
 
 ログイン後、Difyのページに移動し、以下のステップに従って基本的なチャットアシスタントアプリケーションを作成します。
 
@@ -34,14 +34,14 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 5. アプリケーションのアイコンを選択し、アプリケーションに「基本編成チャットアシスタント」などの名前を付ける
 6. 作成をクリック
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/config-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/312d1fbcd5c8f58ca41b9f8dc8131286.jpeg" alt=""><figcaption></figcaption></figure>
 作成が成功すると、上記のページに移動します。続いてアプリケーションを設定します。
 
 1. モデルの選択（例：gpt-3.5-turbo-0125）
 2. モデルパラメータの設定
 3. アプリケーションのプロンプトを入力
 
-<figure><img src="../../.gitbook/assets/dify-on-wechat/publish-basic-chatbot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/410dc25f76beebf8659294b06c1a4d25.jpeg" alt=""><figcaption></figcaption></figure>
 
 設定が完了したら、右側の対話ボックスでテストを行い、テストが完了したら以下の操作を行います。
 
@@ -50,7 +50,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 3. APIのアクセス
 
 ##### （4）基本編成チャットアシスタントのAPIキーの生成
-<figure><img src="../../.gitbook/assets/dify-on-wechat/create-basic-chatbot-apikey.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/de85ada57a6f1a0029486dbdaea62fcf.jpeg" alt=""><figcaption></figcaption></figure>
 
 「APIのアクセス」をクリックすると、上記のAPI管理ページに移動します。このページで以下の手順に従ってAPIキーを取得します。
 
@@ -66,7 +66,7 @@ Localtunnelを使用して、FastAPIのローカルホストをインターネ�
 
 [Twilioコンソール]に移動し、Account SIDとAuth Tokenを取得して保存します。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/f1586199a94ffefb18ffc4c8456a58d0.png" alt=""><figcaption></figcaption></figure>
 
 ## 5. チャットボットの作成
 
@@ -118,7 +118,7 @@ npx localtunnel --port 9000
 
 このコマンドは、ローカルサーバー（9000ポートで実行中）とlocaltunnelが作成するパブリックドメイン間に接続を確立します。localtunnel転送URLを取得すると、クライアントからそのURLへのリクエストはすべて自動的にFastAPIのバックエンドに転送されます。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/lt1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/73f585d06be68fc71c0d37622a5b6f6c.png" alt=""><figcaption></figcaption></figure>
 
 #### 5.5 コードの説明
 
@@ -192,7 +192,7 @@ TwilioのメッセージAPIを使用して、チャットボットがWhatsAppユ
 
 「試してみる」セクションで「WhatsAppメッセージを送信」をクリックします。デフォルトでサンドボックスタブに移動し、「+14155238886」という電話番号と、隣に参加コード、右側にQRコードが表示されます。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/1f966b36bd5c213e4006a057b1c70c04.png" alt=""><figcaption></figcaption></figure>
 
 Twilioのテスト環境を有効にするには、このコードのテキストをWhatsAppメッセージとして表示された電話番号に送信します。Webバージョンを使用している場合、ハイパーリンクをクリックしてWhatsAppチャットに誘導されることができます。
 
@@ -209,13 +209,13 @@ FastAPIアプリケーションで設定したエンドポイントは/message�
 
 設定が完了したら、「保存」ボタンを押します。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/twilio3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/6f810feee2a1eb07f718fc3f2be00b4b.png" alt=""><figcaption></figcaption></figure>
 
 ## 7. WhatsAppのテスト
 
 6.1のページでQRコードをスキャンしてWhatsAppサンドボックス環境に入り、WhatsAppメッセージを送信してAIチャットボットの応答を待ちます。Difyチャットアシスタントに質問できることをAIチャットボットに試してみてください。
 
-<figure><img src="../../.gitbook/assets/dify-on-whatsapp/whatsapp1.jpg" style="width:300px;" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/learn-more/use-cases/36376da1b4699289e944355282656780.jpeg" style="width:300px;" alt=""><figcaption></figcaption></figure>
 
 ## 8. 後記
 

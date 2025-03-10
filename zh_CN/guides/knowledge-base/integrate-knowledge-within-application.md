@@ -21,7 +21,7 @@
 
 检索器会在所有与应用关联的知识库中去检索与用户问题相关的文本内容，并将多路召回的相关文档结果合并，以下是召回策略的技术流程图：
 
-<figure><img src="../../.gitbook/assets/rerank-flow-chart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/64007d543f1c5c3f2e87d606d79d04d3.png" alt=""><figcaption></figcaption></figure>
 
 根据用户意图同时检索所有添加至 **“上下文”** 的知识库，在多个知识库内查询相关文本片段，选择所有和用户问题相匹配的内容，最后通过 Rerank 策略找到最适合的内容并回答用户。该方法的检索原理更为科学。
 
@@ -59,7 +59,7 @@ Rerank 模型是一种外部评分系统，它会计算用户问题与给定的�
 
 Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 Rerank 模型（例如 Cohere、Jina AI 等模型）的 API Key。
 
-<figure><img src="../../.gitbook/assets/zh-rerank-model-api.png" alt=""><figcaption><p>在模型供应商内配置 Rerank 模型</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/0fe5ddc692ebbf5fb83bc9096ca0ed61.png" alt=""><figcaption><p>在模型供应商内配置 Rerank 模型</p></figcaption></figure>
 
 **可调参数**
 
@@ -92,7 +92,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
 以下是知识库检索方式对文本召回的影响情况：
 
-![](../../../img/zh-integrate-knowledge-within-app.png)
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/8afae1827336fc1fb9f1d3176cf8340c.png)
 
 3. **引用多个知识库时，无法调整 “权重设置”，提示错误应如何处理？**
 
