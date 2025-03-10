@@ -21,15 +21,15 @@ This article explains how to manage versions in Dify’s Chatflow and Workflow.
 
 - **View all versions:** Access and review details of all published versions.
 
-- **Find specific versions:** Use filters to locate a specific version.
+- **Find specific versions:** Use filters to find a specific version.
 
 - **Publish new versions:** Release new application versions with custom names and release notes.
 
 - **Edit published versions:** Edit the title and release notes of a published version.
 
-- **Delete historical versions:** Remove outdated versions to keep the list organized.
+- **Delete previous versions:** Remove outdated versions to keep the list organized.
 
-- **Restore published versions:** Load a historical version into drafts for modifications.
+- **Restore published versions:** Load a published version into drafts for modifications.
 
 ## How to View All Versions
 
@@ -79,9 +79,9 @@ To edit a published version:
 - **Name this version** for versions with default names.
 - **Edit version info** for versions with custom names.
 
-## How to Delete a Historical Version
+## How to Delete a Previous Version
 
-To delete a historical version:
+To delete a Previous version:
 
 1. Find the published version you want to delete.
 
@@ -98,7 +98,7 @@ To delete a historical version:
 
 To restore a published version:
 
-1. Find the historical version you want to restore.
+1. Find the published version you want to restore.
 
 2. Click the menu icon and select **Restore**.
 
@@ -196,9 +196,9 @@ Here is how versions work through a typical workflow:
     </tbody>
 </table>
 
-- **What happens to my current draft when restoring a historical version?**
+- **What happens to my current draft when restoring a previous version?**
 
-When restoring a historical version, that version’s content becomes your new draft. Your current draft will be lost, so please review changes carefully before proceeding.
+When restoring a previous version, that version’s content becomes your new draft. Your current draft will be lost, so please review changes carefully before proceeding.
 
 - **Which apps support version control?**
 
