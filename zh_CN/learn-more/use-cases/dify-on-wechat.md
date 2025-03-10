@@ -26,11 +26,11 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 
 首先，登录[Dify官方应用平台](https://cloud.dify.ai/signin)，你可以选择使用Github登录或者使用Google登录。此外，你也可以参考Dify官方教程[Docker Compose 部署 | 中文 | Dify](https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose) 私有部署，Dify是开源项目，支持私有部署。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d59263223217b94f8c7b4fb8a2951b4.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d59263223217b94f8c7b4fb8a2951b4.jpeg)
 
 **（3）创建Dify基础编排聊天助手应用**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/08ece9f6dd15b6ba3c44eb187ea73bdd.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/08ece9f6dd15b6ba3c44eb187ea73bdd.jpeg)
 
 登录成功后，进入Dify页面，我们按照下方步骤创建一个基础编排聊天助手应用
 
@@ -41,7 +41,7 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 5. 选择应用图标并为应用填写一个名称，比如基础编排聊天助手
 6. 点击创建
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/312d1fbcd5c8f58ca41b9f8dc8131286.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/312d1fbcd5c8f58ca41b9f8dc8131286.jpeg)
 
 创建成功后我们会跳转到上图所示页面，我们继续配置应用
 
@@ -49,7 +49,7 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 2. 设置模型参数
 3. 填写应用提示词
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/410dc25f76beebf8659294b06c1a4d25.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/410dc25f76beebf8659294b06c1a4d25.jpeg)
 
 在配置完成后，我们可以在右侧对话框进行测试，在测试完成后，进行如下操作
 
@@ -59,7 +59,7 @@ Dify是一个优秀的LLMOps（大型语言模型运维）平台，Dify的详细
 
 **（4）生成基础编排聊天助手API密钥**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/de85ada57a6f1a0029486dbdaea62fcf.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/de85ada57a6f1a0029486dbdaea62fcf.jpeg)
 
 在点击"访问API"后，我们会跳转到上图的API管理页面，在这个页面我们按照如下步骤获取API密钥：
 
@@ -135,13 +135,13 @@ python3 app.py   # windows环境下该命令通常为 python app.py
 
 **（2）扫码登录**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/dff732ee33dce1fffa3ea22f4fb7194b.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/dff732ee33dce1fffa3ea22f4fb7194b.jpeg)
 
 本项目使用itchat实现个人微信登录，有封号风险，建议使用**实名认证**过的**微信小号**进行测试，在执行上述命令后，我们可以在控制台看到打印如上图所示二维码，使用微信扫码登录，登录后当看到"itchat:Start auto replying."字符，表示登录成功，我们可以进行测试。
 
 **（3）对话测试**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/634f08492602c77e415c183278b7a3a0.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/634f08492602c77e415c183278b7a3a0.jpeg)
 
 我们看到，微信机器人的回复与在Dify测试页面上的回复一致。至此，恭喜你成功把Dify接入了个人微信🎉🎉🎉
 
@@ -197,23 +197,23 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 **（1）下载知识库文件**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/aa7354d9fa205665142871199f82ad08.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/aa7354d9fa205665142871199f82ad08.jpeg)
 
 我们到[dify文档仓库](../../guides/workflow/)下载Dify工作流介绍的文档。
 
 **（2）Dify中导入知识库**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/e89b108734c4e219ba0a88f2a09e8069.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/e89b108734c4e219ba0a88f2a09e8069.jpeg)
 
 进入知识库页面，创建知识库
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3c1211094029b94c00e1867e12dc0347.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3c1211094029b94c00e1867e12dc0347.jpeg)
 
 选择导入已有文本，上传刚才下载的introduce.md文件，点击下一步
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/8ed084c50189610e1f0c7c4b92ea45fc.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/8ed084c50189610e1f0c7c4b92ea45fc.jpeg)
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/ec02b1e931261efd3266c68417c4f88a.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/ec02b1e931261efd3266c68417c4f88a.jpeg)
 
 选择如下配置
 
@@ -223,33 +223,33 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 最后点击保存并处理
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d14d85d6f9a588298b3d1c3e34cca4f.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d14d85d6f9a588298b3d1c3e34cca4f.jpeg)
 
 我们看到知识库正在进行嵌入处理，稍等片刻，即可嵌入成功。
 
 #### 2.3.2. 创建工作流编排聊天助手
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/56870383783474ac8edf656cfd0039c8.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/56870383783474ac8edf656cfd0039c8.jpeg)
 
 我们进入Dify工作室，点击从应用模板创建
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f6bb7d07d20f0dc20ec42878ff83ee91.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/f6bb7d07d20f0dc20ec42878ff83ee91.jpeg)
 
 我们使用知识库+聊天机器人类型的模板，设置应用图标与名称，点击创建
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/006cf36de5b5a852cf2ed194ef89a176.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/006cf36de5b5a852cf2ed194ef89a176.jpeg)
 
 跳转到工作流编排页面后，先点击知识检索节点，点击最右侧"+"添加知识库。我们选择之前上传好的introduce.md知识库，该知识库是对Dify工作流的基本介绍。最后我们点击添加，知识库节点设置完成。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3687f1b90a3dba06af9d4625579196e8.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3687f1b90a3dba06af9d4625579196e8.jpeg)
 
 接下来选择LLM节点，点击设置上下文，我们选择result变量，该变量存有知识检索的结果。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d9d7dafe2007c6205a5da92120de7d6.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4d9d7dafe2007c6205a5da92120de7d6.jpeg)
 
 设置完LLM节点后，我们点击预览进行测试，输入问题：请介绍一下dify工作流。可以看到最终输出了Dify工作流的正确介绍。测试正常后，我们返回编辑模式。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/9e20dccdcbab74679c7a238d4a3db62f.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/9e20dccdcbab74679c7a238d4a3db62f.jpeg)
 
 返回编辑模式后，依次点击发布、更新、访问API
 
@@ -277,7 +277,7 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 我们按照**2.2.1小节**启动程序并扫码登录，然后给微信机器人发送消息，进行测试
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/1a92cbd66d81e504a72f7cb1f01567a8.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/1a92cbd66d81e504a72f7cb1f01567a8.jpeg)
 
 微信机器人的回复与在Dify测试页面上的回复一致。恭喜你更进一步，把工作流编排应用接入了个人微信，你可以向知识库中导入更多的Dify官方文档，让微信机器人为你解答更多的Dify相关问题。
 
@@ -285,23 +285,23 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 #### 2.4.1. 创建Agent应用
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3448bd70c5071882f50667327e35739a.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3448bd70c5071882f50667327e35739a.jpeg)
 
 进入工作室页面，点击创建空白应用，选择Agent，设置图标和应用名称，最后点击创建
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4800cb647f0ff90d5521b859e9403f04.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/4800cb647f0ff90d5521b859e9403f04.jpeg)
 
 创建成功后，我们会进入Agent应用配置页面，在这个页面我们选择好对话模型，然后添加工具。我们首先添加DALL-E绘画工具，首次使用该工具需要授权，一般我们设置好OpenAI API key和OpenAI base URL即可使用该DALL-E绘画工具。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/bee33065bc070facda8ce81a54d3e3c1.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/bee33065bc070facda8ce81a54d3e3c1.jpeg)
 
 授权成功后，我们添加DALL-E 3绘画工具
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/e637c7865118b52f84f619a7637a0347.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/e637c7865118b52f84f619a7637a0347.jpeg)
 
 接着，继续添加DuckDuckGo搜索引擎和数学工具，进行后续的工具测试
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/32bc3686664423c0f12b5d19c7bf8739.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/32bc3686664423c0f12b5d19c7bf8739.jpeg)
 
 我们输入问题"搜索开源项目Dify的star数量，这个数量乘以3.14是多少"，确认应用能够正常调用工具，我们依次点击发布、更新、访问API
 
@@ -330,7 +330,7 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 继续参照**2.2.1小节**启动程序并扫码登录，然后给微信机器人发送消息，进行测试
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/8c06ab5d23c2c144b35e82524f7e38d9.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/8c06ab5d23c2c144b35e82524f7e38d9.jpeg)
 
 可以看到微信机器人可以正常使用搜索和绘画工具。再一次恭喜你，把Dify Agent应用接入微信。也恭喜我，写到这里可以先睡觉了。
 
@@ -338,17 +338,17 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 #### 2.5.1. 创建工作流应用
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/1635ba3e6b7417a49a29b42224a0aa29.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/1635ba3e6b7417a49a29b42224a0aa29.jpeg)
 
 首先你需要提前下载好我预先创建的DSL文件，[点击此处下载](https://github.com/hanfangyuan4396/dify-on-wechat/blob/master/dsl/chat-workflow.yml)。下载完成后，进入工作室页面，点击导入DSL文件，上传提前下载好的文件，最后点击创建。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/872b3fa4febd26ec20e0657398d2020b.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/872b3fa4febd26ec20e0657398d2020b.jpeg)
 
 创建完成后，按照上图步骤进行测试。点击运行，输入你好，确保该工作流能正常输出结果。
 
 你可以在此工作流的基础上进行修改，但是对于**工作流类型**的应用，它的输入变量名称十分灵活，，为了更方便地接入微信机器人，[Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat)项目约定**工作流类型**的应用**输入变量命名为`query`**，**输出变量命名为`text`**。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/56d2e2a1b4aac390055fb2d3e49eaf4c.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/56d2e2a1b4aac390055fb2d3e49eaf4c.jpeg)
 
 测试没有问题后，按照上图步骤发布应用，依次点击发布、更新、访问API。
 
@@ -377,7 +377,7 @@ docker logs -f dify-on-wechat  # 查看二维码并登录
 
 同样参照**2.2.1小节**启动程序并扫码登录，然后给微信机器人发送消息，进行测试。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/c4f3c4494aa25bad1877c0dd72995b5f.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/c4f3c4494aa25bad1877c0dd72995b5f.jpeg)
 
 可以看到机器人成功接通了工作流api并进行了回复，至此我们已经完全掌握了如何创建Dify所有类型的应用：基础聊天助手、工作流聊天助手、智能助手、工作流，我们也学会了如何把上述应用发布为API，并接入微信。
 
@@ -456,7 +456,7 @@ python app.py
 [INFO][2024-04-30 21:17:05][wework_channel.py:224] - wework程序初始化完成········
 ```
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/d440a63e5e00845b1854410d63b31bdd.jpeg" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/d440a63e5e00845b1854410d63b31bdd.jpeg)
 
 现在我们给机器人发送消息，可以看到接入成功！
 

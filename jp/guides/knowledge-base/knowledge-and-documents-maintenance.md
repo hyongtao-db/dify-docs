@@ -8,7 +8,7 @@ Difyチームのホームページで、「ナレッジベース」ボタンを�
 
 ナレッジベースの名前、説明、表示権限、索引モード、埋め込みモデル、および検索設定を変更することができます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/20fc93428f8f20f7acfce665c4ed4ddf.png" alt=""><figcaption><p>ナレッジベースの設定</p></figcaption></figure>
+![ナレッジベースの設定](https://assets-docs.dify.ai/2024/12/20fc93428f8f20f7acfce665c4ed4ddf.png)
 
 **ナレッジベースの名前**：異なるナレッジベースを区別するために使用されます。
 
@@ -28,7 +28,7 @@ Difyチームのホームページで、「ナレッジベース」ボタンを�
 
 ナレッジベース内では、左側のサイドバーに紐づけられたアプリケーションの件数が表示されます。丸い情報アイコンにマウスカーソルを合わせると、紐付けられたアプリケーションの一覧がポップアップで現れます。さらに、右側にある「ジャンプ」ボタンをクリックすることで、それらのアプリケーションへ素早く移動して確認することが可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/28899b9b0eba8996f364fb74e5b94c7f.png" alt=""><figcaption><p>関連のアプリを確認</p></figcaption></figure>
+![関連のアプリを確認](https://assets-docs.dify.ai/2024/12/28899b9b0eba8996f364fb74e5b94c7f.png)
 
 ***
 
@@ -36,7 +36,7 @@ Difyチームのホームページで、「ナレッジベース」ボタンを�
 
 Difyのナレッジベースは、標準APIの完全なセットを提供しています。開発者はAPI呼び出しを行うことで、ナレッジベース内のドキュメントやチャンクの追加、削除、変更、クエリなどの日常的な管理およびメンテナンス操作を実行できます。詳細については、[ナレッジベースAPIドキュメント](maintain-dataset-via-api.md)を参照してください。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/02cf8bc06990606ff1d60b73ce7a82c8.png" alt=""><figcaption><p>ナレッジベースAPIの管理</p></figcaption></figure>
+![ナレッジベースAPIの管理](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/02cf8bc06990606ff1d60b73ce7a82c8.png)
 
 ***
 
@@ -48,7 +48,7 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 「ナレッジベース」→「文書リスト」→「ファイルを追加」の順に進み、既に作成されているナレッジベースに新しい文書をアップロードできます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/424ab491aaebe09b490a36d26c9fa8da.png" alt=""><figcaption><p>文書の追加</p></figcaption></figure>
+![文書の追加](https://assets-docs.dify.ai/2024/12/424ab491aaebe09b490a36d26c9fa8da.png)
 
 ### 文書の有効化・無効化・アーカイブ・削除
 
@@ -62,7 +62,7 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 > 上記の操作は、複数の文書を選択して一括で行うことが可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5e0e64859a1ac51602d167ec55ef9350.png" alt=""><figcaption><p>無効化とアーカイブ</p></figcaption></figure>
+![無効化とアーカイブ](https://assets-docs.dify.ai/2024/12/5e0e64859a1ac51602d167ec55ef9350.png)
 
 {% hint style=“info” %}
 **注意**：
@@ -75,7 +75,7 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 いつでもナレッジベースにアクセスして、無効化された文書を再び有効化し、通常の利用を再開できます。有料ユーザーは**ワンクリックで復活**機能を利用して、無効化されたすべての文書を迅速に有効化することができます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/bf6485b17aec716741eb65e307c2274c.png" alt=""><figcaption><p>ワンクリックで復活</p></figcaption></figure>
+![ワンクリックで復活](https://assets-docs.dify.ai/2024/12/bf6485b17aec716741eb65e307c2274c.png)
 {% endhint %}
 
 ***
@@ -88,7 +88,7 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 チャンクは、先頭の2行がプレビューとして表示されます。チャンクの全内容を閲覧したい場合は、「チャンクを展開」ボタンを軽くタップします。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/86cc80f17fab1eea75aa73ee681e4663.png" alt=""><figcaption><p>チャンクを展開する</p></figcaption></figure>
+![チャンクを展開する](https://assets-docs.dify.ai/2024/12/86cc80f17fab1eea75aa73ee681e4663.png)
 
 [テキストチャンク](./create-knowledge-and-upload-documents/chunking-and-cleaning-text.md)を表示する方法にはいくつかのモードがあり、それぞれでテキストの見せ方が異なります：
 
@@ -98,11 +98,11 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 [汎用モード](./create-knowledge-and-upload-documents/chunking-and-cleaning-text.md)では、各テキストチャンクが独立したブロックとして扱われます。全内容を表示したい場合は、右上にある全画面表示ボタンをタップしてください。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/c37a1a247092cda9433a10243543698f.png" alt=""><figcaption><p>全画面表示への切り替え</p></figcaption></figure>
+![全画面表示への切り替え](https://assets-docs.dify.ai/2024/12/c37a1a247092cda9433a10243543698f.png)
 
 文書の見出し部分をクリックすることで、ナレッジベース内の他の文書へ素早く移動が可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/4422286c6d254e13c1ab59b147f0ffbf.png" alt=""><figcaption><p>汎用モード - テキストチャンク</p></figcaption></figure>
+![汎用モード - テキストチャンク](https://assets-docs.dify.ai/2024/12/4422286c6d254e13c1ab59b147f0ffbf.png)
 {% endtab %}
 
 {% tab title="親子モード" %}
@@ -113,14 +113,14 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 * **親チャンク**
 
   ナレッジベース内の文書を選択すると、まず親チャンクの内容が表示されます。これには、**「段落」** 表示と **「全文」** 表示の2種類があり、文脈をより完全に提供します。以下は、異なる表示方法によるテキストプレビューの違いを説明します。
-  <figure><img src="https://assets-docs.dify.ai/2024/12/b3961da2536dc922496ef6646315b9f4.png" alt=""><figcaption><p>段落表示と全文表示の比較</p></figcaption></figure>
+  ![段落表示と全文表示の比較](https://assets-docs.dify.ai/2024/12/b3961da2536dc922496ef6646315b9f4.png)
 
 
 * **子チャンク**
 
   子チャンクは通常、段落内の特定の文（より小さいテキストブロック）で、詳細な情報を含んでいます。各チャンクは、文字数と検索された回数を示します。詳細を見るには、子チャンクを軽くタップします。ブロックの全内容を見たい場合は、右上の全画面表示ボタンをタップしてください。
 
-  <figure><img src="https://assets-docs.dify.ai/2024/12/c0776f91e155bb1c961ae255bb98f39e.png" alt=""><figcaption><p>親子モード - テキストチャンク</p></figcaption></figure>
+  ![親子モード - テキストチャンク](https://assets-docs.dify.ai/2024/12/c0776f91e155bb1c961ae255bb98f39e.png)
 {% endtab %}
 
 {% tab title="Q&Aモード（コミュニティーのみ対処）" %}
@@ -128,7 +128,7 @@ Difyのナレッジベースは、標準APIの完全なセットを提供して�
 
 Q&Aモードでは、各コンテンツブロックが一組の質問と答えを含んでいます。文書の見出しを軽くタップすることで、テキストチャンクを確認することができます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/c0776f91e155bb1c961ae255bb98f39e.png" alt=""><figcaption><p>Q&Aモードでのテキストチャンクの確認</p></figcaption></figure>
+![Q&Aモードでのテキストチャンクの確認](https://assets-docs.dify.ai/2024/12/c0776f91e155bb1c961ae255bb98f39e.png)
 {% endtab %}
 
 ***
@@ -142,13 +142,13 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 チャンクの品質を検証する際には、以下の点に注意する必要があります：
 
 * **チャンクされたテキストが短すぎる**場合、意図した意味が途切れてしまう可能性があります；
-<figure><img src="https://assets-docs.dify.ai/2024/12/ee081e98c1649aea4a5c2b15b88e11aa.png" alt=""><figcaption><p>チャンクされたテキストが短すぎる</p></figcaption></figure>
+![チャンクされたテキストが短すぎる](https://assets-docs.dify.ai/2024/12/ee081e98c1649aea4a5c2b15b88e11aa.png)
 
 * **チャンクされたテキストが長すぎる**場合、不要な情報が混入し、検索結果の精度を低下させる原因となります；
-<figure><img src="https://assets-docs.dify.ai/2024/12/ac47381ae4be183768dd025c37c049fa.png" alt=""><figcaption><p>チャンクされたテキストが長すぎる</p></figcaption></figure>
+![チャンクされたテキストが長すぎる](https://assets-docs.dify.ai/2024/12/ac47381ae4be183768dd025c37c049fa.png)
 
 * **意味の流れが不自然に断ち切られている**場合、最大チャンク長を設定しても、内容の一部が失われることがあります；
-<figure><img src="https://assets-docs.dify.ai/2024/12/b8ab7ac84028b0b16c3948f35015e069.png" alt=""><figcaption><p>意味の流れが不自然に断ち切られている</p></figcaption></figure>
+![意味の流れが不自然に断ち切られている](https://assets-docs.dify.ai/2024/12/b8ab7ac84028b0b16c3948f35015e069.png)
 
 ***
 
@@ -164,15 +164,15 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 
 ドキュメントに「チャンク追加」ボタンがあり、これをクリックすることで任意の数のカスタマイズされたチャンクを追加することが可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/552ff4ab9e77130ad09aaef878b19cc9.png" alt=""><figcaption><p>汎用モード - チャンクを追加する</p></figcaption></figure>
+![汎用モード - チャンクを追加する](https://assets-docs.dify.ai/2024/12/552ff4ab9e77130ad09aaef878b19cc9.png)
 
 テキストチャンクを手動で追加する際には、テキスト本体とキーワードの入力が選択肢としてあります。入力完了後、画面下部の「追加を続ける」にチェックを入れると、さらにテキストの追加が行えます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/cd769622bc1d85c037277ef6fa5247c9.png" alt=""><figcaption><p>汎用モード - テキストチャンクを追加する</p></figcaption></figure>
+![汎用モード - テキストチャンクを追加する](https://assets-docs.dify.ai/2024/12/cd769622bc1d85c037277ef6fa5247c9.png)
 
 複数のチャンクを一度に追加したい場合は、まずCSV形式のチャンクアップロード用テンプレートをダウンロードし、そのテンプレートに従ってExcelでチャンクの内容を編集します。編集後はCSVファイルを保存し、それをアップロードしてください。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5e501dd8efba02ff31d2e739417ce864.png" alt=""><figcaption><p>汎用モード - 複数のチャンクを一度に追加する</p></figcaption></figure>
+![汎用モード - 複数のチャンクを一度に追加する](https://assets-docs.dify.ai/2024/12/5e501dd8efba02ff31d2e739417ce864.png)
 {% endtab %}
 
 {% tab title="親子モード" %}
@@ -180,15 +180,15 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 
 「チャンク追加」ボタンを使って、ドキュメント内に一つまたは複数のカスタム**親チャンク**を自由に追加できます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/552ff4ab9e77130ad09aaef878b19cc9.png" alt=""><figcaption><p>親子モード - チャンクを追加する</p></figcaption></figure>
+![親子モード - チャンクを追加する](https://assets-docs.dify.ai/2024/12/552ff4ab9e77130ad09aaef878b19cc9.png)
 
 入力完了後、画面下部の **「追加を続ける」** にチェックを入れると、さらにテキストの追加が可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/ba64232eea364b68f2e38341eb9cf5c1.png" alt=""><figcaption><p>親子モード - テキストチャンクを追加する</p></figcaption></figure>
+![親子モード - テキストチャンクを追加する](https://assets-docs.dify.ai/2024/12/ba64232eea364b68f2e38341eb9cf5c1.png)
 
 親チャンク内には、子チャンクを個別に追加することもできます。親チャンクに属する子チャンクの右側にある「追加」ボタンをクリックすることで、子チャンクを個別に追加できます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/23f68a369eb9c1a2cc9022b99a08341d.png" alt=""><figcaption><p>親子モード - 子チャンクを追加する</p></figcaption></figure>
+![親子モード - 子チャンクを追加する](https://assets-docs.dify.ai/2024/12/23f68a369eb9c1a2cc9022b99a08341d.png)
 {% endtab %}
 
 {% tab title="Q&Aモード（コミュニティーのみ対処）" %}
@@ -209,7 +209,7 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 
 編集の重複を避けるため、編集完了後のコンテンツブロックには「編集済み」というマークが付けられます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p>汎用モード - テキストチャンクを修正する</p></figcaption></figure>
+![汎用モード - テキストチャンクを修正する](https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png)
 {% endtab %}
 
 {% tab title="親子モード" %}
@@ -217,17 +217,17 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 
 親チャンクは、その中に含まれる子チャンクの内容を持っていますが、両者は独立しており、それぞれ個別に修正が可能です。以下の説明では、親子間の編集プロセスを解説します：
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/aacdb2e95b9b7c0265455caaf0f1f55f.png" alt=""><figcaption><p>親子モードの編集の原理図</p></figcaption></figure>
+![親子モードの編集の原理図](https://assets-docs.dify.ai/2024/12/aacdb2e95b9b7c0265455caaf0f1f55f.png)
 
 **親チャンクの編集**：親チャンクの右側にある編集ボタンをタップし、内容を入力します。**「保存」**をクリックすると、子チャンクには影響しません。**「保存して子チャンクを再生成」**を選択すると、子チャンクの内容も更新されます。
 
 編集後のコンテンツブロックには「編集済み」というマークが付けられます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/7eedfee59a3c978cc4a29d9cf06fbbcc.png" alt=""><figcaption><p>親子モード - 親チャンクの編集</p></figcaption></figure>
+![親子モード - 親チャンクの編集](https://assets-docs.dify.ai/2024/12/7eedfee59a3c978cc4a29d9cf06fbbcc.png)
 
 **子チャンクの編集**：任意の子チャンクを選び、編集モードで修正します。保存後、親チャンクへの影響はありません。編集済みまたは追加された子チャンクブロックには、特定の編集状態を示すタグが表示されます。また、この子チャンクを現在の親テキストブロックのタグとして参照することも可能です。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/a59563614d8f4661ebfb20f6b646b4ea.png" alt=""><figcaption><p>親子モード - 子チャンクの編集</p></figcaption></figure>
+![親子モード - 子チャンクの編集](https://assets-docs.dify.ai/2024/12/a59563614d8f4661ebfb20f6b646b4ea.png)
 {% endtab %}
 
 {% tab title="Q&Aモード（コミュニティーのみ対処）" %}
@@ -235,7 +235,7 @@ Q&Aモードでは、各コンテンツブロックが一組の質問と答え�
 
 Q&Aモードでは、各コンテンツブロックが一つの質問とその答えを含んでいます。希望するテキストチャンクをクリックすることで、質問と答えを個別に修正できます。また、現在のブロック内のキーワードの編集もサポートされています。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p>Q&Aモード - テキストチャンクを編集する</p></figcaption></figure>
+![Q&Aモード - テキストチャンクを編集する](https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png)
 {% endtab %}
 
 ***
@@ -244,4 +244,4 @@ Q&Aモードでは、各コンテンツブロックが一つの質問とその�
 
 メタデータは、ウェブページのタイトル、URL、キーワード、説明など、さまざまな情報源からの文書を区別するために用いられる情報です。これらは、ナレッジベースでのテキスト検索時に構造化されたフィールドとして利用されるほか、参照元の情報表示にも活用されます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/f3b1ff4b559ebc40f18b8980b3719fe8.png" alt=""><figcaption><p>メタデータの管理</p></figcaption></figure>
+![メタデータの管理](https://assets-docs.dify.ai/2024/12/f3b1ff4b559ebc40f18b8980b3719fe8.png)

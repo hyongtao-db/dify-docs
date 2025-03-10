@@ -7,7 +7,7 @@ Difyのコンセプトは、コンセプトからデータをインポートし�
 1. ナレッジベースを作成する際に、データソースを選択し、**コンセプト同期--接続へ移動** をクリックし、指示に従って認証検証を完了してください。
 2. また、**設定--データソース--データソースの追加** をクリックし、コンセプトソースの **接続** をクリックして認証を完了することもできます。
 
-<figure><img src="../../.gitbook/assets/notion-connect.png" alt=""><figcaption><p>コンセプトリンク</p></figcaption></figure>
+![コンセプトリンク](../../.gitbook/assets/notion-connect.png)
 
 ### データインポート
 
@@ -23,7 +23,7 @@ _**注: 現在、画像やファイルのインポートはサポートしてい
 
 コンセプト内容が変更された場合、Difyのナレッジドキュメントリストページで[同期]ボタンをクリックしてデータを一括で同期できます（注意: 各クリックで現在の内容が同期されます）。このステップでもトークンの使用が必要です。
 
-<figure><img src="../../.gitbook/assets/sync-notion-data.png" alt=""><figcaption><p>コンセプトデータの同期</p></figcaption></figure>
+![コンセプトデータの同期](../../.gitbook/assets/sync-notion-data.png)
 
 ### (コミュニティ版) コンセプト統合設定ガイド
 
@@ -39,11 +39,11 @@ _**注: 現在、画像やファイルのインポートはサポートしてい
 
 " **New integration** " ボタンをクリックすると、デフォルトで内部（変更不可）となります。関連するスペースを選択し、名前を入力してロゴをアップロードし、"**提出**" をクリックして統合を成功させます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/12970502b2e202d1f890dcecadf2dcbd.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/12970502b2e202d1f890dcecadf2dcbd.png)
 
 統合が作成されると、必要に応じて設定を更新できます。 **性能** タブを選択し、 **シークレットキー** を表示するために "**表示**" ボタンをクリックしてシークレットキーをコピーします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/2e03a253db47e5f151a7465b4a78b0ed.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/2e03a253db47e5f151a7465b4a78b0ed.png)
 
 それをコピーしてDifyのソースコードに戻り、関連する環境変数を **.env** ファイルに設定します。環境変数は以下の通りです：
 
@@ -57,11 +57,11 @@ _**注: 現在、画像やファイルのインポートはサポートしてい
 
 スイッチを公共設定に切り替えるには、**組織情報に追加情報を入力** する必要があります。会社名、Webサイト、およびリダイレクト目標パスを含む追加情報を入力してから、 "提出" ボタンをクリックします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/c2781fddfb5c7e76023ac59c926d9e37.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/c2781fddfb5c7e76023ac59c926d9e37.png)
 
 公共統合が成功した後、[統合設定ページ](https://www.notion.so/my-integrations) で、[シークレットキー] タブにアクセスして統合のシークレットキーを確認できます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/cbf2149eb7fcf613599f50ff58381889.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/features/datasets/cbf2149eb7fcf613599f50ff58381889.png)
 
 Difyのソースコードに戻り、関連する環境変数を **.env** ファイルに設定します。環境変数は以下の通りです：
 

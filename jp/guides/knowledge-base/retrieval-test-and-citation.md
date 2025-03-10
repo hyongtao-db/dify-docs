@@ -14,11 +14,11 @@ Difyのナレッジベースでは、テキストによる検索テスト機能�
 
 一般モードでは、各コンテンツは独立しており、右上に表示されるスコアは、そのコンテンツがキーワードとどれだけマッチしているかを示します。高いスコアは、質問のキーワードとコンテンツがより密接に一致していることを意味します。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/806967bb36e74fc744b34887cd3ebe52.png" alt=""><figcaption><p>一般モード - レコール内容チョック</p></figcaption></figure>
+![一般モード - レコール内容チョック](https://assets-docs.dify.ai/2024/12/806967bb36e74fc744b34887cd3ebe52.png)
 
 コンテンツをクリックすると、詳しい情報を確認できます。各コンテンツの下には、その情報源が表示され、その内容が信頼できるかどうかを判断できます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/419ac78ad21ea198b08f89c4f5fde485.png" alt=""><figcaption><p>レコール内容の詳細</p></figcaption></figure>
+![レコール内容の詳細](https://assets-docs.dify.ai/2024/12/419ac78ad21ea198b08f89c4f5fde485.png)
 {% endtab %}
 
 {% tab title="Custom" %}
@@ -28,11 +28,11 @@ Difyのナレッジベースでは、テキストによる検索テスト機能�
 
 プレビューエリアでは、具体的にヒットした段落の内容を確認できます。一致後、子コンテンツが属する親コンテンツの全文脈を検索し、AIアプリケーションに完全な情報を提供します。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/6f0b99f97b138805bf4665d0c5c16f26.png" alt=""><figcaption><p>レコールテスト - 親子分割モード</p></figcaption></figure>
+![レコールテスト - 親子分割モード](https://assets-docs.dify.ai/2024/12/6f0b99f97b138805bf4665d0c5c16f26.png)
 
 各コンテンツの下にある情報源を参照することで、引用された内容を確認できます。詳細ページでは、左側に親コンテンツ、右側にヒットした子コンテンツの情報が表示されます。キーワードは複数の子コンテンツにヒットする可能性があり、一致度スコアも表示されます。これに基づき、現在のコンテンツが適切かどうかを判断できます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/22103227f8a25069d147160254f69512.png" alt=""><figcaption><p>レコール内容の詳細</p></figcaption></figure>
+![レコール内容の詳細](https://assets-docs.dify.ai/2024/12/22103227f8a25069d147160254f69512.png)
 {% endtab %}
 {% endtabs %}
 
@@ -60,8 +60,8 @@ Difyのナレッジベースでは、テキストによる検索テスト機能�
 
 アプリケーション内でナレッジベースの効果をテストする際、**スタジオ -- 機能追加 -- 引用と帰属**に進み、引用と帰属機能を有効にします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/c50a37d96be8b631c02483144c226cd7.png" alt=""><figcaption><p>引用と帰属機能を有効にする</p></figcaption></figure>
+![引用と帰属機能を有効にする](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/c50a37d96be8b631c02483144c226cd7.png)
 
 機能を有効にすると、大規模言語モデルが質問に回答する際にナレッジベースからの内容を引用した場合、返信内容の下に具体的な引用段落情報を確認できます。これには**元のパラグラフテキスト、パラグラフ番号、マッチ度**などが含まれます。引用段落上部の**ナレッジベースにジャンプ**をクリックすると、開発者がデバッグ編集を行いやすいように、そのパラグラフが含まれるナレッジベースのパラグラフリストに簡単にアクセスできます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/8eed0be0aa90697a4bfbc0ea84a2dcdb.png" alt=""><figcaption><p>返信内容の引用情報を確認する</p></figcaption></figure>
+![返信内容の引用情報を確認する](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/knowledge-base/8eed0be0aa90697a4bfbc0ea84a2dcdb.png)

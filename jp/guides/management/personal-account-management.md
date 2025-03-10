@@ -28,7 +28,7 @@ Difyのバージョンによってサポートされるログイン方法は以�
 * メールアドレス
 * パスワード
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/40ea6368cd22021a3f1627738e40f597.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/40ea6368cd22021a3f1627738e40f597.png)
 
 ### ログイン方法
 
@@ -67,7 +67,7 @@ DifyのSaaS版のアカウントの削除を実行するには、右上隅にあ
 
 削除したいアカウントのメールアドレスと、確認用の認証コードを入力する後、システムはアカウントに関連するすべての情報を完全に削除します。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/ded326f27886b5884969c220ead998d7.png" alt=""><figcaption><p>個人アカウントを削除する</p></figcaption></figure>
+![個人アカウントを削除する](https://assets-docs.dify.ai/2024/12/ded326f27886b5884969c220ead998d7.png)
 
 ### FAQ
 

@@ -8,7 +8,7 @@
 
 開始ノードの設定ページでは、**“入力フィールド”**とデフォルトの[**システム変数**](../variables.md#xi-tong-bian-liang)という二つの設定部分が見られます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/c4a9bb46f636807f0b59710724fddc40.png" alt=""><figcaption><p>チャットフロー と ワークフロー</p></figcaption></figure>
+![チャットフロー と ワークフロー](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/c4a9bb46f636807f0b59710724fddc40.png)
 
 ### 入力フィールド
 
@@ -41,7 +41,7 @@ Difyに組み込まれているファイル抽出ノードは、特定のフォ�
 
 設定が完了した後、使用者はアプリを使用する前に、入力項目に従ってLLMに必要な情報を提供します。より多くの情報がLLMの質問応答効率を向上させるのに役立ちます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/2b26dc5f5b088304b65190e14f58423a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/2b26dc5f5b088304b65190e14f58423a.png)
 
 ### システム変数
 
@@ -59,7 +59,7 @@ Difyに組み込まれているファイル抽出ノードは、特定のフォ�
 | `sys.workflow_id`      | String       | ワークフローIDで、現在のワークフローアプリに含まれるすべてのノード情報を記録します。 | 開発能力のあるユーザー向けで、このパラメータを通じてワークフロー内のノード情報を追跡・記録できます。 |
 | `sys.workflow_run_id`  | String       | ワークフローアプリの実行IDで、ワークフローアプリの運用状況を記録します。 | 開発能力のあるユーザー向けで、このパラメータを通じてアプリの過去の実行状況を追跡できます。 |
 
-<figure><img src="https://docs.dify.ai/~gitbook/image?url=https%3A%2F%2F1288284732-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCdDIVDY6AtAz028MFT4d%252Fuploads%252FrN6uw5MOfjV2xsDnQsV1%252Fimage.png%3Falt%3Dmedia%26token%3D309a9336-7bd7-4ef6-8621-779538245e25&width=768&dpr=4&quality=100&sign=9d7d625a&sv=1" alt=""><figcaption><p>ワークフロータイプアプリのシステム変数</p></figcaption></figure>
+![ワークフロータイプアプリのシステム変数](https://docs.dify.ai/~gitbook/image?url=https%3A%2F%2F1288284732-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCdDIVDY6AtAz028MFT4d%252Fuploads%252FrN6uw5MOfjV2xsDnQsV1%252Fimage.png%3Falt%3Dmedia%26token%3D309a9336-7bd7-4ef6-8621-779538245e25&width=768&dpr=4&quality=100&sign=9d7d625a&sv=1)
 
 **チャットフロー**
 

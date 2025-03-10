@@ -7,7 +7,7 @@ Dify 知识库支持从 Notion 导入，并支持后续的数据自动同步。
 1. 在创建知识库，选择数据源时，点击 **同步自 Notion 内容-- 去绑定，根据提示完成授权验证。**
 2. 你也可以：进入 **设置 -- 数据来源 -- 添加数据源** 中点击 Notion 来源 **绑定** ，完成授权验证。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/f1d5bcdcfbd57407e0bce1597df4daad.png" alt=""><figcaption><p>绑定 Notion</p></figcaption></figure>
+![绑定 Notion](https://assets-docs.dify.ai/2024/12/f1d5bcdcfbd57407e0bce1597df4daad.png)
 
 ### 导入 Notion 数据
 
@@ -27,7 +27,7 @@ _**请注意：暂不支持导入图片和文件，表格类数据会被转换�
 
 如果你的 Notion 内容有更新，可以在知识库的 **文档列表页**中点击对应内容页的 **同步** 按钮进行数据同步。同步文档涉及嵌入过程，因此将消耗嵌入模型的 Tokens。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/af7cabd98c3aac392819d9041cc408de.png" alt=""><figcaption><p>同步 Notion 内容</p></figcaption></figure>
+![同步 Notion 内容](https://assets-docs.dify.ai/2024/12/af7cabd98c3aac392819d9041cc408de.png)
 
 ### 社区版 Notion 的集成配置方法
 
@@ -41,11 +41,11 @@ Notion 分为**内部集成**（internal integration）和**外部集成**（pub
 
 点击“**New integration**”按钮，类型默认是 **Internal**（不可修改），选择关联的空间，输入集成名称并上传 logo 后，点击“Submit”，集成创建成功。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/87e612b70469281ed2ec2c45038daf1e.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/87e612b70469281ed2ec2c45038daf1e.png)
 
 创建集成后，你可以根据需要在 Capabilities 选项卡下更新其设置，并在 Secrets 下点击 “Show” 按钮然后复制 Secrets。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/a2e0a30fb3903d8cce6556ed9ecd3951.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/a2e0a30fb3903d8cce6556ed9ecd3951.png)
 
 复制后回到 Dify 源代码下，在 **.env** 文件里配置相关环境变量，环境变量如下：
 
@@ -58,11 +58,11 @@ NOTION_INTERNAL_SECRET=you-internal-secret
 
 **需要将 internal 集成升级为 public 集成**，导航到集成的 Distribution 页面，然后切换开关以公开集成。将开关切换到公共设置，你需要在下面的 Organization Information 表单中填写其他信息，包括你的公司名称、网站和重定向 URL 等信息，然后点击“Submit”按钮。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/3e7a700f41464d88057e63050c6f2093.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/3e7a700f41464d88057e63050c6f2093.png)
 
 在集成的设置页面中成功公开集成后，你将能够在密钥选项卡中访问集成的密钥：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/554557566ef3f56076be1e8542c4cddb.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/create-knowledge-and-upload-documents/import-content-data/554557566ef3f56076be1e8542c4cddb.png)
 
 回到 Dify 源代码下，在 **.env** 文件里配置相关环境变量，环境变量如下：
 

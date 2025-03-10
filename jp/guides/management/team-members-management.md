@@ -14,7 +14,7 @@
 
 メンバーを追加するには、チームの所有者や管理人は右上隅のアバターをクリックし、**"メンバー"** → **"追加"**を選択します。メールアドレスを入力し、メンバー権限を割り当ててプロセスを完了します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/bbd0873959dd3fe342b7212b98e812ae.png" alt=""><figcaption><p>チームメンバーへの権限の割り当て</p></figcaption></figure>
+![チームメンバーへの権限の割り当て](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/bbd0873959dd3fe342b7212b98e812ae.png)
 
 > コミュニティエディションでメール機能を有効にするには、チームオーナーがシステムの[環境変数](../../getting-started/install-self-hosted/environments)を設定してメールサービスをオンにする必要があります。
 
@@ -48,7 +48,7 @@
 
 メンバーを削除するには、Difyチームのホームページの右上隅のアバターをクリックし、**"設定"** → **"メンバー"**に移動し、削除するメンバーを選択して**"チームから削除"**をクリックします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/0596a58b4fc59c9a0fae24bdff90b769.png" alt=""><figcaption><p>メンバーの削除</p></figcaption></figure>
+![メンバーの削除](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/management/0596a58b4fc59c9a0fae24bdff90b769.png)
 
 ### よくある質問
 

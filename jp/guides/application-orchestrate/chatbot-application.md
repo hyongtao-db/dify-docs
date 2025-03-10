@@ -16,13 +16,13 @@
 
 ホームページで「最初から作成」をクリックしてアプリを作成します。アプリ名を入力し、アプリタイプは**チャットボット**を選択します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/24a6f30145d5005413fa75693996377c.png" alt=""><figcaption><p>チャットボットの作成</p></figcaption></figure>
+![チャットボットの作成](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/24a6f30145d5005413fa75693996377c.png)
 
 #### アプリの編成
 
 アプリを作成すると、自動的にアプリの概要ページに移動します。左側のメニューから編成をクリックしてアプリを編成します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/4332c94f126ae1ce72e1881e91d81729.png" alt=""><figcaption><p>アプリの編成</p></figcaption></figure>
+![アプリの編成](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/4332c94f126ae1ce72e1881e91d81729.png)
 
 **プロンプトの記入**
 
@@ -38,7 +38,7 @@
 
 オープニングダイアログを追加する方法は、底の「機能を追加」ボタンをクリックして、「会話の開始」機能を開きます：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/8ee49c47ed4b197e77d88e95b5bf4b2a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/application-orchestrate/8ee49c47ed4b197e77d88e95b5bf4b2a.png)
 
 オープニングステートメントを編集する際に、いくつかのオープニング質問を追加することもできます：
 

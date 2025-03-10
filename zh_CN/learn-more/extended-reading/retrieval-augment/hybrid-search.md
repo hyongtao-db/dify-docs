@@ -29,7 +29,7 @@ RAG 检索环节中的主流方法是向量检索，即语义相关度匹配的�
 
 在混合检索中，你需要在数据库中提前建立向量索引和关键词索引，在用户问题输入时，分别通过两种检索器在文档中检索出最相关的文本。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/16818764adc7c9e7bfbe4be8fb3fd6ee.png" alt="" width="563"><figcaption><p>混合检索</p></figcaption></figure>
+![混合检索](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/16818764adc7c9e7bfbe4be8fb3fd6ee.png)
 
 “混合检索”实际上并没有明确的定义，本文以向量检索和关键词检索的组合为示例。如果我们使用其他搜索算法的组合，也可以被称为“混合检索”。比如，我们可以将用于检索实体关系的知识图谱技术与向量检索技术结合。
 
@@ -39,7 +39,7 @@ RAG 检索环节中的主流方法是向量检索，即语义相关度匹配的�
 
 定义：通过生成查询嵌入并查询与其向量表示最相似的文本分段。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/d9f6c540579ffa7833c8e8fecab13470.png" alt="" width="563"><figcaption><p>向量检索设置</p></figcaption></figure>
+![向量检索设置](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/d9f6c540579ffa7833c8e8fecab13470.png)
 
 **TopK：** 用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
@@ -51,7 +51,7 @@ RAG 检索环节中的主流方法是向量检索，即语义相关度匹配的�
 
 定义：索引文档中的所有词汇，从而允许用户查询任意词汇，并返回包含这些词汇的文本片段。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/4ba9e7aed96e64da0e6475913041ed55.png" alt="" width="563"><figcaption><p>全文检索设置</p></figcaption></figure>
+![全文检索设置](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/4ba9e7aed96e64da0e6475913041ed55.png)
 
 **TopK：** 用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
@@ -61,7 +61,7 @@ RAG 检索环节中的主流方法是向量检索，即语义相关度匹配的�
 
 同时执行全文检索和向量检索，并应用重排序步骤，从两类查询结果中选择匹配用户问题的最佳结果，需配置 Rerank 模型 API。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/60ab88815f84ef92a45ac239481fcefd.png" alt="" width="563"><figcaption><p>混合检索设置</p></figcaption></figure>
+![混合检索设置](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/60ab88815f84ef92a45ac239481fcefd.png)
 
 **TopK：** 用于筛选与用户问题相似度最高的文本片段。系统同时会根据选用模型上下文窗口大小动态调整片段数量。系统默认值为 3 。
 
@@ -71,16 +71,16 @@ RAG 检索环节中的主流方法是向量检索，即语义相关度匹配的�
 
 进入“知识库->创建知识库”页面并在检索设置中设置不同的检索模式：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/36f3a2e700529cdfdab067acc1340d4e.png" alt="" width="563"><figcaption><p>创建知识库时设置检索模式</p></figcaption></figure>
+![创建知识库时设置检索模式](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/36f3a2e700529cdfdab067acc1340d4e.png)
 
 ### 知识库设置中修改检索模式
 
 进入“知识库->选择知识库->设置”页面中可以对已创建的知识库修改不同的检索模式。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/24fc8d33f05253cc83b5f6371b94b84b.png" alt="" width="563"><figcaption><p>知识库设置中修改检索模式</p></figcaption></figure>
+![知识库设置中修改检索模式](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/24fc8d33f05253cc83b5f6371b94b84b.png)
 
 ### 提示词编排中修改检索模式
 
 进入“提示词编排->上下文->选择知识库->设置”页面中可以在创建应用时修改不同的检索模式。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/b07e4a2c1345ab676c6e0c107651d0f9.png" alt=""><figcaption><p>提示词编排中修改检索模式</p></figcaption></figure>
+![提示词编排中修改检索模式](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/retrieval-augment/b07e4a2c1345ab676c6e0c107651d0f9.png)

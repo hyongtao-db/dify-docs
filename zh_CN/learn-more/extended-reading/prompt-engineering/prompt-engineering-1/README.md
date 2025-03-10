@@ -48,7 +48,7 @@
 
 创建应用后，在提示词编排页可以切换至**专家模式**，在此模式下可以编辑完整的应用提示词。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/71e30fafb41d5ea234141323be1816c4.png" alt=""><figcaption><p>专家模式入口</p></figcaption></figure>
+![专家模式入口](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/71e30fafb41d5ea234141323be1816c4.png)
 
 {% hint style="warning" %}
 在**专家模式**下修改提示词并发布应用后，将无法返回至**简易模式**。
@@ -62,7 +62,7 @@
 需要注意的是，我们只有先上传了上下文，在**专家模式**下才会呈现包含 \{{#context#\}} 的内置提示词
 {% endhint %}
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/5a7a296cd7259b0342b09a0ec6f1023a.png" alt=""><figcaption><p>上下文参数设置</p></figcaption></figure>
+![上下文参数设置](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/5a7a296cd7259b0342b09a0ec6f1023a.png)
 
 **TopK：值范围为整数 1～10**
 
@@ -106,7 +106,7 @@ Assistant1: 土是黄色的
 
 在**专家模式**下，你可以在文本编辑器中输入“`/`”，快捷调出内容块来插入提示词中。内容块分为：`上下文`、`变量`、`会话历史`、`查询内容`。你也可以通过输入“`{`”，快捷插入已创建过的变量列表。\\
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/e778e139b9db5c5e417b4bf568e9606f.png" alt=""><figcaption><p>快捷键 “/”</p></figcaption></figure>
+![快捷键 “/”](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/e778e139b9db5c5e417b4bf568e9606f.png)
 
 {% hint style="warning" %}
 除“`变量`”以外的其他内容块不可重复插入。在不同应用和模型下，可插入的内容块会根据不同的提示词模板结构有所区别，`会话历史`、`查询内容` 仅在对话型应用的文本补全模型中可用。
@@ -149,7 +149,7 @@ And answer according to the language English.
 
 在调试预览界面，用户与 AI 产生对话之后，将鼠标指针移动到任意的用户会话，即可在左上角看到“日志”标志按钮，点击即可查看提示词日志。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/72db185cf68e8f27267e2e3d0d154b90.png" alt=""><figcaption><p>调试日志入口</p></figcaption></figure>
+![调试日志入口](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/72db185cf68e8f27267e2e3d0d154b90.png)
 
 在日志中，我们可以清晰的查看到：
 
@@ -157,7 +157,7 @@ And answer according to the language English.
 * 当前会话引用的相关文本片段
 * 历史会话记录
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/a5d6a69ecdd78016c365cb111627926a.png" alt=""><figcaption><p>调试预览界面查看提示词日志</p></figcaption></figure>
+![调试预览界面查看提示词日志](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/a5d6a69ecdd78016c365cb111627926a.png)
 
 从日志中，我们可以查看经过系统拼装后最终发送至 LLM 的完整提示词，并根据调试结果持续改进提示词输入。
 
@@ -165,4 +165,4 @@ And answer according to the language English.
 
 在初始的构建应用主界面，左侧导航栏可以看到“日志与标注”，点击进去即可查看完整的日志。 在日志与标注的主界面，点击任意一个会话日志条目，在弹出的右侧对话框中同样鼠标指针移动到会话上即可点开“日志”按钮查看提示词日志。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/0a37cb6a650018e73459cf42edcc0c73.png" alt=""><figcaption><p>日志与标注界面查看提示词日志</p></figcaption></figure>
+![日志与标注界面查看提示词日志](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/extended-reading/prompt-engineering/prompt-engineering-1/0a37cb6a650018e73459cf42edcc0c73.png)

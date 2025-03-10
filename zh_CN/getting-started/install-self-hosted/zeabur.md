@@ -17,15 +17,15 @@ Zeabur 团队准备了一个一键部署模板，你只需点击下面的按钮�
 
 点击按钮后，你将被导航到 Zeabur 上的模板页面，你可以在那里查看部署的详细信息和说明。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/fc58c921d332857fb644d4c869162bb5.jpeg" alt="Zeabur Template Overview"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/fc58c921d332857fb644d4c869162bb5.jpeg)
 
 点击部署按钮后，你需要输入一个生成的域名，以便将域名绑定到你的 Dify 实例并注入到其他服务中作为环境变量。
 然后选择你喜欢的区域，点击部署按钮，你的 Dify 实例将在几分钟内部署完成。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/43cdd302ca243f2a1d2475a857cc1e66.png" alt="Select Region"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/43cdd302ca243f2a1d2475a857cc1e66.png)
 
 部署完成后，你可以在 Zeabur 控制台中看到一个项目页面，如下图所示，你在部署过程中输入的域名将自动绑定到 NGINX 服务，你可以通过该域名访问你的 Dify 实例。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/7aa82d91ab9e798245b9df18221637b2.png" alt="Zeabur Project Overview"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/getting-started/install-self-hosted/7aa82d91ab9e798245b9df18221637b2.png)
 
 你也可以在 NGINX 服务页面的 Networking 选项卡中更改域名。你可以参考 [Zeabur 文档](https://zeabur.com/docs/deploy/domain-binding) 了解更多信息。

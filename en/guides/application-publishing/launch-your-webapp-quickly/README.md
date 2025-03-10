@@ -9,7 +9,7 @@ One of the benefits of creating AI applications with Dify is that you can publis
 
 Toggle the **"In service / Disabled"** switch, your Web App URL will be effective immediately publicly shared on the internet.
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-publishing/launch-your-webapp-quickly/7ef249e00d089beb981d4e02e7207a42.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-publishing/launch-your-webapp-quickly/7ef249e00d089beb981d4e02e7207a42.png)
 
 We have pre-set Web App UI for the following two types of applications:
 

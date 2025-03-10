@@ -11,7 +11,7 @@
 
 在应用监测页中，你可以找到 WebApp 的管理卡片。打开访问开关后，你可以得到一个能够在互联网上公开分享的网址。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-publishing/launch-your-webapp-quickly/d16321015fff38377b45c976257e3f6e.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-publishing/launch-your-webapp-quickly/d16321015fff38377b45c976257e3f6e.png)
 
 我们对以下两种应用类型均预置了漂亮的 WebApp 界面：
 

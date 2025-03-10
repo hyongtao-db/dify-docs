@@ -8,7 +8,7 @@ The variable assigner node is used to assign values to writable variables. Curre
 
 Usage: Through the variable assigner node, you can assign workflow variables to conversation variables for temporary storage, which can be continuously referenced in subsequent conversations.
 
-<figure><img src="https://assets-docs.dify.ai/2024/11/83d0b9ef4c1fad947b124398d472d656.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2024/11/83d0b9ef4c1fad947b124398d472d656.png)
 
 ***
 
@@ -108,7 +108,7 @@ def main(arg1: list) -> str:
 
 Example: Before the chatting, the user specifies "English" in the `language` input box. This language will be written to the conversation variable, and the LLM will reference this information when responding, continuing to use "English" in subsequent conversations.
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/1867d608a7d009431b73377ed65b427b.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/1867d608a7d009431b73377ed65b427b.png)
 
 **Configuration Guide:**
 
@@ -124,7 +124,7 @@ Example: Before the chatting, the user specifies "English" in the `language` inp
 
 Example: After starting the conversation, the LLM will ask the user to input items related to the Checklist in the chatting box. Once the user mentions content from the Checklist, it will be updated and stored in the Conversation Variable. The LLM will remind the user to continue supplementing missing items after each round of dialogue.
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/c4362b01298b12e7d6fcd9e798f3165a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/workflow/node/c4362b01298b12e7d6fcd9e798f3165a.png)
 
 **Configuration Process:**
 
@@ -138,7 +138,7 @@ Example: After starting the conversation, the LLM will ask the user to input ite
 
 Click the `+` icon on the right side of the node and select the **“Variable Assignment”** node. Configure the target variables and their corresponding source variables. This node allows you to assign values to multiple variables simultaneously.
 
-<figure><img src="https://assets-docs.dify.ai/2024/11/ee15dee864107ba5a93b459ebdfc32cf.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2024/11/ee15dee864107ba5a93b459ebdfc32cf.png)
 
 **Setting Variables:**
 

@@ -88,15 +88,15 @@ Notion 是一个强大的知识管理工具。它的灵活性和可扩展性使�
 
 > 我希望你能在我的 Notion 工作区中扮演一个 IT 专家的角色，利用你对计算机科学、网络基础设施、Notion 笔记和 IT 安全的知识来解决问题。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/27f353c0cc454912205d0acdc1aed51f.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/27f353c0cc454912205d0acdc1aed51f.png)
 
 建议初始时启用 AI 主动提供用户一个起始句子，给出可以询问的线索。此外，激活「语音转文字」功能可以让用户通过语音与你的 AI 助手进行互动。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/cf3649fe8bffaa76a86d71daa8ec0afb.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/cf3649fe8bffaa76a86d71daa8ec0afb.png)
 
 现在你可以在“概览”中单击公共 URL 聊天与你自己的 AI 助手！
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3830bbae27580f32cc415340984cb4e9.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/learn-more/use-cases/3830bbae27580f32cc415340984cb4e9.png)
 
 ### 通过API集成到你的项目中​
 

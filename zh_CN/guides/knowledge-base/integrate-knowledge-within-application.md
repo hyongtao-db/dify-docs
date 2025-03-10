@@ -21,11 +21,11 @@
 
 检索器会在所有与应用关联的知识库中去检索与用户问题相关的文本内容，并将多路召回的相关文档结果合并，以下是召回策略的技术流程图：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/64007d543f1c5c3f2e87d606d79d04d3.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/64007d543f1c5c3f2e87d606d79d04d3.png)
 
 根据用户意图同时检索所有添加至 **“上下文”** 的知识库，在多个知识库内查询相关文本片段，选择所有和用户问题相匹配的内容，最后通过 Rerank 策略找到最适合的内容并回答用户。该方法的检索原理更为科学。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/3e0c9be17f054d211c4385ab74d47dfb.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2024/12/3e0c9be17f054d211c4385ab74d47dfb.png)
 
 举例：A 应用的上下文关联了 K1、K2、K3 三个知识库，当用户输入问题后，将在三个知识库内检索并汇总多条内容。为确保能找到最匹配的内容，需要通过 Rerank 策略确定与用户问题最相关的内容，确保结果更加精准与可信。
 
@@ -59,7 +59,7 @@ Rerank 模型是一种外部评分系统，它会计算用户问题与给定的�
 
 Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 Rerank 模型（例如 Cohere、Jina AI 等模型）的 API Key。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/0fe5ddc692ebbf5fb83bc9096ca0ed61.png" alt=""><figcaption><p>在模型供应商内配置 Rerank 模型</p></figcaption></figure>
+![在模型供应商内配置 Rerank 模型](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/0fe5ddc692ebbf5fb83bc9096ca0ed61.png)
 
 **可调参数**
 

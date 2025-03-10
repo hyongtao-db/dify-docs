@@ -12,7 +12,7 @@
 
 你可以从导航选择 「工作室 」，在应用列表内选择 「从模版创建」。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/6405fc6c267146c6be0cb779a7838504.png" alt=""><figcaption><p>从模板创建应用</p></figcaption></figure>
+![从模板创建应用](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/6405fc6c267146c6be0cb779a7838504.png)
 
 任意选择某个模板，并将其添加至工作区。
 
@@ -20,7 +20,7 @@
 
 如果你需要在 Dify 上创建一个空白应用，你可以从导航选择 「工作室」 ，在应用列表内选择 「从空白创建 」。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/bfee6805544a811553c5fe8d28227694.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2024/12/bfee6805544a811553c5fe8d28227694.png)
 
 Dify 上可以创建 4 种不同的应用类型，分别是聊天助手、文本生成应用、Agent 和工作流。
 
@@ -40,7 +40,7 @@ Dify DSL 是由 Dify.AI 所定义的 AI 应用工程文件标准，文件格式�
 
 如果你从社区或其它人那里获得了一个应用模版（DSL 文件），可以从工作室选择 「 导入DSL 文件 」。DSL 文件导入后将直接加载原应用的所有配置信息。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/6615ef40b8c0027563a5a4ca0c315ff1.png" alt=""><figcaption><p>导入 DSL 文件创建应用</p></figcaption></figure>
+![导入 DSL 文件创建应用](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/6615ef40b8c0027563a5a4ca0c315ff1.png)
 
 #### URL 导入
 
@@ -50,6 +50,6 @@ Dify DSL 是由 Dify.AI 所定义的 AI 应用工程文件标准，文件格式�
 https://example.com/your_dsl.yml
 ```
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/63d45c8f397dd65258dd4b322f0a43fa.jpeg" alt=""><figcaption><p>通过 URL 导入 DSL 文件</p></figcaption></figure>
+![通过 URL 导入 DSL 文件](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/63d45c8f397dd65258dd4b322f0a43fa.jpeg)
 
 > 导入 DSL 文件时将校对文件版本号。如果 DSL 版本号差异较大，有可能会出现兼容性问题。详细说明请参考 [应用管理：导入](https://docs.dify.ai/zh-hans/guides/management/app-management#dao-ru-ying-yong)。

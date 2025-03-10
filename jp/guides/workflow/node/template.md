@@ -18,7 +18,7 @@ Jinja2のPythonテンプレート言語を使って、データ変換やテキ�
 
 **例1：**複数の入力（記事のタイトル、紹介、内容）を一つの完全なテキストに結合する
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/7a3c701efd43e3d1729cb3baebe86018.png" alt="" width="375"><figcaption><p>テキストの結合</p></figcaption></figure>
+![テキストの結合](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/7a3c701efd43e3d1729cb3baebe86018.png)
 
 **例2：** ナレッジリトリーバルノードで取得した情報およびその関連メタデータを、構造化されたMarkdown形式にまとめる
 
@@ -38,6 +38,6 @@ Jinja2のPythonテンプレート言語を使って、データ変換やテキ�
 {% endraw %}
 ```
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCdDIVDY6AtAz028MFT4d%2Fuploads%2FOtGkLaz38v0FSzSBNuV2%2Fimage.png?alt=media&token=122965f8-9d70-4e57-b0e2-1fdaf1320275" alt=""><figcaption><p>ナレッジリトリーバルノードの出力をMarkdownに変換</p></figcaption></figure>
+![ナレッジリトリーバルノードの出力をMarkdownに変換](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCdDIVDY6AtAz028MFT4d%2Fuploads%2FOtGkLaz38v0FSzSBNuV2%2Fimage.png?alt=media&token=122965f8-9d70-4e57-b0e2-1fdaf1320275)
 
 Jinjaの[公式ドキュメント](https://jinja.palletsprojects.com/en/3.1.x/templates/)を参考にして、さまざまなタスクを実行するためのより複雑なテンプレートを作成することができます。

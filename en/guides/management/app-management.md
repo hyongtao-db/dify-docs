@@ -4,7 +4,7 @@
 
 After creating an application, if you want to modify the application name or description, you can click "Edit info" in the upper left corner of the application to revise the application's icon, name, or description.
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/management/63a449e9a8ae337b9c067165d1674a45.png" alt=""><figcaption><p>Edit App Info</p></figcaption></figure>
+![Edit App Info](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/management/63a449e9a8ae337b9c067165d1674a45.png)
 
 ### Duplicating Application
 

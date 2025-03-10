@@ -13,7 +13,7 @@ LLM（大規模言語モデル）は文書の内容を直接読み取ること�
 
 テキスト抽出ツールノードは、情報を処理する中心的な役割を果たします。入力変数内のファイルを識別して読み取り、情報を抽出し、string型の出力変数に変換して、下流のノードが呼び出すために提供します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/27173b2503ca7241b084f7cbd17cdb4c.png" alt=""><figcaption><p>テキスト抽出ツールノード</p></figcaption></figure>
+![テキスト抽出ツールノード](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/27173b2503ca7241b084f7cbd17cdb4c.png)
 
 テキスト抽出ツールノードは、入力変数と出力変数に分かれています。
 
@@ -41,7 +41,7 @@ LLM（大規模言語モデル）は文書の内容を直接読み取ること�
 
 このセクションでは、典型的なChatPDFサンプルワークフローテンプレートを用いて、テキスト抽出ツールノードの使用方法を説明します。
 
-<figure><img src="../../../.gitbook/assets/image (373).png" alt=""><figcaption><p>ChatPDF ワークフロー</p></figcaption></figure>
+![ChatPDF ワークフロー](../../../.gitbook/assets/image (373).png)
 
 **設定手順：**
 
@@ -49,13 +49,13 @@ LLM（大規模言語モデル）は文書の内容を直接読み取ること�
 2. テキスト抽出ツールノードを追加し、入力変数で`pdf`変数を選択します。
 3. LLMノードを追加し、システムプロンプトでテキスト抽出ツールノードの出力変数を選択します。LLMはこの出力変数を使用してファイルの内容を読み取ることができます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/22d9f76bae0f0b0a492ce465d3cb0f38.png" alt=""><figcaption><p>テキスト抽出ツールの出力変数を入力</p></figcaption></figure>
+![テキスト抽出ツールの出力変数を入力](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/22d9f76bae0f0b0a492ce465d3cb0f38.png)
 
 4. 終了ノードを構成し、終了ノードでLLMノードの出力変数を選択します。
 
 設定が完了すると、アプリはファイルアップロード機能を備え、ユーザーはPDFファイルをアップロードして会話を展開できます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/12970502b2e202d1f890dcecadf2dcbd.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/12970502b2e202d1f890dcecadf2dcbd.png)
 
 {% hint style="info" %}
 チャット対話でファイルをアップロードし、LLMと対話する方法については、[追加機能](../additional-features.md)を参照してください。

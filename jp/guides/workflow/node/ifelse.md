@@ -31,7 +31,7 @@ if/else 条件に基づいてチャットフローとワークフローを2つ�
 
 ### シナリオ
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/0ac5b007b9fb6c1c22e2c9ea7c00dac5.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/0ac5b007b9fb6c1c22e2c9ea7c00dac5.png)
 
 **テキスト要約ワークフロー**を例に、各条件を説明します。
 
@@ -45,4 +45,4 @@ if/else 条件に基づいてチャットフローとワークフローを2つ�
 
 複雑な条件判断が必要な場合、複数条件を設定し、条件間に **AND** または **OR** を設定することができます。これは条件間に**交集**または**并集**を取ることを意味します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/098cf0cb913048464ed270cee12acde7.png" alt="" width="369"><figcaption><p>複数条件の判断</p></figcaption></figure>
+![複数条件の判断](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/098cf0cb913048464ed270cee12acde7.png)

@@ -47,7 +47,7 @@ If the message credits are insufficient, you can customize other model providers
 
 Click **Your Avatar - Settings - Model Provider**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/workshop/basic/4b4102f9027e2bda3fc520eaa8ea2354.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/workshop/basic/4b4102f9027e2bda3fc520eaa8ea2354.png)
 
 If you haven't found a suitable model provider, the groq platform provides free call credits for LLMs like Llama.
 
@@ -165,7 +165,7 @@ If the user requests content unrelated to drawing, reply: "Sorry, I don't unders
 
 For example, let's ask: What's for dinner tonight?
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/workshop/basic/06dcf569989d797919fbe49ab8d5cadc.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/workshop/basic/06dcf569989d797919fbe49ab8d5cadc.png)
 
 In some more formal business scenarios, we can call a sensitive word library to refuse user requests.
 

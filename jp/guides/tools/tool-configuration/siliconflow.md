@@ -16,7 +16,7 @@ SiliconFlowは、優れたオープンソースの基盤モデルをもとに、
 
 Difyのツールページで、`SiliconCloud > To Authorize`をクリックし、APIキーを入力します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/65e6e2f0c8aa64958341b53770d7b2c7.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/65e6e2f0c8aa64958341b53770d7b2c7.png)
 
 ## 3. ツールの使用
 
@@ -24,12 +24,12 @@ Difyのツールページで、`SiliconCloud > To Authorize`をクリックし�
 
 ChatflowおよびWorkflowアプリケーションでは、`SiliconFlow`ツールノードを追加できます。ユーザーの入力内容を[変数](https://docs.dify.ai/v/ja-jp/guides/workflow/variables)を通じてSiliconFlowツールノードの「prompt」や「negative prompt」ボックスに渡し、必要に応じて内蔵パラメータを調整します。最後に、「end」ノードの返信ボックスでSiliconFlowツールノードの出力内容（テキスト、画像など）を選択します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/1ada78b6761dd3b7a95d8b747486f38a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/1ada78b6761dd3b7a95d8b747486f38a.png)
 
 * **エージェントアプリ**
 
 エージェントアプリでは、`Stable Diffusion`または`Flux`ツールを追加し、対話ボックスで画像の説明を送信することで、そのツールを呼び出して画像を生成します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/ade6f26e87ec4e2b091662a188a89e00.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/ade6f26e87ec4e2b091662a188a89e00.png)
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/d89e52d598e042f0be0cc6249fc387f0.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/tools/tool-configuration/d89e52d598e042f0be0cc6249fc387f0.png)

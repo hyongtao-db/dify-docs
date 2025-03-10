@@ -4,7 +4,7 @@
 
 大規模言語モデルを活用して質問に回答したり、自然言語を処理したりします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/75a0eee463e2fd34e41010b55b47d504.png" alt=""><figcaption><p>LLM ノード</p></figcaption></figure>
+![LLM ノード](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/75a0eee463e2fd34e41010b55b47d504.png)
 
 ***
 
@@ -29,7 +29,7 @@ LLM は チャットフロー/ワークフロー の中心的なノードであ�
 
 エディットページで、前のノードの末尾を右クリックするか、+ボタンを軽くタップして新しいノードを追加し、LLMを選択します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/883c0e6facbe4b9a845c331797ef8feb.png" alt=""><figcaption><p>LLM ノード設定 - モデル選択</p></figcaption></figure>
+![LLM ノード設定 - モデル選択](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/883c0e6facbe4b9a845c331797ef8feb.png)
 
 **設定手順：**
 
@@ -45,7 +45,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 
 4. **プロンプトの作成**：LLMノードには使いやすいプロンプト編集ページがあり、チャットモデルまたはコンプリートモデルを選択することで異なるプロンプト編集構造が表示されます。チャットモデル（Chat model）を選択した場合、システムプロンプト（SYSTEM）、ユーザー（USER）、アシスタント（ASSISTANT）の3つのセクションをカスタマイズできます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/0033bc271052d1b299ca876d912010c9.png" alt="" width="352"><figcaption><p>プロンプトの作成</p></figcaption></figure>
+![プロンプトの作成](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/0033bc271052d1b299ca876d912010c9.png)
 
 システムプロンプト（SYSTEM）を作成する際にアイデアが浮かばない場合は、プロンプトジェネレーター機能を使用して、実際のビジネスシナリオに適したプロンプトを迅速に生成することができます。
 
@@ -53,7 +53,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 
 プロンプトエディターでは、**“/”** または **“{”** を入力することで **変数挿入メニュー**を呼び出し、**特殊変数ブロック**や **上流ノードの変数**をプロンプトに挿入してコンテキスト内容として使用できます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/2170b741801cc8e03f0b4574d2345950.png" alt="" width="366"><figcaption><p>変数挿入メニューを呼び出す</p></figcaption></figure>
+![変数挿入メニューを呼び出す](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/2170b741801cc8e03f0b4574d2345950.png)
 
 5. **上級的な設定**：メモリ機能をオンにしたり、メモリウィンドウを設定したり、ビジョン機能を有効にしたり、Jinja-2テンプレート言語を使ってより複雑なプロンプトを作成したりできます。
 
@@ -69,7 +69,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 
 視覚機能を備えたLLMでは、ユーザーがアップロードした画像を変数を介して解析することが可能です。ビジョン機能をオンにした後、画像ファイルを読み込むための変数を指定し、設定を完了させてください。
 
-<figure><img src="../../../../en/.gitbook/assets/image (371).png" alt=""><figcaption><p>画像アップロード機能</p></figcaption></figure>
+![画像アップロード機能](../../../../en/.gitbook/assets/image (371).png)
 
 **ファイル変数**
 
@@ -87,13 +87,13 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 会話履歴変数の使用は広範ではなく、チャットフロー 内でテキスト補完モデルを選択した場合にのみ使用できます。
 {% endhint %}
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/fd1707d32cf62f3e707cce70c83d08a1.png" alt=""><figcaption><p>会話履歴変数の挿入</p></figcaption></figure>
+![会話履歴変数の挿入](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/fd1707d32cf62f3e707cce70c83d08a1.png)
 
 **モデルパラメーター**
 
 モデルのパラメータはモデルの出力に影響を与えます。異なるモデルには異なるパラメータがあります。以下の図は`gpt-4`のパラメータリストです。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/ddeb4bcd71b57c62a12a4cf35107f0b6.png" alt="" width="363"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/ddeb4bcd71b57c62a12a4cf35107f0b6.png)
 
 主要なパラメータ用語は以下のように説明されています：
 
@@ -107,7 +107,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 
 これらのパラメータが何であるか理解できない場合は、プリセットを読み込んで、「クリエイティブ」、「バランス」、「正確」の3つのプリセットから選択することができます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/8e145cb795bc71172e32348678b1551c.png" alt="" width="367"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/8e145cb795bc71172e32348678b1551c.png)
 
 ***
 
@@ -142,7 +142,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 2. 知識検索ノードの **出力変数** `result` をLLMノードの **コンテキスト変数** に入力します；
 3. **コンテキスト変数** をアプリケーションのプロンプトに挿入し、LLMがナレッジベース内のテキスト内容を読み取れるようにします。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/988590f51629f43ac81770396456b372.png" alt=""><figcaption><p>コンテキスト変数</p></figcaption></figure>
+![コンテキスト変数](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/988590f51629f43ac81770396456b372.png)
 
 [知識検索ノード](knowledge-retrieval.md) の出力変数 `result` には引用情報も含まれており、[**引用と帰属**](../../knowledge-base/retrieval-test-and-citation.md#id-2-yin-yong-yu-gui-shu) 機能を使用して情報の出所を確認できます。
 
@@ -160,7 +160,7 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 
 さらなる情報は、[ファイルアップロード](../file-upload.md)を参照してください。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/e1d26d2371dc7a2b10cbc0f5595816de.png" alt=""><figcaption><p>入力システムプロンプト</p></figcaption></figure>
+![入力システムプロンプト](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/guides/workflow/node/e1d26d2371dc7a2b10cbc0f5595816de.png)
 
 * **エラー処理**
 
@@ -169,6 +169,6 @@ Difyを初めて使用する場合は、LLMノードでモデルを選択する�
 1. LLMノードで「エラー処理」を有効化する
 2. エラー処理戦略を選択して設定する
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/f7109ce5e87c0e0a81248bb2672c7667.png" alt=""><figcaption><p>入力システムプロンプト</p></figcaption></figure>
+![入力システムプロンプト](https://assets-docs.dify.ai/2024/12/f7109ce5e87c0e0a81248bb2672c7667.png)
 
 エラー処理の詳細は、[エラー処理](https://docs.dify.ai/guides/workflow/error-handling)をご覧ください。

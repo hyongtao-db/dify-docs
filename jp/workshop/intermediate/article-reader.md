@@ -50,7 +50,7 @@ LLMはファイルを直接読み取ることができません。これは、�
 
 開始ノードのファイル変数を入力として、テキスト抽出ツールはドキュメント形式のファイルをテキスト形式の変数に変換します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/bc4b1492bd10ef782457ec6a709997f9.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/bc4b1492bd10ef782457ec6a709997f9.png)
 
 ### **LLM**
 
@@ -160,11 +160,11 @@ LLMはファイルを直接読み取ることができません。これは、�
 
 そのため、開始ノードのファイル変数を`array`型に調整する必要があります。つまり、ファイルリストに変更します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/cc9cbf8b718b8abbf84cd8649a08c1a3.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/cc9cbf8b718b8abbf84cd8649a08c1a3.png)
 
 開始ノードの後にイテレーションノードを追加し、入力変数と出力変数を設定します。イテレーションノード内では、各ループで実行する内容を設定します。この部分は前述の内容と完全に一致します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/8eff802e3e1e3da466c5dc9ac56c50f2.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/8eff802e3e1e3da466c5dc9ac56c50f2.png)
 
 ## **問題2：特定のファイルのみを処理する**
 
@@ -174,4 +174,4 @@ LLMはファイルを直接読み取ることができません。これは、�
 
 イテレーションノードの前にリスト操作を追加し、**フィルタ条件**や**ソート**を調整し、その後、イテレーションノードの入力をリスト操作ノードの出力に変更します。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/287690e1fef87af270c0d5020d25d6cf.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/workshop/intermediate/287690e1fef87af270c0d5020d25d6cf.png)

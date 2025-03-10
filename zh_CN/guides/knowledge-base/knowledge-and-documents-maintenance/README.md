@@ -6,7 +6,7 @@
 
 你可以在此处调整知识库名称、描述、可见权限、索引模式、Embedding 模型和检索设置。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/20fc93428f8f20f7acfce665c4ed4ddf.png" alt=""><figcaption><p>知识库设置</p></figcaption></figure>
+![知识库设置](https://assets-docs.dify.ai/2024/12/20fc93428f8f20f7acfce665c4ed4ddf.png)
 
 * **知识库名称**，用于区分不同的知识库。
 * **知识库描述**，用于描述知识库内文档代表的信息。
@@ -21,7 +21,7 @@
 
 知识库将会在左侧信息栏中显示已关联的应用数量。将鼠标悬停至圆形信息图标时将显示所有已关联的 Apps 列表，点击右侧的跳转按钮即可快速查看对应的应用。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/28899b9b0eba8996f364fb74e5b94c7f.png" alt=""><figcaption><p>查看已关联应用</p></figcaption></figure>
+![查看已关联应用](https://assets-docs.dify.ai/2024/12/28899b9b0eba8996f364fb74e5b94c7f.png)
 
 ***
 
@@ -43,4 +43,4 @@ Dify 知识库提供整套标准 API ，开发者通过 API 调用对知识库�
 [maintain-dataset-via-api.md](maintain-dataset-via-api.md)
 {% endcontent-ref %}
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/knowledge-and-documents-maintenance/147de6dbf55ce5b8c50610d94dafafb7.png" alt=""><figcaption><p>通过 API 管理文档</p></figcaption></figure>
+![通过 API 管理文档](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/knowledge-base/knowledge-and-documents-maintenance/147de6dbf55ce5b8c50610d94dafafb7.png)

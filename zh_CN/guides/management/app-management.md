@@ -4,7 +4,7 @@
 
 创建应用后，如果你想要修改应用名称或描述，可以点击应用左上角的 「编辑信息」 ，重新修改应用的图标、名称或描述。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/management/ec718ad1050311b01a3f342ef1f45ae9.png" alt="zh-Hans-edit-app-info"><figcaption><p>编辑应用信息</p></figcaption></figure>
+![编辑应用信息](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/management/ec718ad1050311b01a3f342ef1f45ae9.png)
 
 ### 复制应用
 

@@ -36,17 +36,17 @@ Free 版本的 Dify 提供了免费 200 条 OpenAI 的消息额度，如果消�
 
 点击**右上角头像 - 设置 - 模型供应商**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/52f3f299b05ff94ee0421604dd810e35.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/52f3f299b05ff94ee0421604dd810e35.png)
 
 ## 创建 ChatFlow 应用
 
 现在，让我们开始创建 ChatFlow。点击`创建空白应用 - 工作流编排`：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/82f9f17b80fb3755efff0a260c0aeb81.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/82f9f17b80fb3755efff0a260c0aeb81.png)
 
 初始化的 Chatflow 应用如下：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/5e71089affe0d284e67388e47c92e324.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/5e71089affe0d284e67388e47c92e324.png)
 
 ## 添加节点
 
@@ -56,7 +56,7 @@ Free 版本的 Dify 提供了免费 200 条 OpenAI 的消息额度，如果消�
 
 点击开始节点并添加一个新变量：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/cb4bccf4ad0496c7b0dec18dcca738b6.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/cb4bccf4ad0496c7b0dec18dcca738b6.png)
 
 ### 代码节点
 
@@ -73,25 +73,25 @@ def main(id: str) -> dict:
 
 添加一个代码节点并选择 Python ，然后设置输入和输出变量名：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/0a371db2f178f1ddd2f4355327630cc4.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/0a371db2f178f1ddd2f4355327630cc4.png)
 
 ### HTTP 请求节点
 
 根据 [Crawlbase文档](https://crawlbase.com/docs/crawling-api/scrapers/#twitter-profile)，如果以 HTTP 请求格式抓取 Twitter 用户的个人资料，我们需要按以下格式填写 HTTP 请求节点：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/ebb1a2bfd4f219d4184056009f9f30dc.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/ebb1a2bfd4f219d4184056009f9f30dc.png)
 
 出于安全考虑，最好不要直接将 API Key 作为明文输入。在 Dify 最新版本中，可以在`环境变量`中设置令牌值。点击 `env` - `添加变量`来设置 API Key，这样就不会以明文出现在节点中。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/e4a8de831404946ca91b6c06f31d0769.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/e4a8de831404946ca91b6c06f31d0769.png)
 
 点击[此处](https://crawlbase.com/dashboard/account/docs)获取 Crawlbase API Key。输入 `/`插入为变量。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/f8c6cdb35b7a2b0565be663cf1e731ea.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/f8c6cdb35b7a2b0565be663cf1e731ea.png)
 
 点击此节点的开始按钮，输入Elon Musk 的 URL 进行测试：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/257690ab83c3ad5515262a71ce228749.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/257690ab83c3ad5515262a71ce228749.png)
 
 ### LLM 节点
 
@@ -101,7 +101,7 @@ def main(id: str) -> dict:
 
 以下是一个提示词示例。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/8c51fbbe32e95c892a407f8d177fe86a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/8c51fbbe32e95c892a407f8d177fe86a.png)
 
 ## 测试运行
 
@@ -109,7 +109,7 @@ def main(id: str) -> dict:
 
 例如，我想分析 Elon Musk 的推文，并以他的语气写一条关于全球变暖的推文。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/835a01082e74723138d9f97bee0c6c4b.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/intermediate/835a01082e74723138d9f97bee0c6c4b.png)
 
 点击右上角的`发布`，并将其添加到你的网站中。
 

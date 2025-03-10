@@ -22,7 +22,7 @@ Click the "Create Application" button on the homepage to create an application. 
 
 After the application is successfully created, it will automatically redirect to the application overview page. Click on the button on the left menu: **"Orchestrate"** to compose the application.
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-orchestrate/6e45b9cecf2280814de20375ca0a3734.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-orchestrate/6e45b9cecf2280814de20375ca0a3734.png)
 
 **2.1 Fill in Prompts**
 
@@ -38,7 +38,7 @@ For a better experience, we will add an opening dialogue: `"Hello, {{name}}. I'm
 
 To add the opening dialogue, click the "Add Feature" button in the upper left corner, and enable the "Conversation remarkers" feature:
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-orchestrate/86ff7c2f2c29bc4a31e3b4a255ecbb84.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/en/guides/application-orchestrate/86ff7c2f2c29bc4a31e3b4a255ecbb84.png)
 
 And then edit the opening remarks:
 

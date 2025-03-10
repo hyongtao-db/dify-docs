@@ -6,7 +6,7 @@
 
 本文将使用图像生成模型，指导你使用 Dify 快速开发一个 AI 图片生成应用。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/05ff829cf382e82c9ece2676032d2383.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/05ff829cf382e82c9ece2676032d2383.png)
 
 ### 本实验中你将掌握的知识点
 
@@ -24,7 +24,7 @@
 
 进入管理页后，点击复制密钥即可。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/f73d82756bdf93c8863ac0b1f55fa5af.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/f73d82756bdf93c8863ac0b1f55fa5af.png)
 
 接下来，你需要通过以下步骤把密钥填入 [Dify - 工具 - Stability](https://cloud.dify.ai/tools) 中：
 
@@ -33,7 +33,7 @@
 * 选择 Stability
 * 点击授权
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c943c374a89b5ba08683f0eb6c501664.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c943c374a89b5ba08683f0eb6c501664.png)
 
 * 填入密钥并保存
 
@@ -47,7 +47,7 @@ Free 版本的 Dify 提供了免费 200 条 OpenAI 的消息额度
 
 点击**右上角头像 - 设置 - 模型供应商**
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/52f3f299b05ff94ee0421604dd810e35.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/52f3f299b05ff94ee0421604dd810e35.png)
 
 如果尚未找到合适的模型供应商，groq 平台提供了 Llama 等 LLM 的免费调用额度。
 
@@ -57,17 +57,17 @@ Free 版本的 Dify 提供了免费 200 条 OpenAI 的消息额度
 
 回到**Dify - 模型供应商**，选择**groqcloud**，点击 **设置**。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/1c4f0a7081fc6f5644203baf2f703b49.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/1c4f0a7081fc6f5644203baf2f703b49.png)
 
 粘贴 API Key 并保存。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/0a0593676651be79b9b322c48938f042.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/0a0593676651be79b9b322c48938f042.png)
 
 ### 3. 构建 Agent
 
 回到**Dify - 工作室**，选择**创建空白应用**。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/494bd8427dce548ce56b5b1cd52bffbd.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/494bd8427dce548ce56b5b1cd52bffbd.png)
 
 在本实验中，我们只需要了解 Agent 的基础用法即可。
 
@@ -81,21 +81,21 @@ Agent 是一种模拟人类行为和能力的 AI 系统，它通过自然语言�
 
 选择 **Agent**，填写名称即可。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c428f040fe117670abbc0e268227fcc9.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c428f040fe117670abbc0e268227fcc9.png)
 
 接下来你会进入到如下图的 Agent 编排界面
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c24024b10f76b5a2bf416c9411f3cc55.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c24024b10f76b5a2bf416c9411f3cc55.png)
 
 我们选择 LLM，本篇教程中我们使用 groq 提供的 Llama-3.1-70B 为例：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/5f6c6837cbee213d8adbc71ce41467c2.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/5f6c6837cbee213d8adbc71ce41467c2.png)
 
 在**工具**中添加 AI 绘图工具 Stability：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c963eb9ae55b035631f32ebd6ad23f4b.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/c963eb9ae55b035631f32ebd6ad23f4b.png)
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/20f37184597aac61463297cae9485055.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/20f37184597aac61463297cae9485055.png)
 
 #### 撰写提示词
 
@@ -115,17 +115,17 @@ Agent 是一种模拟人类行为和能力的 AI 系统，它通过自然语言�
 
 例如：画一个女孩，手中拿着一本打开的书
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/5a1742b0580a960bfc476651720662c4.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/5a1742b0580a960bfc476651720662c4.png)
 
 #### 不想撰写提示词？当然可以！
 
 点击提示词的右上角**生成**。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/145ce8b15faff3b116ecc48086a12dcb.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/145ce8b15faff3b116ecc48086a12dcb.png)
 
 在**指令**中输入你的需求，点击**生成**，右侧生成的提示词中会出现由AI生成的提示词。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/efcb66dc935f5d5d954c936847af2496.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/efcb66dc935f5d5d954c936847af2496.png)
 
 不过，为了养成对提示词良好的理解，我们在初期最好不要依赖这一项功能。
 
@@ -133,7 +133,7 @@ Agent 是一种模拟人类行为和能力的 AI 系统，它通过自然语言�
 
 点击右上角的发布按钮，发布后选择**运行**就可以获得一个在线运行的 Agent 的网页。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/bd178b3530f90400a1eeb0ca824ccbd2.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/bd178b3530f90400a1eeb0ca824ccbd2.png)
 
 复制这个网页的 URL，可以分享给其他好友使用。
 
@@ -141,7 +141,7 @@ Agent 是一种模拟人类行为和能力的 AI 系统，它通过自然语言�
 
 我们可以在用户输入的命令中加上画风的指令，例如：二次元风格，画一个女孩，手中拿着一本打开的书
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/ebed02c8f6643427f0ba83e63c9fcaa8.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/ebed02c8f6643427f0ba83e63c9fcaa8.png)
 
 但是如果我们希望风格默认都是二次元风格呢，那么我们加在系统提示词里就行了，因为我们之前了解到系统提示词是每次执行用户命令都会知晓的，优先级更高。
 
@@ -167,10 +167,10 @@ Agent 是一种模拟人类行为和能力的 AI 系统，它通过自然语言�
 
 例如，我们尝试提问：今晚吃什么
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/ad342ddc00acc1aa0ad81f335e32a625.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/ad342ddc00acc1aa0ad81f335e32a625.png)
 
 在一些更正式的业务场景中，我们可以调用敏感词库来拒绝用户的请求。
 
 在**添加功能 - 内容审查**中添加关键词 “晚饭”，当用户输入关键词时，则 Agent 应用输出 “对不起，我不明白你在说什么”。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/e9d6e1a7f3a13c88dc98eef89f221949.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/workshop/basic/e9d6e1a7f3a13c88dc98eef89f221949.png)

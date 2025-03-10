@@ -22,7 +22,7 @@
 
 创建应用后会自动跳转到应用概览页。点击左侧菜单 **编排** 来编排应用。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/f19f991c1295c2ed3230ef27fc47818e.png" alt=""><figcaption><p>应用编排</p></figcaption></figure>
+![应用编排](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/f19f991c1295c2ed3230ef27fc47818e.png)
 
 **填写提示词**
 
@@ -38,7 +38,7 @@
 
 为了更好的用户体验，可以加上对话开场白：`你好，{{name}}。我是你的面试官，Bob。你准备好了吗？`。点击页面底部的 “添加功能” 按钮，打开 “对话开场白” 的功能：
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/9c81c98c4b58f894ed92e06a4b9bcf87.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/zh_CN/guides/application-orchestrate/9c81c98c4b58f894ed92e06a4b9bcf87.png)
 
 编辑开场白时，还可以添加数个开场问题：
 

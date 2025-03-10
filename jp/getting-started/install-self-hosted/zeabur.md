@@ -17,15 +17,15 @@ Zeabur チームはワンクリックデプロイテンプレートを用意し�
 
 ボタンをクリックすると、Zeabur 上のテンプレートページに移動し、デプロイの詳細情報と説明を確認できます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/fc58c921d332857fb644d4c869162bb5.jpeg" alt="Zeabur テンプレート概要"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/fc58c921d332857fb644d4c869162bb5.jpeg)
 
 デプロイボタンをクリックした後、生成されたドメイン名を入力し、そのドメイン名を Dify インスタンスにバインドし、他のサービスに環境変数として注入します。
 次に、お好みのリージョンを選択し、デプロイボタンをクリックすると、数分以内に Dify インスタンスがデプロイされます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/43cdd302ca243f2a1d2475a857cc1e66.png" alt="リージョンを選択"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/43cdd302ca243f2a1d2475a857cc1e66.png)
 
 デプロイが完了すると、Zeabur コンソール上にプロジェクトページが表示されます。以下の図のように、デプロイ中に入力したドメイン名が自動的に NGINX サービスにバインドされ、そのドメイン名を使用して Dify インスタンスにアクセスできます。
 
-<figure><img src="https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/7aa82d91ab9e798245b9df18221637b2.png" alt="Zeabur プロジェクト概要"><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/dify-enterprise-mintlify/jp/getting-started/install-self-hosted/7aa82d91ab9e798245b9df18221637b2.png)
 
 また、NGINX サービスページのネットワーキングタブでドメイン名を変更することもできます。詳細については [Zeabur ドキュメント](https://zeabur.com/docs/deploy/domain-binding) を参照してください。
