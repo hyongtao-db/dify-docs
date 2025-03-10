@@ -17,5 +17,5 @@ Workflow applications can be published as:
 * Access API Reference
 
 {% hint style="info" %}
-To manage multiple versions of chatflow/workflow, see[Version Control](https://docs.dify.ai/guides/management/version-control).
+To manage multiple versions of chatflow/workflow, see [Version Control](https://docs.dify.ai/guides/management/version-control).
 {% endhint %}

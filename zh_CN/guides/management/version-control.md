@@ -1,8 +1,8 @@
 ## 简介
 
-版本管理是 **Dify 聊天流/工作流管理界面** 中的一项核心功能，用于帮助用户高效地管理和发布应用的多个版本。
+版本管理是**Dify 聊天流/工作流管理界面**中的一项核心功能，用于帮助用户高效地管理和发布应用的多个版本。
 
-通过版本管理功能，用户可以清晰地区分应用的**草稿版本** 和**已发布版本**，并在需要时回滚到**历史版本**。该功能可以让应用的迭代和管理更为简便和直观，确保应用的持续更新与稳定性。
+通过版本管理功能，用户可以清晰地区分应用的**草稿版本**和**已发布版本**，并在需要时回滚到**历史版本**。该功能可以让应用的迭代和管理更为简便和直观，确保应用的持续更新与稳定性。
 
 ## 相关定义
 
@@ -40,7 +40,6 @@
 
 -   **回滚到历史版本：** 通过版本回滚功能，你可以将历史版本的内容加载到草稿中并进行修改。
 
-
 ![]()
 
 ## 如何查看所有版本？
@@ -70,15 +69,11 @@
 
 ## 如何发布新版本？
 
-1.  在 Dify 聊天流/工作流管理界面中完成聊天流/工作流创建后，点击面板的右上角的 **发布更新** 按钮，弹出 **命名此版本** 弹窗。
+1.  在 Dify 聊天流/工作流管理界面中完成聊天流/工作流创建后，点击面板的右上角的 **发布 > 发布更新** 按钮。
 
-![]()
-
-2.  *（可选）*在弹窗的 **版本名** 框内输入版本名，在 **版本信息** 框内输入版本信息。
+2.  *（可选）* 弹出 **命名此版本** 弹窗后，在弹窗的 **版本名** 框内输入版本名，在 **版本信息** 框内输入版本信息。
 
 > 如果你不打算填写任何信息，可以直接点击 **发布** 按钮，系统将自动保存默认版本名（Untitled Version）和空白的版本信息。
-
-![]()
 
 3.  点击弹窗内的 **发布** 按钮，发布当前版本。
 
@@ -132,14 +127,14 @@
 
 -   系统自动新建 **草稿版本** Version A。
 
-![]()
+![Phase 1](https://assets-docs.dify.ai/2025/03/35ece9d5d5d4d8c46a3fb5ceae4d0c15.jpeg)
 
 ### 阶段二：首次发布
 
 -   Version A 发布，成为 **最新发布版本**。
 -   系统自动新建 **草稿版本** Version B。
 
-![]()
+![Phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
 
 ### 阶段三：再次发布
 
@@ -147,14 +142,14 @@
 -   Version A 成为 **历史发布版本**。
 -   系统自动新建 **草稿版本** Version C。
 
-![]()
+![Phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
 
 ### 阶段四：回滚操作
 
 -   Version A 回滚至 **草稿版本**，覆盖 Version C。
 -   Version B 仍为 **最新发布版本**。
 
-![]()
+![Phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
 
 ### 阶段五：发布回滚
 
@@ -162,11 +157,11 @@
 -   Version A 与 Version B 成为 **历史发布版本**。
 -   系统自动新建 **草稿版本** Version D。
 
-![]()
+![Phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
 
 ### 全流程演示
 
-![]()
+![Workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
 
 ## FAQ
 
@@ -207,9 +202,9 @@
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;">已发布版本</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;">最新发布版本和历史发布版本的统称。</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;"></td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;"></td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;"></td>
+            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;">/</td>
+            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;">/</td>
+            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: top;">/</td>
         </tr>
     </tbody>
 </table>
