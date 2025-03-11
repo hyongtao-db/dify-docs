@@ -1,5 +1,3 @@
-# Knowledge Request Rate Limit
-
 We will implement Knowledge Request Rate Limits starting **February 24, 2025**, to ensure optimal service performance and a better knowledge experience for all users.
 
 ## What is Knowledge Request Rate Limit?
