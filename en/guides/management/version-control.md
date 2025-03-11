@@ -7,29 +7,45 @@ This article explains how to manage versions in Dify’s Chatflow and Workflow.
 
 ## Key Concepts
 
-- **Current Draft:** Your working version where you make changes.
+- **Current Draft**: Your working version where you make changes.
 
-- **Published Version:** Any version released to production.
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/38296a597c0ca31b5fb70be2234f2363.png" width="400" alt="current_draft">
+</p>
 
-- **Latest Version:** The current production version.
+- **Published Version**: Any version released to production.
 
-- **Previous Version:** Any older published version.
+- **Latest Version**: The current production version.
 
-- **Restore:** Return to any earlier version of your application.
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/e4c06a0817c30cf9e8893487c889cb02.png" width="350" alt="latest_version">
+</p>
+
+- **Previous Version**: Any older published version.
+
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/4cd05033b93d84b53496f3d02e88601f.png" width="200" alt="prevous_version">
+</p>
+
+- **Restore**: Return to any earlier version of your application.
+
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/607a69b5355886b9ae8d23a08e818e35.jpg" width="200" alt="restore_feature">
+</p>
 
 ## Features
 
-- **View all versions:** Access and review details of all published versions.
+- **View all versions**: Access and review details of all published versions.
 
-- **Find specific versions:** Use filters to find a specific version.
+- **Find specific versions**: Use filters to find a specific version.
 
-- **Publish new versions:** Release new application versions with custom names and release notes.
+- **Publish new versions**: Release new application versions with custom names and release notes.
 
-- **Edit published versions:** Edit the title and release notes of a published version.
+- **Edit published versions**: Edit the title and release notes of a published version.
 
-- **Delete previous versions:** Remove outdated versions to keep the list organized.
+- **Delete previous versions**: Remove outdated versions to keep the list organized.
 
-- **Restore published versions:** Load a published version into drafts for modifications.
+- **Restore published versions**: Load a published version into drafts for modifications.
 
 ## How to View All Versions
 
@@ -37,35 +53,47 @@ To view all versions:
 
 1. Click the history icon to enter the Version Control Panel.
 
+![view_all_versions](https://assets-docs.dify.ai/2025/03/eed667bbc9498425342c09039054cf98.png)
+
 2. View versions in chronological order with titles, release notes, publish dates, and publishers.
 
 3. *(Optional)* Click **Load More** to view more historical versions.
 
+![load_more](https://assets-docs.dify.ai/2025/03/df9aeb06128f11089dc2294f0338e2ca.png)
+
 ## How to Find a Specific Version
 
-**To find versions you published:**
+**To find versions you published**:
 
 1. Click the filter icon to open the filter dialog.
 
 2. Choose between:
-- **All:** Shows versions published by you and other users
-- **Only yours:** Shows only versions you published
+- **All**: Shows versions published by you and other users
+- **Only yours**: Shows only versions you published
 
-**To find named versions:**
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/0bf8fef8858671a8fef160f49dd83dad.jpg" width="200" alt="all_or_only_yours">
+</p>
+
+**To find named versions**:
 
 Toggle **Only show named versions** to display only the versions with custom names.
+
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/2473121caa2e25ad1a76ee42a4127fb4.jpg" width="200" alt="only_show_named_versions">
+</p>
 
 ## How to Publish a New Version
 
 To publish a new version:
 
-1. Click **Publish > Publish Update**.
+1. Click **Publish > Publish Update** to release the current version.
 
-2. In the **Name This Version** dialog, select either:
-- Enter a version title and/or the release notes
-- Skip these fields to use the default name (“Untitled Version”) and blank information
+![publish_new_version](https://assets-docs.dify.ai/2025/03/26f3f324ab4ecb965708d553ddd78d97.png)
 
-3. Click **Publish** to release the current version. The newly published version will be marked as `Latest` in the panel.
+2. The newly published version will be marked as `Latest` in the panel.
+
+![latest_version_marked](https://assets-docs.dify.ai/2025/03/67e95de17577bc272addad6c33f8ea59.png)
 
 ## How to Edit a Published Version
 
@@ -73,11 +101,24 @@ To edit a published version:
 
 1. In the Version Control Panel, find the version you want to edit.
 
-2. Click the menu icon.
+2. Click its action menu icon.
 
 3. Choose either:
 - **Name this version** for versions with default names.
+
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="name_this_version">
+</p>
+
 - **Edit version info** for versions with custom names.
+
+<p align="center">
+    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="edit_version_info_1">
+</p>
+
+4. Confirm **Publish**.
+
+![edit_version_info_2](https://assets-docs.dify.ai/2025/03/838e5a12aa277bada6c2a4a214450fa5.jpg)
 
 ## How to Delete a Previous Version
 
@@ -85,9 +126,15 @@ To delete a Previous version:
 
 1. Find the published version you want to delete.
 
-2. Click the action menu and select **Delete**.
+2. Click the action menu icon and select **Delete**.
+
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/25ad1999fc9f6f44fcac04526ac5563a.jpg" width="200" alt="delete_version">
+</p>
 
 3. Confirm **Delete**.
+
+![delete_version_confirm](https://assets-docs.dify.ai/2025/03/9326fd0463d024aac1907c83a37fe13b.jpg)
 
 {% hint style="warning" %}
 -   The **Current Draft** cannot be deleted
@@ -100,9 +147,15 @@ To restore a published version:
 
 1. Find the published version you want to restore.
 
-2. Click the menu icon and select **Restore**.
+2. Click its action menu icon and select **Restore**.
+
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/c96b714accc29df8e46e711782a7a6a9.jpg" width="200" alt="restore_version">
+</p>
 
 3. Confirm **Restore**. The system will load the selected version into your current draft.
+
+![restore_version_confirm](https://assets-docs.dify.ai/2025/03/f3a6e13f2e910f5c7917f52fe77bdfca.jpg)
 
 ## Version Control Workflow
 
@@ -114,14 +167,14 @@ Here is how versions work through a typical workflow:
 
 -   System creates a **Draft** (Version A).
 
-![Phase 1](https://assets-docs.dify.ai/2025/03/35ece9d5d5d4d8c46a3fb5ceae4d0c15.jpeg)
+![phase 1](https://assets-docs.dify.ai/2025/03/35ece9d5d5d4d8c46a3fb5ceae4d0c15.jpeg)
 
 ### Phase 2: First Release
 
 -   Version A is published, becoming the **Latest Version**.
 -   System creates a new **Draft** (Version B).
 
-![Phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
+![phase 2](https://assets-docs.dify.ai/2025/03/3d1f66cdeb08710f01462a6b0f3ed0a8.jpeg)
 
 ### Phase 3: Second Release
 
@@ -129,14 +182,14 @@ Here is how versions work through a typical workflow:
 -   Version A becomes a **Previous Version**.
 -   System creates a new **Draft** (Version C).
 
-![Phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
+![phase 3](https://assets-docs.dify.ai/2025/03/92ffbf88a3cbeeeeab47c1bd8b4f7198.jpeg)
 
 ### Phase 4: Restore
 
 -   Version A is restored to **Draft**, replacing Version C.
 -   Version B remains the **Latest Version**.
 
-![Phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
+![phase 4](https://assets-docs.dify.ai/2025/03/541f1891416af90dab5b51bfec833249.jpeg)
 
 ### Phase 5: Publish a Restored Version
 
@@ -144,11 +197,11 @@ Here is how versions work through a typical workflow:
 -   Previous Versions A and B become **Previous Versions**.
 -   System creates a new **Draft** (Version D).
 
-![Phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
+![phase 5](https://assets-docs.dify.ai/2025/03/3572a4f2edef166c3f14e4ec4e68b297.jpeg)
 
 ### Complete Workflow Demo
 
-![Workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
+![workflow](https://assets-docs.dify.ai/2025/03/dc7c15a4dfafb72ce7fffea294d5b5e5.gif)
 
 ## FAQ
 
