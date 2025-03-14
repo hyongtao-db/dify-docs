@@ -72,30 +72,43 @@ Dify currently supports multiple Rerank models. To use external Rerank models, y
 
 #### Chatflow/Workflow
 
-The **Knowledge Retrieval** node allows you to filter documents using metadata fields like tags, categories, and permissions.
+The **Knowledge Retrieval** node allows you to filter documents using metadata fields.
 
 #### Steps
 
-1. Select Filter Mode
+1. Select Filter Mode:
     - **Disabled (Default):** No metadata filtering.
 
     - **Automatic:** Filters auto-configure from query variables in the **Knowledge Retrieval** node.
+
     > Note: Automatic Mode requires model selection for document retrieval.
+
+    ![model_selection](https://assets-docs.dify.ai/2025/03/3d4ca70e3340d98d0f9824958c667def.png)
 
     - **Manual:** Configure filters manually.
 
-2. (Optional) For Manual Mode, follow these steps:
+![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
+
+2. *(Optional)* For Manual Mode, follow these steps:
+
     1. Click **Conditions** to open the configuration panel.
+
+    ![conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
 
     2. Click **+Add Condition**:
         - Select metadata fields within your chosen knowledge base from the dropdown list.
         > Note: When multiple knowledge bases are selected, only common metadata fields are shown in the list.
         - Use the search box to find specific fields.
 
-    3. (Optional) Click **+Add Condition** to add more fields.
+    ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
+
+    3. *(Optional)* Click **+Add Condition** to add more fields.
+
+    ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
     4. Configure filter conditions:
-    <table border="1" style="border-collapse: collapse; width: 100%;">
+
+    <table border="0" style="border-collapse: collapse; width: 100%;">
     <tr style="background-color: #f5f5f5;">
         <td width="15%">Field Type</td>
         <td width="20%">Operator</td>
@@ -182,23 +195,35 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
     </tr>
 </table>
     
-    5. Add filter values:
-    - **Variable:** Select from existing **Chatflow/Workflow** variables
-    - **Constant:** Enter specific values
+5. Add filter values:
 
-    {% hint style="warning" %}
-    Filter values are case-sensitive and require exact matches. Example: a filter `starts with “App”` or `contains “App”` will match “Apple” but not “apple” or “APPLE”.
-    {% endhint %}
+    - **Variable:** Select from existing **Chatflow/Workflow** variables. 
 
-    6. Set logic operators:
+    ![variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
+
+    - **Constant:** Enter specific values.
+
+    > Time-type fields can only be filtered by constants The date picker is for time-type fields.
+
+    ![date_picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
+
+{% hint style="warning" %}
+Filter values are case-sensitive and require exact matches. Example: a filter `starts with “App”` or `contains “App”` will match “Apple” but not “apple” or “APPLE”.
+{% endhint %}
+
+6. Set logic operators:
     - `AND`: Match all conditions
     - `OR`: Match any condition
 
-    7. Click outside the panel to save your settings.
+![logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
+
+7. Click outside the panel to save your settings.
 
 #### Chatbot
 
 Access **Metadata Filtering** below **Knowledge** (bottom-left). Configuration steps are the same as in **Chatflow/Workflow**.
+
+![chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
 
 ### View Linked Applications in the Knowledge Base
 

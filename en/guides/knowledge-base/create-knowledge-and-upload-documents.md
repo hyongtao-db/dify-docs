@@ -58,4 +58,4 @@ Different ETL solutions may have differences in file extraction effects. For mor
 
 #### **Metadata**
 
-For managing the knowledge base with metadata, see [Metadata](https://docs.dify.ai/guides/knowledge-base/metadata).
+For managing the knowledge base with metadata, see *[Metadata](https://docs.dify.ai/guides/knowledge-base/metadata)*.

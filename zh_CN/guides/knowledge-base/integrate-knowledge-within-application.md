@@ -80,36 +80,49 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 ##### 配置步骤
 
 1.  选择筛选模式
+
     - **禁用模式**（默认）：禁用 **元数据筛选** 功能，不配置任何筛选条件。
 
     - **自动模式**：系统会根据传输给该 **知识检索** 节点的 **查询变量** 自动配置筛选条件，适用于简单的筛选需求。
+
     > 启用自动模式后，你依然需要在 **模型** 栏中选择合适的大模型以执行文档检索任务。
 
-    ![](https://langgenius.feishu.cn/space/api/box/stream/download/asynccode/?code=ODE3ZTBiMTI0YjJlYTIxNjI4YmU4ZTc5NmNjZDBiZjFfbG53QjFUTlNjM2NCbjR2aVRwdFNLbTlEdFdEMHd0alJfVG9rZW46WFZPcGJoMFpOb0tCQ2F4d1g2cGNWaEpabnk3XzE3NDA3MzIzNTc6MTc0MDczNTk1N19WNA)
+    ![model_selection](https://assets-docs.dify.ai/2025/03/3d4ca70e3340d98d0f9824958c667def.png)
 
     -  **手动模式**：用户可以手动配置筛选条件，自由设置筛选规则，适用于复杂的筛选需求。
 
-![](https://langgenius.feishu.cn/space/api/box/stream/download/asynccode/?code=MGVmZDFmMDUyZTE2ZGNlNzJjMzc0Njg4MDBiODBmZWRfRnNXT3VjWjFLN0E0SEVDTGFJU1daU3BNd0hiOXlWSGlfVG9rZW46VjM5d2I1T1Fxb21EajB4ckpyVGNlOGJUbkNnXzE3NDA3MzIzNTc6MTc0MDczNTk1N19WNA)
+![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
-2.  （可选）如果你选择了 **手动模式**，请参照以下步骤配置筛选条件：
+2.  *（可选）* 如果你选择了 **手动模式**，请参照以下步骤配置筛选条件：
+
     1.  点击 **条件** 按钮，弹出配置框。
+    
+    ![conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
 
-    2.  点击配置框中的 **+添加条件** 按钮：
+    2. 点击配置框中的 **+添加条件** 按钮：
+
         - 可以从下拉列表中选择一个已选中知识库内的元数据字段，添加到筛选条件列表中。
-        > 如果你同时选择了多个知识库，下拉列表只会显示这些知识库共有的元数据字段。
-        - 可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到筛选条件列表中。
 
-    3.  （可选）如果需要添加多条字段，可以重复点击 **+添加条件** 按钮。
+        > 如果你同时选择了多个知识库，下拉列表只会显示这些知识库共有的元数据字段。
+
+        - 可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到筛选条件列表中。
+    
+    ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
+
+    3.  *（可选）* 如果需要添加多条字段，可以重复点击 **+添加条件** 按钮。
+
+    ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
     4.  配置字段类型的筛选条件：
-    <table border="1" style="border-collapse: collapse; width: 100%;">
+
+    <table border="0" style="border-collapse: collapse; width: 100%;">
     <tr style="background-color: #f5f5f5;">
-        <td width="15%">字段类型</td>
-        <td width="20%">筛选条件</td>
-        <td width="65%">筛选条件说明与示例</td>
+        <td width="15%"><b>字段类型</td>
+        <td width="20%"><b>筛选条件</td>
+        <td width="65%"><b>筛选条件说明与示例</td>
     </tr>
     <tr>
-        <td rowspan="8">字符串</td>
+        <td rowspan="8"><b>字符串</td>
         <td>is</td>
         <td>字段的值必须与你输入的值完全匹配。例如，如果你设置筛选条件为 is <code>"Published"</code>，则只会返回标记为“Published”的文档。</td>
     </tr>
@@ -142,7 +155,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
         <td>字段的值以你输入的文本结尾。例如，如果你设置筛选条件为 <code>ends with "2024"</code>，则返回所有以"2024"结尾的文档，如“Report 2024”、“Summary 2024”等。</td>
     </tr>
     <tr>
-        <td rowspan="6">数字</td>
+        <td rowspan="6"><b>数字</td>
         <td>=</td>
         <td>字段的值必须等于你输入的数字。例如，<code>= 10</code> 会匹配所有数字标记为 10 的文档。</td>
     </tr>
@@ -167,7 +180,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
         <td>字段的值必须小于或等于你输入的数字。例如，<code>≤ 200</code> 会返回所有数字标记为小于或等于 200 的文档。</td>
     </tr>
     <tr>
-        <td rowspan="5">时间</td>
+        <td rowspan="5"><b>时间</td>
         <td>is</td>
         <td>字段的时间值必须与你选择的时间完全匹配。例如，<code>is "2024-01-01"</code> 只会返回标记为 2024 年 1 月 1 日的文档。</td>
     </tr>
@@ -189,28 +202,34 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
     </tr>
 </table>
 
-    5.  选择并添加元数据筛选值：
-    -  **变量**：选择 **变量（Variable）**，并选择该 **聊天流/工作流** 中需要用于筛选文档的变量。
-    > **时间** 字段类型仅支持使用常量筛选文档。
-    -  **常量**：选择 **常量（Constant）**，并手动输入你需要的常量值。如果你选用时间字段筛选文档，系统会弹出时间选择器，供你选择具体的时间节点。
+5.  选择并添加元数据筛选值：
+    -  **变量**：选择 **变量（Variable）**，并选择该**聊天流/工作流**中需要用于筛选文档的变量。
 
-    {% hint style="warning" %}
-    当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 `starts with "App"` 或 `contains "App"` 时，系统会返回标记为 “Apple” 的文档，但不会返回标记为 “apple” 或 “APPLE” 的文档。
-    {% endhint %}
+    ![variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
 
-    6.  配置筛选条件之间的逻辑关系 `AND` 或 `OR`，以控制筛选的精确度。
+    -  **常量**：选择 **常量（Constant）**，并手动输入你需要的常量值。
+
+    > **时间** 字段类型仅支持使用常量筛选文档。如果你选用时间字段筛选文档，系统会弹出时间选择器，供你选择具体的时间节点。
+
+    ![date_picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
+
+{% hint style="warning" %}
+当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 `starts with "App"` 或 `contains "App"` 时，系统会返回标记为 “Apple” 的文档，但不会返回标记为 “apple” 或 “APPLE” 的文档。
+{% endhint %}
+
+6.  配置筛选条件之间的逻辑关系 `AND` 或 `OR`，以控制筛选的精确度。
     - `AND`：当一个文档满足所有筛选条件时，才能检索到该文档。
     - `OR`：只要一个文档满足其中任意一个筛选条件，就可以检索到该文档。
 
-    7.  关闭弹窗，系统将自动保存你的选择。
+![logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
 
-![](https://langgenius.feishu.cn/space/api/box/stream/download/asynccode/?code=YTdmZTE2NDFmMDU2M2ZkYmM3Yzg0YTlhNDY1ZGU5ZjdfeXR4OEVrYVVxbmpuS0dXZlc2NGRIQmRmN2ZIUWozY2pfVG9rZW46SGlmV2JTQVNBb3hGTjV4WFVPVmNEVnRRbk5nXzE3NDA3MzQ3NDM6MTc0MDczODM0M19WNA)
+7.  关闭弹窗，系统将自动保存你的选择。
 
 #### 聊天助手
 
-在 **聊天助手** 中，**元数据筛选** 功能位于界面左下方的 **上下文** 板块下方，配置方法与 **聊天流/工作流** 中的操作一致。你可以按照相同的步骤配置元数据筛选条件。
+在**聊天助手**中，**元数据筛选** 功能位于界面左下方的 **上下文** 板块下方，配置方法与**聊天流/工作流**中的操作一致。你可以按照相同的步骤配置元数据筛选条件。
 
-![](https://langgenius.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTA4MWVhMjViY2MwODQwZGNiMmE3NWUzODc0NDlkZmVfUmF6cWN0ZmRPU0dWZVpKSzlKMXBsM2p6SXRKbmlIT1lfVG9rZW46U1V1R2JlTnN6b0N6TEx4M21UZWNHMUR0bmdmXzE3NDA3MzQ3NDM6MTc0MDczODM0M19WNA)
+![chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
 
 ### 在知识库内查看已关联的应用
 

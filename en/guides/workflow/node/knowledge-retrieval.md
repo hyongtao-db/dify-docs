@@ -21,8 +21,7 @@ Within the knowledge base retrieval node, you can add an existing knowledge base
 
 **Applying Metadata Filtering**
 
-Use **Metadata Filtering** to refine document search in your knowledge base. For details, see “Metadata Filtering” in [Integrate Knowledge Base within Application](https://docs.dify.ai/guides/knowledge-base/integrate-knowledge-within-application).
-
+Use **Metadata Filtering** to refine document search in your knowledge base. For details, see **Metadata Filtering** in *[Integrate Knowledge Base within Application](https://docs.dify.ai/guides/knowledge-base/integrate-knowledge-within-application)*.
 
 **Configuring the Retrieval Strategy**
 

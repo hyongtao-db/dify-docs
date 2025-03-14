@@ -237,4 +237,4 @@ Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to s
 
 ### Metadata 
 
-For more details on metadata, see [Metadata](https://docs.dify.ai/guides/knowledge-base/metadata).
+For more details on metadata, see *[Metadata](https://docs.dify.ai/guides/knowledge-base/metadata)*.

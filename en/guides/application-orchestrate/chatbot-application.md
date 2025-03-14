@@ -87,4 +87,4 @@ The chatbot app does not support adding third-party tools. You can add third-par
 
 **How to use metadata filtering when creating a Chatbot?**
 
-For instructions, see “Metadata Filtering > Chatbot” section in [Integrate Knowledge Base within Application](https://docs.dify.ai/guides/knowledge-base/integrate-knowledge-within-application).
+For instructions, see **Metadata Filtering > Chatbot** in *[Integrate Knowledge Base within Application](https://docs.dify.ai/guides/knowledge-base/integrate-knowledge-within-application)*.
