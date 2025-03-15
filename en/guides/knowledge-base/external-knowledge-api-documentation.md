@@ -51,7 +51,7 @@ Each object in the `conditions` array contains the following keys:
 | comparison_operator | Yes | String | Comparison operator | `contains` |
 | value | No | String | Comparison value, can be omitted when the operator is `empty`, `not empty`, `null`, or `not null` | `"AI"` |
 
-Supported `comparison_operator` Operators
+Supported `comparison_operator` operators:
 
 - `contains`: Contains a certain value  
 - `not contains`: Does not contain a certain value  
