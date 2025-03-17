@@ -44,7 +44,7 @@ You can create, modify, and delete metadata fields in the knowledge base.
 
 #### Get Started with the Metadata Panel
 
-##### Access the Metadata Panel
+**Access the Metadata Panel**
 
 To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata**.
 
@@ -52,7 +52,7 @@ To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata
 
 ![metadata_panel](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
 
-##### Built-in vs Custom Metadata
+**Built-in vs Custom Metadata**
 
 <table border="0" cellspacing="0" cellpadding="10" style="width: 100%; border-collapse: collapse;">
     <tr>
@@ -170,7 +170,7 @@ To delete a metadata field, click the delete icon next to a field to delete it.
 
 You can edit metadata in bulk in the knowledge base.
 
-##### Access the Metadata Editor
+**Access the Metadata Editor**
 
 To access the Metadata Editor:
 
@@ -182,7 +182,7 @@ To access the Metadata Editor:
 
 ![edit_metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
 
-##### Bulk Add Metadata
+**Bulk Add Metadata**
 
 To add metadata in bulk:
 
@@ -214,7 +214,7 @@ To add metadata in bulk:
 
 3. Click **Save** to apply changes.
 
-##### Bulk Update Metadata
+**Bulk Update Metadata**
 
 To update metadata in bulk:
 
@@ -238,7 +238,7 @@ To update metadata in bulk:
 
 2. Click **Save** to apply changes.
 
-##### Set Update Scope
+**Set Update Scope**
 
 Use **Apply to All Documents** to control changes:
 
@@ -252,7 +252,7 @@ Use **Apply to All Documents** to control changes:
 
 You can edit a single document’s metadata on its details page.
 
-##### Access Metadata Edit Mode
+**Access Metadata Edit Mode**
 
 To edit a single document’s metadata:
 
@@ -262,7 +262,7 @@ On the document details page, click **Start labeling** to begin editing.
 
 ![start_labeling](https://assets-docs.dify.ai/2025/03/4806c56e324589e1711c407f6a1443de.png)
 
-##### Add Metadata
+**Add Metadata**
 
 To add a single document’s metadata fields and values:
 
@@ -289,7 +289,7 @@ To add a single document’s metadata fields and values:
 
 3. Click **Save** to apply changes.
 
-##### Edit Metadata
+**Edit Metadata**
 
 To update a single document’s metadata fields and values:
 
