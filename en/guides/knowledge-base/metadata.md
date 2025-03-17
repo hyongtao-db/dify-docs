@@ -206,11 +206,11 @@ To add metadata in bulk:
 
 2. *(Optional)* Enter values for new fields.
 
-![value_for_field](https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png)
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="value_for_field"></p>
 
 > The date picker is for time-type fields.
 
-![date_picker](https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png)
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="date_picker"></p>
 
 3. Click **Save** to apply changes.
 
@@ -242,9 +242,9 @@ To update metadata in bulk:
 
 Use **Apply to All Documents** to control changes:
 
-- **Unchecked (Default)**: Updates only documents that already have the field.
+    - **Unchecked (Default)**: Updates only documents that already have the field.
 
-- **Checked**: Adds or updates fields across all selected documents.
+    - **Checked**: Adds or updates fields across all selected documents.
 
 <p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="apply_all_changes"></p>
 
