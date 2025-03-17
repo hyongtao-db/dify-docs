@@ -14,13 +14,13 @@
 -   **字段值（Value）**：字段值是该字段的具体信息或属性，例如“Jack”“English”。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="field_name_and_value">
+  <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="Field name and value">
 </p>
 
 -   **字段值计数（Value Count）**：字段值计数是指在某条元数据字段中标记的字段值数量，包括重复项。例如，此处的“3”是字段值计数，指该字段中有 3 个独特的字段值。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
+  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="Metadata field">
 </p>
 
 -   **值类型（Value Type）**：值类型指字段值的类型。
@@ -30,7 +30,7 @@
         -   **时间**（Time）：日期和时间。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="Value type">
 </p>
 
 ## 如何管理知识库元数据？
@@ -47,9 +47,9 @@
 
 在知识库管理界面，点击右上方的 **元数据** 按钮，进入元数据管理界面。
 
-![metadata_entrance](https://assets-docs.dify.ai/2025/03/bd43305d49cc1511683b4a098c8f6e5a.png)
+![Entrance of Metadata Panel](https://assets-docs.dify.ai/2025/03/bd43305d49cc1511683b4a098c8f6e5a.png)
 
-![metadata_panel](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
+![New metadata](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
 
 **知识库元数据字段的类型**
 
@@ -117,7 +117,7 @@
 
 1.  点击 **+添加元数据** 按钮，弹出 **新建元数据** 弹窗。
 
-![new_metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
+![New metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
 
 2.  在 **字段值类型** 中选择元数据字段的值类型。
 
@@ -126,32 +126,32 @@
 > 字段名仅支持小写字母、数字和下划线（_）字符，不支持空格和大写字母。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="Value type">
 </p>
 
 4.  点击 **保存** 按钮，保存字段。
 
-![save_field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
+![Save field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
 
 #### 修改元数据字段
 
 1.  点击单条元数据字段右侧的编辑按钮，弹出 **重命名** 弹窗。
 
-![rename_field_1](https://assets-docs.dify.ai/2025/03/94327185cbe366bf99221abf2f5ef55a.png)
+![Rename field](https://assets-docs.dify.ai/2025/03/94327185cbe366bf99221abf2f5ef55a.png)
 
 2.  在 **名称** 框中修改字段名称。
 
 > 此弹窗仅支持修改字段名称，不支持修改字段值类型。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/2c84eeed42ccb052c8a2558f0d128853.png" width="350" alt="rename_field_2">
+  <img src="https://assets-docs.dify.ai/2025/03/2f814f725df9aeb1a0048e51d736d969.png" width="350" alt="Rename field">
 </p>
 
 3.  点击 **保存** 按钮，保存修改后的字段。
 
 > 修改并保存后，该字段将在知识库中的所有相关文档中同步更新。
 
-![same_renamed_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
+![Renamed field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
 #### 删除元数据字段
 
@@ -159,7 +159,7 @@
 
 > 如果删除单条字段，该字段及该字段下包含的字段值将从知识库的所有文档中删除。
 
-![delete_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
+![Delete field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
 ### 编辑文档元数据信息
 
@@ -171,17 +171,17 @@
 
 1. 打开知识库管理界面，在文档列表左侧的白色方框中勾选你希望批量操作的文档。勾选后，页面下方会弹出操作选项。
 
-![edit_metadata_entrance](https://assets-docs.dify.ai/2025/03/18b0c435604db6173acba41662474446.png)
+![Entrance of Edit Metadata](https://assets-docs.dify.ai/2025/03/18b0c435604db6173acba41662474446.png)
 
 2. 点击操作选项中的 **元数据**，弹出 **编辑元数据** 弹窗。
 
-![edit_metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
+![Edit metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
 
 **批量新增元数据信息**
 
 1.  在 **编辑元数据** 弹窗中点击底部的 **+添加元数据** 按钮，弹出操作弹窗。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="add_metadata"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="Add metadata"></p>
 
 -  如需为选中文档添加已创建的字段：
 
@@ -189,25 +189,25 @@
  
     -   可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到该文档的字段列表中。
     
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="existing_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="Existing field"></p>
 
 -  如需为选中文档新建字段，可以点击弹窗左下角的 **+新建元数据** 按钮，并参考前文的 **新建元数据字段** 章节新建字段。
     
     > 在 **+新建元数据** 弹窗中新建的元数据字段，将自动同步至知识库字段列表中。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="new_metadata_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="New metadata field"></p>
     
 -  如需管理已创建的字段，可以点击该弹窗右下角的 **管理** 按钮，跳转到知识库的管理界面。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="manage_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="Manage field"></p>
 
 2.  *（可选）* 新增字段后，在字段值框内填写该字段相应的字段值。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="value_for_field"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="Value for field"></p>
 
 -  如果值类型为 **时间**，在填写字段值时会弹出时间选择器，供你选择具体时间。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="date_picker"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="Date picker"></p>
 
 3.  点击 **保存** 按钮，保存操作。
 
@@ -219,7 +219,7 @@
 
 -   **重置字段值**： 将光标悬停在字段名左侧的蓝色圆点上，蓝点将变为 **重置** 按钮。点击蓝点，将字段框内修改后的内容重置为原始元数据值。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="reset_values"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="Reset values"></p>
 
 -   **删除字段值**：
 
@@ -227,13 +227,13 @@
 
     -   删除多个字段值：点击 **多个值** 卡片的删除图标，清空所有选中文档的该元数据字段的值。
 
-        <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="multiple_values"></p>
+        <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="Multiple values"></p>
 
 -   **删除单条元数据字段**： 点击字段最右侧的删除符号，删除该字段。删除后，该字段会被横线划掉且置灰。
     
     > 此操作仅会删除已选文档的该字段与字段值，字段本身依然保留在知识库中。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="delete_fields"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="Delete fields"></p>
 
 2.  点击 **保存** 按钮，保存操作。
 
@@ -245,7 +245,7 @@
 
     -   **是**： 如果选中该选项，编辑模式中的改动会对所有选中的文档生效。原本没有该字段的文档，会自动添加该字段。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="apply_all_changes"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="Apply all changes"></p>
 
 #### 编辑单篇文档元数据信息
 
@@ -255,22 +255,22 @@
 
 1.  在文档详情界面，点击信息栏上方的 **开始标记** 按钮。
 
-![details_page](https://assets-docs.dify.ai/2025/03/066cb8eaa89f6ec17aacd8b09f06771c.png)
+![Details page](https://assets-docs.dify.ai/2025/03/066cb8eaa89f6ec17aacd8b09f06771c.png)
 
 2.  进入文档元数据编辑模式。
 
-![start_labeling](https://assets-docs.dify.ai/2025/03/4806c56e324589e1711c407f6a1443de.png)
+![Start labeling](https://assets-docs.dify.ai/2025/03/4806c56e324589e1711c407f6a1443de.png)
 
 **新增文档元数据信息**
 
 1.  在文档的元数据编辑模式中，点击 **+添加元数据** 按钮，弹出操作弹窗。
-![add_metadata](https://assets-docs.dify.ai/2025/03/f9ba9b10bbcf6eaca787eed4fcde44da.png)
+![Add metadata](https://assets-docs.dify.ai/2025/03/f9ba9b10bbcf6eaca787eed4fcde44da.png)
 
 -  如需使用新建字段为该文档标记字段值，可以点击弹窗左下角的 **+ 新建元数据** 按钮，并参考前文的 **新建元数据字段** 章节新建字段。
 
     > 在文档页面新建的元数据字段，将自动同步至知识库字段列表中。
         
-    ![new_fields](https://assets-docs.dify.ai/2025/03/739e7e51436259fca45d16065509fabb.png)
+    ![New fields](https://assets-docs.dify.ai/2025/03/739e7e51436259fca45d16065509fabb.png)
 
 -  如需使用知识库已有的字段为该文档标记字段值，可以选择下列任意一种方式使用已有的字段：
 
@@ -278,15 +278,15 @@
 
     -   在 **搜索元数据** 搜索框中搜索你需要的字段，添加到该文档的字段列表中。
     
-    ![existing_fields](https://assets-docs.dify.ai/2025/03/5b1876e8bc2c880b3b774c97eba371ab.png)
+    ![Existing fields](https://assets-docs.dify.ai/2025/03/5b1876e8bc2c880b3b774c97eba371ab.png)
 
 -  如需管理知识库已有的字段，可以点击弹窗右下角的 **管理** 按钮，跳转到知识库的管理界面。
 
-    ![manage_metadata](https://assets-docs.dify.ai/2025/03/8dc74a1d2cdd87294e58dbc3d6dd161b.png)
+    ![Manage metadata](https://assets-docs.dify.ai/2025/03/8dc74a1d2cdd87294e58dbc3d6dd161b.png)
 
 2.  *（可选）* 添加字段后，在字段名右侧的元数据栏中填写字段值。
 
-![values_for_fields](https://assets-docs.dify.ai/2025/03/488107cbea73fd4583e043234fe2fd2e.png)
+![Values for fields](https://assets-docs.dify.ai/2025/03/488107cbea73fd4583e043234fe2fd2e.png)
 
 3.  点击右上角的 **保存** 按钮，保存字段值。
 
@@ -294,7 +294,7 @@
 
 1.  在文档的元数据编辑模式中，点击右上角的 **编辑** 按钮，进入编辑模式。
 
-![edit_mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
+![Edit mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
 
 2.  删改文档元数据信息：
     -  **删改字段值**： 在字段名右侧的字段值框内，删除或修改字段值。
@@ -305,7 +305,7 @@
 
     > 此操作仅会删除该文档的该字段与字段值，字段本身依然保留在知识库中。
 
-![edit_metadata](https://assets-docs.dify.ai/2025/03/4c0c4d83d3ad240568f316abfccc9c2c.png)
+![Edit metadata](https://assets-docs.dify.ai/2025/03/4c0c4d83d3ad240568f316abfccc9c2c.png)
 
 3.  点击右上角的 **保存** 按钮，保存修改后的字段信息。
 

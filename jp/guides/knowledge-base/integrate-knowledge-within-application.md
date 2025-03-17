@@ -89,17 +89,17 @@ Difyは現在、複数のRerankモデルをサポートしており、"モデル
 
     > 自動モードを有効にした後も、**モデル**欄で文書検索タスクを実行するための適切な大規模モデルを選択する必要があります。
 
-    ![model_selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
+    ![Model Selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
 
     - **手動モード**：ユーザーが手動でフィルタリング条件を設定し、フィルタリングルールを自由に設定できます。複雑なフィルタリング要件に適しています。
 
-![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
+![Filter mode](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
 2. **手動モード**を選択した場合は、以下の手順でフィルタリング条件を設定してください：
 
     1. **条件**ボタンをクリックすると、設定ボックスが表示されます。
     
-    ![conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
+    ![Conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
 
     2. 設定ボックスの**+条件を追加**ボタンをクリックします：
 
@@ -109,11 +109,11 @@ Difyは現在、複数のRerankモデルをサポートしており、"モデル
 
         - **メタデータを検索**検索ボックスで必要なフィールドを検索し、フィルタリング条件リストに追加することもできます。
     
-    ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
+    ![Add Condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
 
     3. 複数のフィールドを追加する必要がある場合は、**+条件を追加**ボタンを繰り返しクリックします。
 
-    ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
+    ![Add more fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
     4. フィールドタイプごとのフィルタリング条件を設定します：
 
@@ -215,13 +215,13 @@ Difyは現在、複数のRerankモデルをサポートしており、"モデル
 5. メタデータフィルタリング値を選択して追加します：
     - **変数**：**変数（Variable）**を選択し、その**チャットフロー/ワークフロー**内で文書のフィルタリングに使用する変数を選択します。
 
-    ![variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
+    ![Variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
 
     - **定数**：**定数（Constant）**を選択し、必要な定数値を手動で入力します。
 
     > **時間**フィールドタイプは定数のみを使用した文書フィルタリングをサポートしています。時間フィールドを使用して文書をフィルタリングする場合、システムは時間選択ツールを表示し、特定の時点を選択できるようにします。
 
-    ![date_picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
+    ![Date picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
 
 {% hint style="warning" %}
 定数フィルタリング値を入力する場合、そのフィルタリング値はそのメタデータフィールド値のテキストと完全に一致する必要があり、システムはその文書を返します。例えば、フィルタリング条件を `starts with "App"` または `contains "App"` に設定した場合、システムは「Apple」とマークされた文書を返しますが、「apple」や「APPLE」とマークされた文書は返しません。
@@ -231,7 +231,7 @@ Difyは現在、複数のRerankモデルをサポートしており、"モデル
     - `AND`：文書がすべてのフィルタリング条件を満たす場合にのみ、その文書を検索できます。
     - `OR`：文書がいずれかのフィルタリング条件を満たす場合、その文書を検索できます。
 
-![logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
+![Logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
 
 7. ポップアップを閉じると、システムは自動的に選択内容を保存します。
 
@@ -239,7 +239,7 @@ Difyは現在、複数のRerankモデルをサポートしており、"モデル
 
 **チャットアシスタント**では、**メタデータフィルタリング**機能はインターフェースの左下にある**コンテキスト**セクションの下に位置し、設定方法は**チャットフロー/ワークフロー**での操作と同じです。同じ手順でメタデータフィルタリング条件を設定できます。
 
-![chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
+![Chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
 
 ### ナレッジベースでリンクされたアプリを表示する
 

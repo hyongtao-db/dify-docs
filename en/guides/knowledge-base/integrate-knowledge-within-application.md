@@ -87,24 +87,24 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
 
     - **Manual:** Configure filters manually.
 
-![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
+![Filter mode](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
 2. For Manual Mode, follow these steps:
 
     1. Click **Conditions** to open the configuration panel.
 
-    ![conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
+    ![Conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
 
     2. Click **+Add Condition**:
         - Select metadata fields within your chosen knowledge base from the dropdown list.
         > Note: When multiple knowledge bases are selected, only common metadata fields are shown in the list.
         - Use the search box to find specific fields.
 
-    ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
+    ![Add Condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
 
     3. Click **+Add Condition** to add more fields.
 
-    ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
+    ![Add more fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
     4. Configure filter conditions:
 
@@ -207,13 +207,13 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
 
     - **Variable:** Select from existing **Chatflow/Workflow** variables. 
 
-    ![variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
+    ![Variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
 
     - **Constant:** Enter specific values.
 
     > Time-type fields can only be filtered by constants The date picker is for time-type fields.
 
-    ![date_picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
+    ![Date picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
 
 {% hint style="warning" %}
 Filter values are case-sensitive and require exact matches. Example: a filter `starts with “App”` or `contains “App”` will match “Apple” but not “apple” or “APPLE”.
@@ -223,7 +223,7 @@ Filter values are case-sensitive and require exact matches. Example: a filter `s
     - `AND`: Match all conditions
     - `OR`: Match any condition
 
-![logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
+![Logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
 
 7. Click outside the panel to save your settings.
 
@@ -231,7 +231,7 @@ Filter values are case-sensitive and require exact matches. Example: a filter `s
 
 Access **Metadata Filtering** below **Knowledge** (bottom-left). Configuration steps are the same as in **Chatflow/Workflow**.
 
-![chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
+![Chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
 
 ### View Linked Applications in the Knowledge Base
 

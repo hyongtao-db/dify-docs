@@ -87,17 +87,17 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
     > 启用自动模式后，你依然需要在 **模型** 栏中选择合适的大模型以执行文档检索任务。
 
-    ![model_selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
+    ![Model Selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
 
     -  **手动模式**：用户可以手动配置筛选条件，自由设置筛选规则，适用于复杂的筛选需求。
 
-![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
+![Filter mode](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
 2.  如果你选择了 **手动模式**，请参照以下步骤配置筛选条件：
 
     1.  点击 **条件** 按钮，弹出配置框。
     
-    ![conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
+    ![Conditions](https://assets-docs.dify.ai/2025/03/cd80d150f6f5646350b7ac8dfee46429.png)
 
     2. 点击配置框中的 **+添加条件** 按钮：
 
@@ -107,11 +107,11 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
         - 可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到筛选条件列表中。
     
-    ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
+    ![Add Condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
 
     3.  如果需要添加多条字段，可以重复点击 **+添加条件** 按钮。
 
-    ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
+    ![Add more fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
     4.  配置字段类型的筛选条件：
 
@@ -213,13 +213,13 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 5.  选择并添加元数据筛选值：
     -  **变量**：选择 **变量（Variable）**，并选择该**聊天流/工作流**中需要用于筛选文档的变量。
 
-    ![variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
+    ![Variable](https://assets-docs.dify.ai/2025/03/4c2c55ffcf0f72553fabdf23f86597d0.png)
 
     -  **常量**：选择 **常量（Constant）**，并手动输入你需要的常量值。
 
     > **时间** 字段类型仅支持使用常量筛选文档。如果你选用时间字段筛选文档，系统会弹出时间选择器，供你选择具体的时间节点。
 
-    ![date_picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
+    ![Date picker](https://assets-docs.dify.ai/2025/03/593da1575ddc995d938bd0cc3847cf3c.png)
 
 {% hint style="warning" %}
 当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 `starts with "App"` 或 `contains "App"` 时，系统会返回标记为 “Apple” 的文档，但不会返回标记为 “apple” 或 “APPLE” 的文档。
@@ -229,7 +229,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
     - `AND`：当一个文档满足所有筛选条件时，才能检索到该文档。
     - `OR`：只要一个文档满足其中任意一个筛选条件，就可以检索到该文档。
 
-![logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
+![Logic](https://assets-docs.dify.ai/2025/03/822dac015308dc5c01768afc0697c1ad.png)
 
 7.  关闭弹窗，系统将自动保存你的选择。
 
@@ -237,7 +237,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
 在**聊天助手**中，**元数据筛选** 功能位于界面左下方的 **上下文** 板块下方，配置方法与**聊天流/工作流**中的操作一致。你可以按照相同的步骤配置元数据筛选条件。
 
-![chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
+![Chatbot](https://assets-docs.dify.ai/2025/03/9d9a64bde687a686f24fd99d6f193c57.png)
 
 ### 在知识库内查看已关联的应用
 

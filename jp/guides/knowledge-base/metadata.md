@@ -14,13 +14,13 @@
 -   **フィールド値（Value）**：フィールド値はそのフィールドの具体的な情報や属性です。例えば「Jack」「English」。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="field_name_and_value">
+  <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="Field name and value">
 </p>
 
 -   **フィールド値カウント（Value Count）**：フィールド値カウントは、あるメタデータフィールドにマークされているフィールド値の数を指し、重複項目も含みます。例えば、ここでの「3」はフィールド値カウントであり、そのフィールドに3つのユニークなフィールド値があることを示します。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
+  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="Metadata field">
 </p>
 
 -   **値タイプ（Value Type）**：値タイプはフィールド値の種類を指します。
@@ -30,7 +30,7 @@
         -   **時間**（Time）：日付と時間。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="Value type">
 </p>
 
 ## ナレッジベースのメタデータはどのように管理するか？
@@ -47,9 +47,9 @@
 
 ナレッジベース管理インターフェースで、右上の **メタデータ** ボタンをクリックして、メタデータ管理インターフェースに入ります。
 
-![metadata_entrance](https://assets-docs.dify.ai/2025/03/bd43305d49cc1511683b4a098c8f6e5a.png)
+![Entrance of Metadata Panel](https://assets-docs.dify.ai/2025/03/bd43305d49cc1511683b4a098c8f6e5a.png)
 
-![metadata_panel](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
+![New metadata](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
 
 **ナレッジベースのメタデータフィールドの種類**
 
@@ -117,7 +117,7 @@
 
 1.  **+メタデータを追加** ボタンをクリックすると、**メタデータの新規作成** ポップアップが表示されます。
 
-![new_metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
+![New metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
 
 2.  **フィールド値タイプ** でメタデータフィールドの値タイプを選択します。
 
@@ -126,32 +126,32 @@
 > フィールド名は小文字、数字、アンダースコア（_）のみをサポートし、スペースや大文字はサポートしていません。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="Value type">
 </p>
 
 4.  **保存** ボタンをクリックして、フィールドを保存します。
 
-![save_field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
+![Save field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
 
 #### メタデータフィールドの修正
 
 1.  単一のメタデータフィールドの右側にある編集ボタンをクリックすると、**リネーム** ポップアップが表示されます。
 
-![rename_field_1](https://assets-docs.dify.ai/2025/03/94327185cbe366bf99221abf2f5ef55a.png)
+![Rename field](https://assets-docs.dify.ai/2025/03/94327185cbe366bf99221abf2f5ef55a.png)
 
 2.  **名前** ボックスでフィールド名を修正します。
 
 > このポップアップではフィールド名の修正のみをサポートし、フィールド値タイプの修正はサポートしていません。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/2c84eeed42ccb052c8a2558f0d128853.png" width="350" alt="rename_field_2">
+  <img src="https://assets-docs.dify.ai/2025/03/2f814f725df9aeb1a0048e51d736d969.png" width="350" alt="Rename field">
 </p>
 
 3.  **保存** ボタンをクリックして、修正後のフィールドを保存します。
 
 > 修正して保存すると、そのフィールドはナレッジベース内のすべての関連文書で同期更新されます。
 
-![same_renamed_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
+![Renamed field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
 #### メタデータフィールドの削除
 
@@ -159,7 +159,7 @@
 
 > 単一のフィールドを削除すると、そのフィールドおよびそのフィールドに含まれるフィールド値がナレッジベースのすべての文書から削除されます。
 
-![delete_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
+![Delete field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
 ### 文書メタデータ情報の編集
 
@@ -171,17 +171,17 @@
 
 1. ナレッジベース管理インターフェースを開き、文書リストの左側にある白いボックスで一括操作したい文書をチェックします。チェックすると、ページの下部に操作オプションが表示されます。
 
-![edit_metadata_entrance](https://assets-docs.dify.ai/2025/03/18b0c435604db6173acba41662474446.png)
+![Entrance of Edit Metadata](https://assets-docs.dify.ai/2025/03/18b0c435604db6173acba41662474446.png)
 
 2. 操作オプションの **メタデータ** をクリックすると、**メタデータの編集** ポップアップが表示されます。
 
-![edit_metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
+![Edit metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
 
 **メタデータ情報の一括追加**
 
 1.  **メタデータの編集** ポップアップの下部にある **+メタデータを追加** ボタンをクリックすると、操作ポップアップが表示されます。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="add_metadata"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="Add metadata"></p>
 
 -  選択した文書に既に作成されたフィールドを追加する場合：
 
@@ -189,25 +189,25 @@
  
     -   **メタデータを検索** 検索ボックスで必要なフィールドを検索し、その文書のフィールドリストに追加できます。
     
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="existing_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="Existing field"></p>
 
 -  選択した文書に新しいフィールドを作成する場合は、ポップアップの左下にある **+メタデータを新規作成** ボタンをクリックし、前述の **メタデータフィールドの新規作成** セクションを参照してフィールドを作成できます。
     
     > **+メタデータを新規作成** ポップアップで作成したメタデータフィールドは、自動的にナレッジベースのフィールドリストに同期されます。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="new_metadata_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="New metadata field"></p>
     
 -  既に作成されたフィールドを管理する場合は、そのポップアップの右下にある **管理** ボタンをクリックすると、ナレッジベースの管理インターフェースに移動します。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="manage_field"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="Manage field"></p>
 
 2.  *（オプション）* フィールドを追加した後、フィールド値ボックスにそのフィールドに対応するフィールド値を入力します。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="value_for_field"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="Value for field"></p>
 
 -  値タイプが **時間** の場合、フィールド値を入力する際に時間選択ツールが表示され、具体的な時間を選択できます。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="date_picker"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="Date picker"></p>
 
 3.  **保存** ボタンをクリックして、操作を保存します。
 
@@ -219,7 +219,7 @@
 
 -   **フィールド値のリセット**： カーソルをフィールド名の左側にある青い点の上に置くと、青い点は **リセット** ボタンに変わります。青い点をクリックすると、フィールドボックス内の修正された内容が元のメタデータ値にリセットされます。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="reset_values"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="Reset values"></p>
 
 -   **フィールド値の削除**：
 
@@ -227,13 +227,13 @@
 
     -   複数のフィールド値を削除する：**複数の値** カードの削除アイコンをクリックして、選択したすべての文書のそのメタデータフィールドの値を消去します。
 
-        <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="multiple_values"></p>
+        <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="Multiple values"></p>
 
 -   **単一メタデータフィールドの削除**： フィールドの最右側にある削除記号をクリックして、そのフィールドを削除します。削除後、そのフィールドは横線で消され、グレーアウトします。
     
     > この操作は選択した文書のそのフィールドとフィールド値のみを削除し、フィールド自体はナレッジベースに保持されます。
 
-    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="delete_fields"></p>
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="Delete fields"></p>
 
 2.  **保存** ボタンをクリックして、操作を保存します。
 
@@ -245,7 +245,7 @@
 
     -   **はい**： このオプションをチェックする場合、編集モードでの変更はすべての選択された文書に適用されます。元々そのフィールドを持っていなかった文書には、自動的にそのフィールドが追加されます。
 
-<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="apply_all_changes"></p>
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="Apply all changes"></p>
 
 #### 単一文書のメタデータ情報の編集
 
@@ -255,22 +255,22 @@
 
 1.  文書詳細インターフェースで、情報バーの上部にある **ラベリングを開始** ボタンをクリックします。
 
-![details_page](https://assets-docs.dify.ai/2025/03/066cb8eaa89f6ec17aacd8b09f06771c.png)
+![Details page](https://assets-docs.dify.ai/2025/03/066cb8eaa89f6ec17aacd8b09f06771c.png)
 
 2.  文書メタデータ編集モードに入ります。
 
-![start_labeling](https://assets-docs.dify.ai/2025/03/4806c56e324589e1711c407f6a1443de.png)
+![Start labeling](https://assets-docs.dify.ai/2025/03/4806c56e324589e1711c407f6a1443de.png)
 
 **メタデータの文書追加**
 
 1. 文書のメタデータ編集モードで、**+メタデータを追加**ボタンをクリックすると、操作ポップアップが表示されます。
-![add_metadata](https://assets-docs.dify.ai/2025/03/f9ba9b10bbcf6eaca787eed4fcde44da.png)
+![Add metadata](https://assets-docs.dify.ai/2025/03/f9ba9b10bbcf6eaca787eed4fcde44da.png)
 
 - 新しいフィールドを作成してその文書にフィールド値をマークしたい場合は、ポップアップの左下にある**+ メタデータを新規作成**ボタンをクリックし、前述の**メタデータフィールドの新規作成**セクションを参照してフィールドを作成できます。
 
     > 文書ページで作成された新しいメタデータフィールドは、自動的にナレッジベースのフィールドリストに同期されます。
         
-    ![new_fields](https://assets-docs.dify.ai/2025/03/739e7e51436259fca45d16065509fabb.png)
+    ![New fields](https://assets-docs.dify.ai/2025/03/739e7e51436259fca45d16065509fabb.png)
 
 - ナレッジベースに既存のフィールドを使用してその文書にフィールド値をマークしたい場合は、以下のいずれかの方法で既存のフィールドを使用できます：
 
@@ -278,15 +278,15 @@
 
     - **メタデータを検索**検索ボックスで必要なフィールドを検索し、その文書のフィールドリストに追加します。
     
-    ![existing_fields](https://assets-docs.dify.ai/2025/03/5b1876e8bc2c880b3b774c97eba371ab.png)
+    ![Existing fields](https://assets-docs.dify.ai/2025/03/5b1876e8bc2c880b3b774c97eba371ab.png)
 
 - ナレッジベースの既存のフィールドを管理したい場合は、ポップアップの右下にある**管理**ボタンをクリックして、ナレッジベースの管理インターフェースに移動します。
 
-    ![manage_metadata](https://assets-docs.dify.ai/2025/03/8dc74a1d2cdd87294e58dbc3d6dd161b.png)
+    ![Manage metadata](https://assets-docs.dify.ai/2025/03/8dc74a1d2cdd87294e58dbc3d6dd161b.png)
 
 2. *（オプション）* フィールドを追加した後、フィールド名の右側のメタデータ欄にフィールド値を入力します。
 
-![values_for_fields](https://assets-docs.dify.ai/2025/03/488107cbea73fd4583e043234fe2fd2e.png)
+![Values for fields](https://assets-docs.dify.ai/2025/03/488107cbea73fd4583e043234fe2fd2e.png)
 
 3. 右上の**保存**ボタンをクリックして、フィールド値を保存します。
 
@@ -294,7 +294,7 @@
 
 1. 文書のメタデータ編集モードで、右上の**編集**ボタンをクリックして、編集モードに入ります。
 
-![edit_mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
+![Edit mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
 
 2. 文書メタデータ情報を削除・編集します：
     - **フィールド値の削除と編集**：フィールド名の右側のフィールド値ボックス内で、フィールド値を削除または修正します。
@@ -305,7 +305,7 @@
 
     > この操作はその文書のそのフィールドとフィールド値のみを削除し、フィールド自体はナレッジベースに保持されます。
 
-![edit_metadata](https://assets-docs.dify.ai/2025/03/4c0c4d83d3ad240568f316abfccc9c2c.png)
+![Edit metadata](https://assets-docs.dify.ai/2025/03/4c0c4d83d3ad240568f316abfccc9c2c.png)
 
 3. 右上の**保存**ボタンをクリックして、修正後のフィールド情報を保存します。
 
