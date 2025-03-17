@@ -79,6 +79,7 @@
   * [アプリ内でのナレッジベース統合](guides/knowledge-base/integrate-knowledge-within-application.md)
   * [リコールテスト/引用帰属](guides/knowledge-base/retrieval-test-and-citation.md)
   * [APIによるデータセットの維持](guides/knowledge-base/maintain-dataset-via-api.md)
+  * [メタデータ](guides/knowledge-base/metadata.md)
   * [外部データツール](guides/knowledge-base/external-data-tool.md)
   * [ナレッジベースの要求頻度制限](guides/knowledge-base/knowledge-request-rate-limit.md)
   * [外部ナレッジベースとの接続](guides/knowledge-base/connect-external-knowledge-base.md)

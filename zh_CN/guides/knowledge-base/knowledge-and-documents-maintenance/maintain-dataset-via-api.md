@@ -21,7 +21,7 @@
 
 ## API 调用示例
 
-#### 通过文本创建文档
+### 通过文本创建文档
 
 此接口基于已存在知识库，在此知识库的基础上通过文本创建新的文档。
 
@@ -66,7 +66,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 }
 ```
 
-#### 通过文件创建文档
+### 通过文件创建文档
 
 此接口基于已存在知识库，在此知识库的基础上通过文件创建新的文档。
 
@@ -112,7 +112,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 
 ```
 
-#### 创建空知识库
+### 创建空知识库
 
 {% hint style="warning" %}
 仅用来创建空知识库
@@ -151,7 +151,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets' \
 }
 ```
 
-#### 知识库列表
+### 知识库列表
 
 输入示例：
 
@@ -189,7 +189,7 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets?page=1&limit=20' 
 }
 ```
 
-#### 删除知识库
+### 删除知识库
 
 输入示例：
 
@@ -204,7 +204,7 @@ curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}' 
 204 No Content
 ```
 
-#### 通过文本更新文档
+### 通过文本更新文档
 
 此接口的功能是，在已存在知识库的基础上，通过文本更新文档。
 
@@ -250,7 +250,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 
 ```
 
-#### 通过文件更新文档
+### 通过文件更新文档
 
 此接口基于已存在知识库，在此知识库的基础上通过文件更新文档的操作。
 
@@ -296,7 +296,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 
 ```
 
-#### 获取文档嵌入状态（进度）
+### 获取文档嵌入状态（进度）
 
 输入示例：
 
@@ -326,7 +326,7 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/docu
 }
 ```
 
-#### 删除文档
+### 删除文档
 
 输入示例：
 
@@ -343,7 +343,7 @@ curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/d
 }
 ```
 
-#### 知识库文档列表
+### 知识库文档列表
 
 输入示例：
 
@@ -383,7 +383,7 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/docu
 }
 ```
 
-#### 新增分段
+### 新增分段
 
 输入示例：
 
@@ -428,7 +428,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 
 ```
 
-#### 查询文档分段
+### 查询文档分段
 
 输入示例：
 
@@ -471,7 +471,7 @@ curl --location --request GET 'https://api.dify.ai/v1/datasets/{dataset_id}/docu
 }
 ```
 
-#### 删除文档分段
+### 删除文档分段
 
 输入示例：
 
@@ -489,7 +489,7 @@ curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/d
 }
 ```
 
-#### 更新文档分段
+### 更新文档分段
 
 输入示例：
 
@@ -533,7 +533,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/doc
 }
 ```
 
-#### 检索知识库
+### 检索知识库
 
 ```bash
 curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/retrieve' \
@@ -610,35 +610,7 @@ curl --location --request POST 'https://api.dify.ai/v1/datasets/{dataset_id}/ret
   ]
 }
 ```
-
-#### 错误信息
-
-示例：
-
-```bash
-  {
-    "code": "no_file_uploaded",
-    "message": "Please upload your file.",
-    "status": 400
-  }
-```
-
-| 错误信息                          | 错误码 | 原因描述                                                                                       |
-| ----------------------------- | --- | ------------------------------------------------------------------------------------------ |
-| no\_file\_uploaded            | 400 | 请上传你的文件                                                                                    |
-| too\_many\_files              | 400 | 只允许上传一个文件                                                                                  |
-| file\_too\_large              | 413 | 文件大小超出限制                                                                                   |
-| unsupported\_file\_type       | 415 | 不支持的文件类型。目前只支持以下内容格式：`txt`, `markdown`, `md`, `pdf`, `html`, `html`, `xlsx`, `docx`, `csv` |
-| high\_quality\_dataset\_only  | 400 | 当前操作仅支持"高质量"知识库                                                                            |
-| dataset\_not\_initialized     | 400 | 知识库仍在初始化或索引中。请稍候                                                                           |
-| archived\_document\_immutable | 403 | 归档文档不可编辑                                                                                   |
-| dataset\_name\_duplicate      | 409 | 知识库名称已存在，请修改你的知识库名称                                                                        |
-| invalid\_action               | 400 | 无效操作                                                                                       |
-| document\_already\_finished   | 400 | 文档已处理完成。请刷新页面或查看文档详情                                                                       |
-| document\_indexing            | 400 | 文档正在处理中，无法编辑                                                                               |
-| invalid\_metadata             | 400 | 元数据内容不正确。请检查并验证                                                                            |
-
-#### 新增知识库元数据字段
+### 新增知识库元数据字段
 
 输入示例：
 
@@ -662,7 +634,7 @@ curl --location 'https://api.dify.ai/v1/datasets/{dataset_id}/metadata' \
 }
 ```
 
-#### 修改知识库元数据字段
+### 修改知识库元数据字段
 
 输入示例：
 
@@ -685,7 +657,7 @@ curl --location --request PATCH 'https://api.dify.ai/v1/datasets/{dataset_id}/me
 }
 ```
 
-#### 删除知识库元数据字段
+### 删除知识库元数据字段
 
 输入示例：
 
@@ -700,7 +672,7 @@ curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/d
 200 success
 ```
 
-#### 启用/禁用知识库元数据中的内置字段
+### 启用/禁用知识库元数据中的内置字段
 
 输入示例：
 
@@ -715,7 +687,7 @@ curl --location --request DELETE 'https://api.dify.ai/v1/datasets/{dataset_id}/d
 200 success
 ```
 
-#### 修改文档的元数据（赋值）
+### 修改文档的元数据（赋值）
 
 输入示例：
 
@@ -745,7 +717,7 @@ curl --location 'https://api.dify.ai/v1/datasets/{dataset_id}/documents/metadata
 200 success
 ```
 
-#### 数据集的元数据列表
+### 数据集的元数据列表
 
 输入示例：
 
@@ -781,3 +753,30 @@ curl --location 'https://api.dify.ai/v1/datasets/{dataset_id}/metadata' \
   "built_in_field_enabled": true
 }
 ```
+
+### 错误信息
+
+示例：
+
+```bash
+  {
+    "code": "no_file_uploaded",
+    "message": "Please upload your file.",
+    "status": 400
+  }
+```
+
+| 错误信息                          | 错误码 | 原因描述                                                                                       |
+| ----------------------------- | --- | ------------------------------------------------------------------------------------------ |
+| no\_file\_uploaded            | 400 | 请上传你的文件                                                                                    |
+| too\_many\_files              | 400 | 只允许上传一个文件                                                                                  |
+| file\_too\_large              | 413 | 文件大小超出限制                                                                                   |
+| unsupported\_file\_type       | 415 | 不支持的文件类型。目前只支持以下内容格式：`txt`, `markdown`, `md`, `pdf`, `html`, `html`, `xlsx`, `docx`, `csv` |
+| high\_quality\_dataset\_only  | 400 | 当前操作仅支持"高质量"知识库                                                                            |
+| dataset\_not\_initialized     | 400 | 知识库仍在初始化或索引中。请稍候                                                                           |
+| archived\_document\_immutable | 403 | 归档文档不可编辑                                                                                   |
+| dataset\_name\_duplicate      | 409 | 知识库名称已存在，请修改你的知识库名称                                                                        |
+| invalid\_action               | 400 | 无效操作                                                                                       |
+| document\_already\_finished   | 400 | 文档已处理完成。请刷新页面或查看文档详情                                                                       |
+| document\_indexing            | 400 | 文档正在处理中，无法编辑                                                                               |
+| invalid\_metadata             | 400 | 元数据内容不正确。请检查并验证                                                                            |
