@@ -84,4 +84,4 @@ AIの対話範囲を[ナレッジベース](../knowledge-base/)内に制限し�
 
 **チャットアシスタントアプリケーションを作成する際に、メタデータ機能を使用してナレッジベース内の文書をフィルタリングする方法は？**
 
-メタデータ機能を使用して文書をフィルタリングする方法については、[アプリ内でのナレッジベース統合](https://docs.dify.ai/zh-hans/guides/knowledge-base/integrate-knowledge-within-application)の「**メタデータで知識をフィルタリングする > チャットアシスタント**」セクションを参照してください。
+メタデータ機能を使用して文書をフィルタリングする方法については、[アプリ内でのナレッジベース統合](https://docs.dify.ai/ja-jp/guides/knowledge-base/integrate-knowledge-within-application)の「**メタデータで知識をフィルタリングする > チャットアシスタント**」セクションを参照してください。
