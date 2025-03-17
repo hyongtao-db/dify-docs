@@ -363,7 +363,6 @@
         <tr style="background-color: #f9fafb;">
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 15%;">操作方式</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 25%;">操作方法</th>
-            <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">示例图</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">影响范围</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">结果</th>
         </tr>
@@ -372,27 +371,18 @@
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在知识库管理界面删除某条元数据字段</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在知识库管理界面，点击某条元数据字段右侧的删除图标，删除该字段。</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/13367a865d589a29b7c4098526fad5dc.png" alt="knowledge_base_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">从知识库管理列表中完全删除该元数据字段及其所有字段值。</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">该字段从知识库中移除，所有文档中的该字段及包含的所有字段值也会消失。</td>
         </tr>
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在编辑元数据弹窗中删除已选文档的某条元数据字段</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在编辑元数据弹窗中，点击某条元数据字段右侧的删除图标，删除该字段。</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/ed8c9143ba9a8eae6efcb76e309dbec1.png" alt="bulk_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">仅删除已选文档的该字段与字段值，字段本身依然保留在知识库管理列表中。</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">选中文档中的字段与字段值被移除，但字段仍保留在知识库内，字段值计数会发生数值上的变化。</td>
         </tr>
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在文档详情界面删除某条元数据字段</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">在文档详情界面中的元数据编辑模式里，点击某条元数据字段右侧的删除图标，删除该字段。</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/19d7fe886dd30a3f3322fa2a87f87203.png" alt="single_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">仅删除该文档的该字段与字段值，字段本身依然保留在知识库管理列表中。</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">该文档中的字段与字段值被移除，但字段仍保留在知识库内，字段值计数会发生数值上的变化。</td>
         </tr>

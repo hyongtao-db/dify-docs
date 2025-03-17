@@ -364,7 +364,6 @@ See *[Maintaining Dataset via API](https://docs.dify.ai/guides/knowledge-base/kn
         <tr style="background-color: #f9fafb;">
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 15%;">Action</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 25%;">Steps</th>
-            <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">Image</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">Impact</th>
             <th style="padding: 12px; border: 1px solid #e5e7eb; width: 20%;">Outcome</th>
         </tr>
@@ -373,27 +372,18 @@ See *[Maintaining Dataset via API](https://docs.dify.ai/guides/knowledge-base/kn
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Delete field in the Metadata Panel</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">In the Metadata Panel, click delete icon next to field</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/13367a865d589a29b7c4098526fad5dc.png" alt="knowledge_base_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Global - affects all documents</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Field and all values permanently deleted from the knowledge base</td>
         </tr>
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Delete field in the Metadata Editor</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">In the Metadata Editor, click delete icon next to field</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/ed8c9143ba9a8eae6efcb76e309dbec1.png" alt="bulk_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Selected documents only</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Field deleted from selected documents; remains in the knowledge base</td>
         </tr>
         <tr>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Delete field on the document detail page</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">In the Edit Mode, click delete icon next to field</td>
-            <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">
-                <img src="https://assets-docs.dify.ai/2025/03/19d7fe886dd30a3f3322fa2a87f87203.png" alt="single_delete" style="max-width: 100%; height: auto;">
-            </td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Current document only</td>
             <td style="padding: 12px; border: 1px solid #e5e7eb; vertical-align: middle;">Field deleted from current document; remains in the knowledge base</td>
         </tr>
