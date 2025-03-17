@@ -87,13 +87,13 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 
     > 启用自动模式后，你依然需要在 **模型** 栏中选择合适的大模型以执行文档检索任务。
 
-    ![model_selection](https://assets-docs.dify.ai/2025/03/3d4ca70e3340d98d0f9824958c667def.png)
+    ![model_selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
 
     -  **手动模式**：用户可以手动配置筛选条件，自由设置筛选规则，适用于复杂的筛选需求。
 
 ![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
-2.  *（可选）* 如果你选择了 **手动模式**，请参照以下步骤配置筛选条件：
+2.  如果你选择了 **手动模式**，请参照以下步骤配置筛选条件：
 
     1.  点击 **条件** 按钮，弹出配置框。
     
@@ -109,7 +109,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
     
     ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
 
-    3.  *（可选）* 如果需要添加多条字段，可以重复点击 **+添加条件** 按钮。
+    3.  如果需要添加多条字段，可以重复点击 **+添加条件** 按钮。
 
     ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
@@ -155,7 +155,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
         <td>字段的值以你输入的文本结尾。例如，如果你设置筛选条件为 <code>ends with "2024"</code>，则返回所有以"2024"结尾的文档，如“Report 2024”、“Summary 2024”等。</td>
     </tr>
     <tr>
-        <td rowspan="6"><b>数字</td>
+        <td rowspan="8"><b>数字</td>
         <td>=</td>
         <td>字段的值必须等于你输入的数字。例如，<code>= 10</code> 会匹配所有数字标记为 10 的文档。</td>
     </tr>
@@ -178,6 +178,14 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
     <tr>
         <td>≤</td>
         <td>字段的值必须小于或等于你输入的数字。例如，<code>≤ 200</code> 会返回所有数字标记为小于或等于 200 的文档。</td>
+    </tr>
+    <tr>
+        <td>is empty</td>
+        <td>字段未设置值。例如，<code>is empty</code> 会返回所有该字段未标记数字的文档。</td>
+    </tr>
+    <tr>
+        <td>is not empty</td>
+        <td>字段已设置值。例如，<code>is not empty</code> 会返回所有该字段已标记数字的文档。</td>
     </tr>
     <tr>
         <td rowspan="5"><b>时间</td>
@@ -217,7 +225,7 @@ Dify 目前支持多个 Rerank 模型，进入 “模型供应商” 页填入 R
 当你输入常量筛选值时，该筛选值必须与该元数据字段值的文本完全一致，系统才能返回该文档。例如，当你设置筛选条件为 `starts with "App"` 或 `contains "App"` 时，系统会返回标记为 “Apple” 的文档，但不会返回标记为 “apple” 或 “APPLE” 的文档。
 {% endhint %}
 
-6.  配置筛选条件之间的逻辑关系 `AND` 或 `OR`，以控制筛选的精确度。
+6.  配置筛选条件之间的逻辑关系 `AND` 或 `OR`。
     - `AND`：当一个文档满足所有筛选条件时，才能检索到该文档。
     - `OR`：只要一个文档满足其中任意一个筛选条件，就可以检索到该文档。
 

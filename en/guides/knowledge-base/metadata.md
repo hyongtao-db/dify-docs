@@ -10,20 +10,18 @@ This guide aims to help you understand metadata and effectively manage your know
 
 ### Core Concepts
 
--  **Metadata Field:** The container for specific information about a document. Think of it as a labeled box where you store particular details about your content.
-
--  **Value Count:** The number of unique values contained in a metadata field.
-
-<p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
-</p>
-
--  **Field Name:** The label of a metadata field (e.g., “author”, “language”).
+-  **Field:** The label of a metadata field (e.g., “author”, “language”).
 
 -  **Value:** The information stored in a metadata field (e.g., “Jack”, “English”).
 
 <p align="center">
   <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="field_name_and_value">
+</p>
+
+-  **Value Count:** The number of values contained in a metadata field，including duplicates. (e.g., “3”).
+
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
 </p>
 
 -  **Value Type:** The type of value a field can contain.
@@ -33,7 +31,7 @@ This guide aims to help you understand metadata and effectively manage your know
         - Time: For dates/timestamps
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/c208291ea8abae500819d195c2d52d65.png" width="280" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
 </p>
 
 ## How to Manage My Metadata?
@@ -54,20 +52,6 @@ To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata
 
 ![metadata_panel](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
 
-##### Work with the Metadata Panel
-
--   **View Metadata:** Browse built-in and custom metadata. **Built-in Metadata** is system-generated; **Custom Metadata** is user-defined.
-
--   **Add Metadata Fields:** Create new metadata fields by clicking **+Add Metadata**.
-
--   **Edit Metadata Fields:** Modify field names by clicking the edit icon next to each field.
-
--   **Delete Metadata Fields:** delete unwanted fields by clicking the the delete icon next to each field.
-
-##### Benefits
-
-**Metadata panel** centralizes field management, making it easy to organize and find documents through customizable labels.
-
 ##### Built-in vs Custom Metadata
 
 <table border="0" cellspacing="0" cellpadding="10" style="width: 100%; border-collapse: collapse;">
@@ -80,11 +64,6 @@ To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata
         <td style="text-align: center;">Location</td>
         <td>Lower section of the Metadata panel</td>
         <td>Upper section of the Metadata panel</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">Example</td>
-        <td><img src="https://assets-docs.dify.ai/2025/03/5d03e958ed936badf4eb1ca955372c8b.png" style="max-width: 100%;"></td>
-        <td><img src="https://assets-docs.dify.ai/2025/03/692a2824501f4e2f5fcc016e27159859.png" style="max-width: 100%;"></td>
     </tr>
     <tr>
         <td style="text-align: center;">Activation</td>
@@ -110,27 +89,26 @@ To access the Metadata Panel, go to **Knowledge Base** page and click **Metadata
         <td style="text-align: center;">Fields</td>
         <td>
             System-defined fields include:<br>
-            • Original filename (string)<br>
-            • Uploader (string)<br>
-            • Upload date (time)<br>
-            • Last update date (time)<br>
-            • Source (string)
+            • document_name (string)<br>
+            • uploader (string)<br>
+            • upload_date (time)<br>
+            • last_update_date (time)<br>
+            • source (string)
         </td>
         <td>No default fields; all fields must be manually created</td>
     </tr>
     <tr>
         <td style="text-align: center;">Value Types</td>
-        <td colspan="2">
-            Three supported value types:<br>
+        <td>
             • String: For text values<br>
             • Number: For numerical values<br>
             • Time: For dates and timestamps
         </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">Use Cases</td>
-        <td>Stores basic document information (filename, uploader, dates)</td>
-        <td>Supports business-specific needs (security levels, tags, categories)</td>
+        <td>
+            • String: For text values<br>
+            • Number: For numerical values<br>
+            • Time: For dates and timestamps
+        </td>
     </tr>
 </table>
 
@@ -142,22 +120,17 @@ To create a new metadata field:
 
 ![new_metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
 
-2. Choose the value type:
-    - String (for text)
-    - Number (for numerical values)
-    - Time (for dates/timestamps)
+2. Choose the value type.
 
 3. Name the field.
 
 > Naming rules: Use lowercase letters, numbers, and underscores only.
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/24e85f14d4c7c3bcade25a7abfc15467.png" width="250" alt="field_name">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
 </p>
 
 4. Click **Save** to apply changes.
-
-> Note: New fields are automatically available across all documents in your knowledge base.
 
 ![save_field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
 
@@ -174,10 +147,12 @@ To edit a metadata field:
 > Note: You can only modify the field name, not the value type.
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/216ec7d9227bb7b2a199c1bd5d3d812c.png" width="300" alt="rename_field_2">
+  <img src="https://assets-docs.dify.ai/2025/03/2f814f725df9aeb1a0048e51d736d969.png" width="350" alt="rename_field_2">
 </p>
 
 3. Click **Save** to apply changes.
+
+> Note: Field changes update across all related documents in your knowledge base.
 
 ![same_renamed_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
@@ -195,9 +170,7 @@ To delete a metadata field, click the delete icon next to a field to delete it.
 
 You can edit metadata in bulk in the knowledge base.
 
-##### Get Started with the Metadata Editor
-
-###### Access the Metadata Editor
+##### Access the Metadata Editor
 
 To access the Metadata Editor:
 
@@ -209,58 +182,35 @@ To access the Metadata Editor:
 
 ![edit_metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
 
-###### Work with the Metadata Editor
-
-- **View Metadata:** The editor shows existing metadata in the upper section and new metadata in the lower section.
-
-{% hint style="info" %}
-Field status is indicated by:
-No marker: Unchanged.
-Blue dot: Modified.
-Reset option: Appears on hover over the blue dot.
-{% endhint %}
-
-- **Edit Values:** Modify values in the field box.
-
-{% hint style="info" %}
-Single values show directly in the field box.
-Multiple values show as a “Multiple Values” card. If you delete all values, the box will show “Empty”.
-{% endhint %}
-
-- **Add Fields:** Click **+Add Metadata** to **create new fields**, **add existing fields** and **manage all fields**.
-
-- **Delete Fields:** Click the delete icon to delete a field from selected documents.
-
-- **Set Update Scope:** Choose whether to apply changes to all selected documents.
-
 ##### Bulk Add Metadata
 
 To add metadata in bulk:
 
 1. Click **+Add Metadata** in the editor to:
-![add_metadata](https://assets-docs.dify.ai/2025/03/868f51bbd6893e32bf23952c6d0aa079.png)
 
-    - Create new fields via **+New Metadata**.
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="add_metadata"></p>
+
+- Add existing fields from the dropdown or from the search box.
+
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="existing_field"></p>
+
+- Create new fields via **+New Metadata**.
     
     > New fields are automatically added to the knowledge base.
-        
-    ![new_metadata_field](https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png)
 
-    - Add existing fields from the dropdown or from the search box.
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="new_metadata_field"></p>
 
-    ![existing_field](https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png)
+- Access the Metadata Panel to manage metadata fields via **Manage**.
 
-    - Access the Metadata Panel to manage metadata fields via **Manage**.
-
-    ![manage_field](https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png)
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="manage_field"></p>
 
 2. *(Optional)* Enter values for new fields.
 
-![value_for_field](https://assets-docs.dify.ai/2025/03/34c77cbf60fa524456aa8f3df8d7a576.png)
+![value_for_field](https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png)
 
 > The date picker is for time-type fields.
 
-![date_picker](https://assets-docs.dify.ai/2025/03/8c991925c204703a4dceab42a23d684e.png)
+![date_picker](https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png)
 
 3. Click **Save** to apply changes.
 
@@ -269,18 +219,22 @@ To add metadata in bulk:
 To update metadata in bulk:
 
 1. In the editor:
-    - **Add Values:** Type directly in the field boxes.
 
-    - **Reset Values:** Click the blue dot that appears on hover.
-    ![reset_values](https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png)
+- **Add Values:** Type directly in the field boxes.
 
-    - **Delete Values:** Clear the field or delete the **Multiple Value** card.
-    ![multiple_values](https://assets-docs.dify.ai/2025/03/9cea5f8d4e2f1fb5bbd4812c875210f4.png)
+- **Reset Values:** Click the blue dot that appears on hover.
 
-    - **Delete fields:** Click the delete icon (fields appear struck through and grayed out).
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="reset_values"></p>
+
+- **Delete Values:** Clear the field or delete the **Multiple Value** card.
+
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="multiple_values"></p>
+
+- **Delete fields:** Click the delete icon (fields appear struck through and grayed out).
+
     > Note: This only deletes the field from this document, not from your knowledge base.
 
-     ![delete_fields](https://assets-docs.dify.ai/2025/03/ed8c9143ba9a8eae6efcb76e309dbec1.png)
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="delete_fields"></p>
 
 2. Click **Save** to apply changes.
 
@@ -292,7 +246,7 @@ Use **Apply to All Documents** to control changes:
 
 - **Checked**: Adds or updates fields across all selected documents.
 
-![apply_all_changes](https://assets-docs.dify.ai/2025/03/4f95cdd2daef1cdbc63f8e249da71f1c.png)
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="apply_all_changes"></p>
 
 #### Edit Metadata on the Document Details Page
 
@@ -445,13 +399,3 @@ See *[Maintaining Dataset via API](https://docs.dify.ai/guides/knowledge-base/kn
         </tr>
     </tbody>
 </table>
-
-- **Can I see values in the Metadata Panel?**
-
-The management panel only shows value counts (e.g., "24 values"). Please check the document details page to see specific values.
-
-- **Can I delete a specific value in the Metadata Editor?**
-
-No - bulk edit only deletes all values at once. 
-
-To delete a specific value, go to the document details page and follow the steps in **Edit Metadata on the Document Details Page > Edit Metadata**.

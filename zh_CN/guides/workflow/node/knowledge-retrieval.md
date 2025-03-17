@@ -28,7 +28,7 @@
 4. 指定[召回模式](../../../learn-more/extended-reading/retrieval-augment/retrieval.md)。自 9 月 1 日后，知识库的召回模式将自动切换为多路召回，不再建议使用 N 选 1 召回模式；
 5. 连接并配置下游节点，一般为 LLM 节点；
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption><p>知识检索配置</p></figcaption></figure>
+<figure><img src="https://assets-docs.dify.ai/2025/03/f33b9a3ff1c9468fb5d7c1de4c1e02d6.png" alt=""><figcaption><p>知识检索配置</p></figcaption></figure>
 
 **输出变量**
 

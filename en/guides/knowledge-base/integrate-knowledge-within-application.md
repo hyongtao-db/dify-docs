@@ -83,13 +83,13 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
 
     > Note: Automatic Mode requires model selection for document retrieval.
 
-    ![model_selection](https://assets-docs.dify.ai/2025/03/3d4ca70e3340d98d0f9824958c667def.png)
+    ![model_selection](https://assets-docs.dify.ai/2025/03/fe387793ad9923660f9f9470aacff01b.png)
 
     - **Manual:** Configure filters manually.
 
 ![](https://assets-docs.dify.ai/2025/03/ec6329e265e035e3a0d6941c9313a19d.png)
 
-2. *(Optional)* For Manual Mode, follow these steps:
+2. For Manual Mode, follow these steps:
 
     1. Click **Conditions** to open the configuration panel.
 
@@ -102,7 +102,7 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
 
     ![add_condition](https://assets-docs.dify.ai/2025/03/72678c4174f753f306378b748fbe6635.png)
 
-    3. *(Optional)* Click **+Add Condition** to add more fields.
+    3. Click **+Add Condition** to add more fields.
 
     ![add_more_fields](https://assets-docs.dify.ai/2025/03/aeb518c40aabdf467c9d2c23016d0a16.png)
 
@@ -148,7 +148,7 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
         <td>Matches text at end. Example: <code>ends with "2024"</code> returns “Report 2024”, “Summary 2024”, etc.</td>
     </tr>
     <tr>
-        <td rowspan="6">Number</td>
+        <td rowspan="8">Number</td>
         <td>=</td>
         <td>Exact number match. Example: <code>= 10</code> returns documents marked with exactly 10.</td>
     </tr>
@@ -171,6 +171,14 @@ The **Knowledge Retrieval** node allows you to filter documents using metadata f
     <tr>
         <td>≤</td>
         <td>Less than or equal to. Example: <code>≤ 200</code> returns documents with values 200 or lower.</td>
+    </tr>
+    <tr>
+        <td>is empty</td>
+        <td>Field has no value assigned. For example, <code>is empty</code> returns all documents where this field has no number assigned.</td>
+    </tr>
+    <tr>
+        <td>is not empty</td>
+        <td>Field has a value assigned. For example, <code>is not empty</code> returns all documents where this field has a number assigned.</td>
     </tr>
     <tr>
         <td rowspan="5">Date</td>

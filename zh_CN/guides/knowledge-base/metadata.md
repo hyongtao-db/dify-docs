@@ -7,17 +7,9 @@
 元数据是用于描述其他数据的信息。简单来说，它是“关于数据的数据”。它就像一本书的目录或标签，可以为你介绍数据的内容、来源和用途。
 通过提供数据的上下文，元数据能帮助你在知识库内快速查找和管理数据。
 
-### 其他相关定义
+### 知识库元数据定义
 
--   **元数据字段（Metadata Field）**：元数据字段是用于描述文档特定属性的标识项，每个字段代表文档的某个特征或信息。例如，“author”字段用于描述该文档的作者。
-
--   **字段值计数（Value Count）**：字段值计数是指在某条元数据字段中不同字段值的数量。例如，此处的“3”是字段值计数，指该字段中有 3 个独特的字段值。
-
-<p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
-</p>
-
--   **字段名（Field Name）**：字段名是对该元数据的简短描述，它表示该字段所代表的内容。例如“author”“language”等。
+-   **字段（Field）**：元数据字段是用于描述文档特定属性的标识项，每个字段代表文档的某个特征或信息。例如“author”“language”等。
 
 -   **字段值（Value）**：字段值是该字段的具体信息或属性，例如“Jack”“English”。
 
@@ -25,14 +17,20 @@
   <img src="https://assets-docs.dify.ai/2025/03/b6a197aa21ab92db93869fcbfa156b62.png" width="300" alt="field_name_and_value">
 </p>
 
+-   **字段值计数（Value Count）**：字段值计数是指在某条元数据字段中标记的字段值数量，包括重复项。例如，此处的“3”是字段值计数，指该字段中有 3 个独特的字段值。
+
+<p align="center">
+  <img src="https://assets-docs.dify.ai/2025/03/330f26e90438cf50167c4cb6ce30e458.png" width="300" alt="metadata_field">
+</p>
+
 -   **值类型（Value Type）**：值类型指字段值的类型。
-    -   目前，Dify 的元数据功能仅支持以下三种值类型：
+    -   目前，Dify 的元数据功能支持以下三种值类型：
         -   **字符串**（String）：文本值。
         -   **数字**（Number）：数值。
         -   **时间**（Time）：日期和时间。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/c208291ea8abae500819d195c2d52d65.png" width="280" alt="value_type">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
 </p>
 
 ## 如何管理知识库元数据？
@@ -45,28 +43,13 @@
 
 #### 元数据管理界面简介
 
-##### 入口
+##### 进入元数据管理界面
 
 在知识库管理界面，点击右上方的 **元数据** 按钮，进入元数据管理界面。
 
 ![metadata_entrance](https://assets-docs.dify.ai/2025/03/bd43305d49cc1511683b4a098c8f6e5a.png)
 
 ![metadata_panel](https://assets-docs.dify.ai/2025/03/6000c85b5d2e29a2a5af5e0a047a7a59.png)
-
-##### 功能
-
--   **查看元数据字段**：你可以查看知识库的内置元数据和自定义元数据。**内置元数据（Built-in）** 是系统自动生成的字段；**自定义元数据** 是用户根据需求手动添加的字段。
-
--   **新增元数据字段**：通过点击 **+添加元数据** 按钮，你可以添加新的元数据字段并选择字段值类型与填写字段名。
-
--   **编辑元数据字段**：通过点击每条元数据字段旁的编辑图标，你可以修改字段的名称。
-
--   **删除元数据字段**：通过点击每条元数据字段旁的删除图标，你可以移除不再需要的字段。
-
-
-##### 价值
-
-**元数据管理界面支持用户集中管理知识库中的元数据字段。** 这一界面能帮助用户灵活地调整文档的标识属性，使得文档在检索和访问时更加高效、准确。
 
 ##### 知识库元数据字段的类型
 
@@ -82,11 +65,6 @@
         <td style="text-align: center;">显示位置</td>
         <td>知识库界面 元数据 栏的下半部分。</td>
         <td>知识库界面 元数据 栏的上半部分。</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">示例图</td>
-        <td><img src="https://assets-docs.dify.ai/2025/03/5d03e958ed936badf4eb1ca955372c8b.png" style="max-width: 100%;"></td>
-        <td><img src="https://assets-docs.dify.ai/2025/03/692a2824501f4e2f5fcc016e27159859.png" style="max-width: 100%;"></td>
     </tr>
     <tr>
         <td style="text-align: center;">启用方式</td>
@@ -112,27 +90,26 @@
         <td style="text-align: center;">字段</td>
         <td>
             由系统预定义，包括：<br>
-            • Original filename (string)：原始文件名<br>
-            • Uploader (string)：上传者<br>
-            • Upload date (time)：上传日期<br>
-            • Last update date (time)：最后更新时间<br>
-            • Source (string)：文件来源
+            • document_name (string)：文件名<br>
+            • uploader (string)：上传者<br>
+            • upload_date (time)：上传日期<br>
+            • last_update_date (time)：最后更新时间<br>
+            • source (string)：文件来源
         </td>
         <td>在初始状态下，知识库无自定义元数据字段，需要用户手动添加。</td>
     </tr>
     <tr>
         <td style="text-align: center;">字段值类型</td>
-        <td colspan="2">
-            用户可以自由选择字段值类型，目前，Dify的元数据功能仅支持以下三种值类型：<br>
+        <td>
             • 字符串 (string)：文本值<br>
             • 数字 (number)：数值<br>
             • 时间 (time)：日期和时间
         </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">使用场景</td>
-        <td>适用于存储和展示文档的基本信息，如文件名、上传者、上传日期等。</td>
-        <td>适用于需要根据特定业务需求自定义的元数据字段，如文档的保密级别、标签等。</td>
+        <td>
+            • 字符串 (string)：文本值<br>
+            • 数字 (number)：数值<br>
+            • 时间 (time)：日期和时间
+        </td>
     </tr>
 </table>
 
@@ -143,21 +120,16 @@
 ![new_metadata](https://assets-docs.dify.ai/2025/03/5086db42c40be64e54926b645c38c9a0.png)
 
 2.  在 **字段值类型** 中选择元数据字段的值类型。
-    -   **字符串**（String）：文本值。
-    -   **数字**（Number）：数值。
-    -   **时间**（Time）：日期和时间。
 
 3.  在 **名称** 框中填写字段的名称。
 
 > 字段名仅支持小写字母、数字和下划线（_）字符，不支持空格和大写字母。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/24e85f14d4c7c3bcade25a7abfc15467.png" width="250" alt="field_name">
+  <img src="https://assets-docs.dify.ai/2025/03/f6adc7418869334805361535c8cd6874.png" width="300" alt="value_type">
 </p>
 
 4.  点击 **保存** 按钮，保存字段。
-
-> 如果新建单条字段，该字段将在知识库的所有文档中同步更新。
 
 ![save_field](https://assets-docs.dify.ai/2025/03/f44114cc58d4ba11ba60adb2d04c9b4c.png)
 
@@ -172,10 +144,12 @@
 > 此弹窗仅支持修改字段名称，不支持修改字段值类型。
 
 <p align="center">
-  <img src="https://assets-docs.dify.ai/2025/03/216ec7d9227bb7b2a199c1bd5d3d812c.png" width="300" alt="rename_field_2">
+  <img src="https://assets-docs.dify.ai/2025/03/2c84eeed42ccb052c8a2558f0d128853.png" width="350" alt="rename_field_2">
 </p>
 
 3.  点击 **保存** 按钮，保存修改后的字段。
+
+> 修改并保存后，该字段将在知识库中的所有相关文档中同步更新。
 
 ![same_renamed_field](https://assets-docs.dify.ai/2025/03/022e42c170b40c35622b9b156c8cc159.png)
 
@@ -193,9 +167,7 @@
 
 你可以在知识库管理界面批量编辑文档的元数据信息。
 
-##### 编辑元数据弹窗简介
-
-###### 入口
+##### 打开编辑元数据弹窗
 
 1. 打开知识库管理界面，在文档列表左侧的白色方框中勾选你希望批量操作的文档。勾选后，页面下方会弹出操作选项。
 
@@ -205,59 +177,37 @@
 
 ![edit_metadata](https://assets-docs.dify.ai/2025/03/719f3c31498f23747fed7d7349fd64ba.png)
 
-###### 功能
-
--   **查看选中文档的元数据信息：** 在弹窗的上半部分的 **已有元数据** 区和下半部分的 **新增元数据** 区，你会看到所有选中文档的元数据字段和此次操作新增的元数据字段。
-
-{% hint style="info" %}
-每个字段的左侧会显示该字段的编辑状态：
-未编辑：字段左侧为空白，表示该字段未进行修改。
-已编辑：字段左侧显示蓝色圆点，表示该字段已经被编辑。
-重置：将光标悬停在蓝色圆点上时，圆点会变为 **重置** 按钮。点击后，该字段的内容会恢复到未编辑时的状态。
-{% endhint %}
-
--   **删改字段值：** 你可以在每条字段右侧的矩形框中删改其字段值。
-
-{% hint style="info" %}
-如果某个字段只有一个值，你会看到该字段的值直接显示在字段右侧的矩形框中，可以直接修改或删除。
-如果某个字段有多个值，矩形框内会显示 **多个值** 卡片。如果删除该卡片，所有选中文档的该字段值将被清空，矩形框内会显示 **空** 标识。
-{% endhint %}
-
--   **新增元数据字段：** 如果你需要为选中的文档添加新的元数据字段，可以点击弹窗正下方的 **+添加元数据** 按钮，在弹出的弹窗中 **新建字段、添加已创建的字段** 或 **管理已创建的字段**。
-
--   **删除元数据字段：** 通过点击每条元数据字段旁边的 **删除** 标识，你可以删除所有选中文档的该字段。
-
--   **选择是否将操作应用于所有选中的文档：** 通过界面底部的选框，你可以选择是否将编辑后的元数据内容应用于所有选中的文档。
-
 ##### 批量新增元数据信息
 
 1.  在 **编辑元数据** 弹窗中点击底部的 **+添加元数据** 按钮，弹出操作弹窗。
-![add_metadata](https://assets-docs.dify.ai/2025/03/868f51bbd6893e32bf23952c6d0aa079.png)
 
-    -  如需为选中文档新建字段，可以点击弹窗下方的 **+新建元数据** 按钮，并参考前文的 **新建元数据字段** 章节新建字段。
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/d4e4f87447c3e445d5b7507df1126c7b.png" width="400" alt="add_metadata"></p>
+
+-  如需为选中文档添加已创建的字段：
+
+    -   可以从下拉列表中选择已有的字段，添加到字段列表中。
+ 
+    -   可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到该文档的字段列表中。
     
-     > 在 **编辑元数据** 弹窗中新建的元数据字段，将自动同步至知识库字段列表中。
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png" width="400" alt="existing_field"></p>
 
-    ![new_metadata_field](https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png)
-
-    -  如需为选中文档添加已创建的字段：
-
-        -   可以从下拉列表中选择已有的字段，添加到字段列表中。
-
-        -   可以在 **搜索元数据** 搜索框中搜索你需要的字段，添加到该文档的字段列表中。
+-  如需为选中文档新建字段，可以点击弹窗左下角的 **+新建元数据** 按钮，并参考前文的 **新建元数据字段** 章节新建字段。
     
-    ![existing_field](https://assets-docs.dify.ai/2025/03/ea9aab2c4071bf2ec75409b05725ac1f.png)
-    
-    -  如需管理已创建的字段，可以点击该弹窗右下角的 **管理** 按钮，跳转到知识库的管理界面。
+    > 在 **+新建元数据** 弹窗中新建的元数据字段，将自动同步至知识库字段列表中。
 
-    ![manage_field](https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png)
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/e32211f56421f61b788943ba40c6959e.png" width="400" alt="new_metadata_field"></p>
+    
+-  如需管理已创建的字段，可以点击该弹窗右下角的 **管理** 按钮，跳转到知识库的管理界面。
+
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/82561edeb747b100c5295483c6238ffa.png" width="400" alt="manage_field"></p>
 
 2.  *（可选）* 新增字段后，在字段值框内填写该字段相应的字段值。
-![value_for_field](https://assets-docs.dify.ai/2025/03/34c77cbf60fa524456aa8f3df8d7a576.png)
 
-    -  如果值类型为 **时间**，在填写字段值时会弹出时间选择器，供你选择具体时间。
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/aabfe789f607a1db9062beb493213376.png" width="400" alt="value_for_field"></p>
 
-    ![date_picker](https://assets-docs.dify.ai/2025/03/8c991925c204703a4dceab42a23d684e.png)
+-  如果值类型为 **时间**，在填写字段值时会弹出时间选择器，供你选择具体时间。
+
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/65df828e605ebfb4947fccce189520a3.png" width="440" alt="date_picker"></p>
 
 3.  点击 **保存** 按钮，保存操作。
 
@@ -265,35 +215,37 @@
 
 1.  在 **编辑元数据** 弹窗中删改元数据信息：
 
-    -   **添加字段值：** 在需要添加元数据值的字段框内直接输入所需值。
+-   **添加字段值**： 在需要添加元数据值的字段框内直接输入所需值。
 
-    -   **重置字段值：** 将光标悬停在字段名左侧的蓝色圆点上，蓝点将变为 **重置** 按钮。点击蓝点，将字段框内修改后的内容重置为原始元数据值。
-    ![reset_values](https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png)
+-   **重置字段值**： 将光标悬停在字段名左侧的蓝色圆点上，蓝点将变为 **重置** 按钮。点击蓝点，将字段框内修改后的内容重置为原始元数据值。
 
-    -   **删除字段值：**
-        -   删除一个字段值：在需要删除字段值的字段框内直接删除该字段值。
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/01c0cde5a6eafa48e1c6e5438fc2fa6b.png" width="400" alt="reset_values"></p>
 
-        -   删除多个字段值：点击 **多个值** 卡片的删除图标，清空所有选中文档的该元数据字段的值。
+-   **删除字段值**：
 
-        ![multiple_values](https://assets-docs.dify.ai/2025/03/9cea5f8d4e2f1fb5bbd4812c875210f4.png)
+    -   删除一个字段值：在需要删除字段值的字段框内直接删除该字段值。
 
-    -   **删除单条元数据字段：** 点击字段最右侧的删除符号，删除该字段。删除后，该字段会被横线划掉且置灰。
+    -   删除多个字段值：点击 **多个值** 卡片的删除图标，清空所有选中文档的该元数据字段的值。
+
+        <p align="center"><img src="https://assets-docs.dify.ai/2025/03/5c4323095644d2658881b783246914f1.png" width="400" alt="multiple_values"></p>
+
+-   **删除单条元数据字段**： 点击字段最右侧的删除符号，删除该字段。删除后，该字段会被横线划掉且置灰。
     
-        > 此操作仅会删除已选文档的该字段与字段值，字段本身依然保留在知识库中。
-        
-        ![delete_fields](https://assets-docs.dify.ai/2025/03/ed8c9143ba9a8eae6efcb76e309dbec1.png)
+    > 此操作仅会删除已选文档的该字段与字段值，字段本身依然保留在知识库中。
+
+    <p align="center"><img src="https://assets-docs.dify.ai/2025/03/1b0318b898f951e307e3dc8cdc2f48d3.png" width="400" alt="delete_fields"></p>
 
 2.  点击 **保存** 按钮，保存操作。
 
 ##### 调整批量操作的应用范围
 
-你可以使用 **编辑元数据** 弹窗左下角的 **应用于所有文档** 选框来调整编辑模式中改动的应用范围。
+- **调整批量操作的应用范围**： 你可以使用 **编辑元数据** 弹窗左下角的 **应用于所有文档** 选框来调整编辑模式中改动的应用范围。
 
--   **否（默认）：** 如果不选中该选项，编辑模式中的改动仅对原本已有该元数据字段的文档生效，其他文档不会受到影响。
+-   **否（默认）**： 如果不选中该选项，编辑模式中的改动仅对原本已有该元数据字段的文档生效，其他文档不会受到影响。
 
--   **是：** 如果选中该选项，编辑模式中的改动会对所有选中的文档生效。原本没有该字段的文档，会自动添加该字段。
+-   **是**： 如果选中该选项，编辑模式中的改动会对所有选中的文档生效。原本没有该字段的文档，会自动添加该字段。
 
-![apply_all_changes](https://assets-docs.dify.ai/2025/03/4f95cdd2daef1cdbc63f8e249da71f1c.png)
+<p align="center"><img src="https://assets-docs.dify.ai/2025/03/4550c68960802c24271492b63a39ad05.png" width="400" alt="apply_all_changes"></p>
 
 #### 编辑单篇文档元数据信息
 
@@ -332,7 +284,6 @@
 
     ![manage_metadata](https://assets-docs.dify.ai/2025/03/8dc74a1d2cdd87294e58dbc3d6dd161b.png)
 
-
 2.  *（可选）* 添加字段后，在字段名右侧的元数据栏中填写字段值。
 
 ![values_for_fields](https://assets-docs.dify.ai/2025/03/488107cbea73fd4583e043234fe2fd2e.png)
@@ -346,11 +297,11 @@
 ![edit_mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
 
 2.  删改文档元数据信息：
-    -  **删改字段值：** 在字段名右侧的字段值框内，删除或修改字段值。
+    -  **删改字段值**： 在字段名右侧的字段值框内，删除或修改字段值。
 
     > 此模式仅支持修改字段值，不支持修改字段名。
 
-    -  **删除字段：** 点击字段值框右侧的删除按钮，删除字段。
+    -  **删除字段**： 点击字段值框右侧的删除按钮，删除字段。
 
     > 此操作仅会删除该文档的该字段与字段值，字段本身依然保留在知识库中。
 
@@ -447,15 +398,3 @@
         </tr>
     </tbody>
 </table>
-
-- **我可以在知识库管理界面查看我设置的元数据值吗？**
-
-目前，在知识库管理界面，你只能看到每条元数据字段的字段值计数（如“3 values”），无法查看字段值的具体内容。
-
-如果你需要查看字段值的具体内容，可以在单个文档的详情界面中查看。
-
-- **我可以在编辑元数据弹窗中删除单个元数据值吗？**
-
-在 **编辑元数据弹窗** 中，你只能删除 **多个值** 卡片。删除该卡片将清空所有选中文档的该元数据字段的值。
-
-如果你想删除单个元数据值，你需要进入对应文档的详情界面，并参照前文的 **编辑单篇文档的元数据值 > 删改文档元数据信息值** 章节进行操作。
