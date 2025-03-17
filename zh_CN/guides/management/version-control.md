@@ -96,7 +96,7 @@
 -   如果你之前以默认名称保存了该版本，可以点击 **命名此版本**，更新版本名与版本信息。
 
 <p align="center">
-    <img src="https://assets-docs.dify.ai/2025/03/1d840edf979132a9bbf1e065f95e663c.jpg" width="200" alt="edit_version_info_1">
+    <img src="https://assets-docs.dify.ai/2025/03/ac149f63da6611d7080d305dd3fad65c.jpg" width="200" alt="edit_version_info_1">
 </p>
 
 -   如果你已经为该版本填写过版本名，可以点击 **编辑版本信息** 修改版本名与版本信息。
