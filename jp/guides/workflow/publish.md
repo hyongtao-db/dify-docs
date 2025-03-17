@@ -18,5 +18,5 @@
 * ツールとして公開
 
 {% hint style="info" %}
-複数バージョンのチャットフロー/ワークフローを管理する場合は、[バージョン管理](https://docs.dify.ai/ja-jp/guides/management/version-control)を参照してください。
+複数バージョンのチャットフローやワークフローを管理する場合は、[バージョン管理](https://docs.dify.ai/ja-jp/guides/management/version-control)を参照してください。
 {% endhint %}
