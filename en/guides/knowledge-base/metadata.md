@@ -298,6 +298,7 @@ To update a single document’s metadata fields and values:
 ![edit_mode](https://assets-docs.dify.ai/2025/03/bb33a0f9c6980300c0f979f8dc0d274d.png)
 
 2. Edit metadata:
+
     - **Update Values:** Type directly in value fields or delete it.
 
     > Note: You can only modify the value, not the value name.
