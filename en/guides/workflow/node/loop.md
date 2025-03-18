@@ -1,5 +1,7 @@
 # Loop
 
+## What is Loop Node?
+
 A **Loop** node executes repetitive tasks that depend on previous iteration results until exit conditions are met or the maximum loop count is reached.
 
 ## Loop vs. Iteration
