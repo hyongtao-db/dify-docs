@@ -689,7 +689,3 @@ curl --location 'https://api.dify.ai/v1/datasets/{dataset_id}/metadata' \
 | document\_already\_finished   | 400    | ドキュメントの処理がすでに完了しています。ページを更新するか、ドキュメントの詳細を確認してください                                                      |
 | document\_indexing            | 400    | ドキュメントが処理中のため、編集できません                                                                                  |
 | invalid\_metadata             | 400    | メタデータの内容が正しくありません。確認して検証してください                                                                         |
-
-
-
-
