@@ -48,7 +48,7 @@
     * [リスト処理](guides/workflow/node/list-operator.md)
     * [変数集約](guides/workflow/node/variable-aggregator.md)
     * [変数代入](guides/workflow/node/variable-assigner.md)
-    * [イテレーション](guides/workflow/node/iteration.md)
+    * [反復処理（イテレーション）](guides/workflow/node/iteration.md)
     * [パラメータ抽出](guides/workflow/node/parameter-extractor.md)
     * [HTTPリクエスト](guides/workflow/node/http-request.md)
     * [ツール](guides/workflow/node/tools.md)
