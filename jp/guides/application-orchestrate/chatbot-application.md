@@ -82,6 +82,6 @@ AIの対話範囲を[ナレッジベース](../knowledge-base/)内に制限し�
 
 チャットボットアプリは、サードパーティツールの追加をサポートしていません。[エージェント](../application-orchestrate/agent.md) 内でサードパーティツールを追加できます。
 
-**チャットアシスタントアプリケーションを作成する際に、メタデータ機能を使用してナレッジベース内の文書をフィルタリングする方法は？**
+**チャットボット作成時のメタデータフィルタリング活用方法とは？ **
 
-メタデータ機能を使用して文書をフィルタリングする方法については、[アプリ内でのナレッジベース統合](https://docs.dify.ai/ja-jp/guides/knowledge-base/integrate-knowledge-within-application)の「**メタデータで知識をフィルタリングする > チャットアシスタント**」セクションを参照してください。
+詳細な手順は、[アプリ内でのナレッジベース統合](https://docs.dify.ai/ja-jp/guides/knowledge-base/integrate-knowledge-within-application)の「**メタデータフィルタリング → チャットボット**」をご確認ください。
