@@ -58,7 +58,7 @@
 
 終了条件では、ループ内の変数やセッションのグローバル変数を指定でき、柔軟な終了判定が可能です。
 
-![configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
+![Configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
 
 ## 使用例：繰り返し処理（ループ）ノードの活用
 
@@ -76,7 +76,7 @@
 
 4. ランダムな数値が `50` 未満になると、ループは自動的に停止。
 
-![case_steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
+![Steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
 
 ## 今後の拡張
 

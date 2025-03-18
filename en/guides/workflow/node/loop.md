@@ -52,7 +52,7 @@ A **Loop** node executes repetitive tasks that depend on previous iteration resu
   </tbody>
 </table>
 
-![configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
+![Configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
 
 ## Usage Example
 
@@ -72,7 +72,7 @@ A **Loop** node executes repetitive tasks that depend on previous iteration resu
 
 4. Loop ends when a number below 50 appears.
 
-![case_steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
+![Steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
 
 ## Planned Enhancements
 

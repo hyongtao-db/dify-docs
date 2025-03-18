@@ -58,7 +58,7 @@
 
 你可以在 **循环退出条件** 中使用循环体内的变量或会话中的全局变量，让循环按照你的需求停止。
 
-![configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
+![Configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
 
 ## 示例：如何使用循环节点？
 
@@ -78,7 +78,7 @@
 
 4. 循环将在随机数小于 `50` 时自动停止。
 
-![case_steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
+![Case steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
 
 ## 未来扩展
 
