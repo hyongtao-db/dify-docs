@@ -53,6 +53,7 @@
     * [工具](guides/workflow/node/tools.md)
     * [结束](guides/workflow/node/end.md)
     * [直接回复](guides/workflow/node/answer.md)
+    * [循环](guides/workflow/node/loop.md)
   * [快捷键](guides/workflow/shortcut-key.md)
   * [编排节点](guides/workflow/orchestrate-node.md)
   * [文件上传](guides/workflow/file-upload.md)
@@ -78,8 +79,10 @@
   * [管理知识库](guides/knowledge-base/knowledge-and-documents-maintenance/README.md)
     * [维护知识库内文档](guides/knowledge-base/knowledge-and-documents-maintenance/maintain-knowledge-documents.md)
     * [通过 API 维护知识库](guides/knowledge-base/knowledge-and-documents-maintenance/maintain-dataset-via-api.md)
+  * [元数据](guides/knowledge-base/metadata.md)
   * [在应用内集成知识库](guides/knowledge-base/integrate-knowledge-within-application.md)
   * [召回测试/引用归属](guides/knowledge-base/retrieval-test-and-citation.md)
+  * [知识库请求频率限制](guides/knowledge-base/knowledge-request-rate-limit.md)
   * [连接外部知识库](guides/knowledge-base/connect-external-knowledge-base.md)
   * [外部知识库 API](guides/knowledge-base/external-knowledge-api-documentation.md)
 * [工具](guides/tools/README.md)
@@ -130,6 +133,7 @@
   * [团队成员管理](guides/management/team-members-management.md)
   * [个人账号管理](guides/management/personal-account-management.md)
   * [订阅管理](guides/management/subscription-management.md)
+  * [版本管理](guides/management/version-control.md)
 
 ## 动手实验室 <a href="#workshop" id="workshop"></a>
 
@@ -226,6 +230,7 @@
   * [如何连接 AWS Bedrock 知识库？](learn-more/use-cases/how-to-connect-aws-bedrock.md)
   * [构建 Dify 应用定时任务助手](learn-more/use-cases/dify-schedule.md)
   * [如何在 Dify 内体验大模型“竞技场”？以 DeepSeek R1 VS o1 为例](learn-more/use-cases/dify-model-arena.md)
+  * [在 Dify 云端构建 AI Thesis Slack Bot](learn-more/use-cases/building-an-ai-thesis-slack-bot.md)
 * [扩展阅读](learn-more/extended-reading/README.md)
   * [什么是 LLMOps？](learn-more/extended-reading/what-is-llmops.md)
   * [什么是数组变量？](learn-more/extended-reading/what-is-array-variable.md)

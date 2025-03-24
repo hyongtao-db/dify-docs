@@ -329,7 +329,7 @@ class GoogleProvider(ToolProvider):
 
 ```bash
 INSTALL_METHOD=remote
-REMOTE_INSTALL_HOST=localhost
+REMOTE_INSTALL_HOST=remote
 REMOTE_INSTALL_PORT=5003
 REMOTE_INSTALL_KEY=****-****-****-****-****
 ```
@@ -342,7 +342,9 @@ REMOTE_INSTALL_KEY=****-****-****-****-****
 
 プラグインが正常に動作することを確認したら、以下のコマンドラインツールを使用してプラグインをパッケージ化し、名前を付けます。実行後、現在のフォルダに `google.difypkg` ファイルが作成されます。これがプラグインの最終的なパッケージです。
 
-```
+```bash
+# Replace ./google with your actual plugin project path.
+
 dify plugin package ./google
 ```
 

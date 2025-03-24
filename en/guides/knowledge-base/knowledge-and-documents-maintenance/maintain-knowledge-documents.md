@@ -235,7 +235,7 @@ Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to s
 
 ***
 
-### Metadata Management
+### Metadata 
 
 In addition to capturing metadata (e.g., title, URL, keywords, or a web page description) from various source documents, metadata is also used as structured fields during the chunk retrieval process for filtering or displaying citation sources.
 
