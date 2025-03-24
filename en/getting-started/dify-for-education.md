@@ -14,7 +14,7 @@
 
 ## Benefits
 
-Dify Education Edition currently offers a **50% discount** coupon for **one Dify Professional Plan subscription**.
+Dify for Education currently offers a **50% discount** coupon for **one Dify Professional Plan subscription**.
 
 {% hint style="info" %}
 More exclusive education benefits will be added in the future.
@@ -34,7 +34,7 @@ To qualify for Dify for Education, you must meet **all** of the following requir
 
 1. **Create a Dify Account**
 
-   Before applying for education certification, you need to have a Dify account:
+   Before applying for educational verification, you need to have a Dify account:
 
    - If you have an educational email address, use it to [register a Dify account](https://cloud.dify.ai/signin).
 
@@ -56,11 +56,11 @@ To qualify for Dify for Education, you must meet **all** of the following requir
 
    ![]()
 
-   6.  Once certificated, you will receive a Dify Education Coupon.
+   6.  Once verified, you will receive a Dify Education Coupon.
 
    ![]()
 
-## How to Check Dify Education Certification Status
+## How to Check Dify Educational Verification Status
 
 Click profile picture (top-right) and look for `Edu` in subscription status.
 
@@ -70,14 +70,14 @@ Click profile picture (top-right) and look for `Edu` in subscription status.
 
 ### Dify Education Coupon
 
-Your account will receive a Dify Education coupon after certification. Use this coupon to get discounts on Dify Professional subscription plan.
+Your account will receive a Dify Education coupon after verification. Use this coupon to get discounts on Dify Professional subscription plan.
 
 {% hint style="info" %}
 Discount: **50%**
 Validity: **12 months**
 Limitations:
 - Coupons must be used within the validity period; **expired coupons are invalid**.
-- Education certification can only be applied for **once** per year, and only **one coupon** can be obtained per application.
+- Educational verification can only be applied for **once** per year, and only **one coupon** can be obtained per application.
 {% endhint %}
 
 ### Use Education Coupon
