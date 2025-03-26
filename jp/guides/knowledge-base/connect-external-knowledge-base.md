@@ -114,7 +114,7 @@ DifyはLlamaCloudプラグインを公式に提供しており、LlamaCloudナ�
 
 ##### プラグインのインストール
 
-1. Difyの[マーケットプレイス](https://marketplace.dify.ai/)にアクセスし、`llamaindex`を検索します
+1. Difyの[マーケットプレイス](https://marketplace.dify.ai/)にアクセスし、`LlamaCloud`を検索します
 2. 指示に従ってLlamaCloudプラグインをインストールおよび設定します
 3. Difyプラットフォームでプラグインを有効にします
 4. プラグイン設定ウィザードに従って、LlamaCloudのAPIキーやその他の必要な情報を入力します

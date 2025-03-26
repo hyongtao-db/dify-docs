@@ -164,6 +164,6 @@ HTTP 状态码：500
 
 你可以通过以下视频了解如何开发外部知识库插件 —— 以 Llamacloud 为例。
 
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="如何连接LlamaCloud知识库" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="如何连接 LlamaCloud 知识库" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 如需了解功能原理，请参考插件 [GitHub 地址](https://github.com/langgenius/dify-official-plugins/tree/main/extensions/llamacloud)。

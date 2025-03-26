@@ -114,7 +114,7 @@ The following video demonstrates in detail how to use the LlamaCloud plugin to c
 
 ##### Plugin Installation
 
-1. Visit the Dify [Marketplace](https://marketplace.dify.ai/) and search for `llamaindex`
+1. Visit the Dify [Marketplace](https://marketplace.dify.ai/) and search for `LlamaCloud`
 2. Install and configure the LlamaCloud plugin according to the instructions
 3. Enable the plugin in the Dify platform
 4. Fill in the LlamaCloud API key and other necessary information following the plugin configuration wizard

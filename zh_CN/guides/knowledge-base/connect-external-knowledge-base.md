@@ -103,7 +103,7 @@ description: 作者： Allen。 Dify Technical Writer。
 
 [Dify 插件市场](https://marketplace.dify.ai/)内提供了 LlamaCloud 插件，可以帮助你快速连接 LlamaCloud 知识库，在 Dify 平台中使用由 LlamaCloud 提供的检索功能，而无需编写自定义 API。
 
-插件市场中搜索 `llamaindex` 即可快速安装插件。
+插件市场中搜索 `LlamaCloud` 即可快速安装插件。
 
 按照插件配置向导，填写 LlamaCloud 的 API 密钥和其他必要信息。完成配置后，您可以在知识库列表中看到连接的外部知识库。
 
@@ -111,7 +111,7 @@ description: 作者： Allen。 Dify Technical Writer。
 
 以下视频详细展示了如何使用 LlamaCloud 插件连接外部知识库：
 
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="如何连接LlamaCloud知识库" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="如何连接 LlamaCloud 知识库" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 如需了解功能原理，请参考插件 [GitHub 地址](https://github.com/langgenius/dify-official-plugins/tree/main/extensions/llamacloud)。
 
