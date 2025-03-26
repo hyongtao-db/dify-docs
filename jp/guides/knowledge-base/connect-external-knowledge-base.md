@@ -106,12 +106,6 @@ APIサービスの設定の前に、適合した外部ナレッジベースAPI�
 
 DifyはLlamaCloudプラグインを公式に提供しており、LlamaCloudナレッジベースに簡単に接続することができます。
 
-##### ビデオチュートリアル
-
-以下の動画では、LlamaCloudプラグインを使用して外部ナレッジベースに接続する方法を詳しく説明しています：
-
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="LlamaCloudナレッジベースへの接続方法" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ##### プラグインのインストール
 
 1. Difyの[マーケットプレイス](https://marketplace.dify.ai/)にアクセスし、`LlamaCloud`を検索します
@@ -123,6 +117,12 @@ DifyはLlamaCloudプラグインを公式に提供しており、LlamaCloudナ�
 LlamaCloudプラグインを使用すると、カスタムAPIを作成することなく、DifyプラットフォームでLlamaCloudの強力な検索機能を直接利用できます。
 
 詳細については、プラグインの[GitHubリポジトリ](https://github.com/langgenius/dify-official-plugins/tree/main/extensions/llamacloud)を参照してください。
+
+##### ビデオチュートリアル
+
+以下の動画では、LlamaCloudプラグインを使用して外部ナレッジベースに接続する方法を詳しく説明しています：
+
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/FaOzKZRS-2E" title="LlamaCloudナレッジベースへの接続方法" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## よくある問題
 
