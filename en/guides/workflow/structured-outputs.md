@@ -1,14 +1,14 @@
-## 简介
+## Overview
 
-作为 LLM 工具链平台，Dify 支持 JSON 结构化输出功能。结构化输出功能可以确保 LLM 返回的数据格式可用、稳定、可预测，减少错误处理和格式转换的工作。
+Dify’s structured outputs ensures LLMs return data in predictable JSON formats, making the output easier to process and integrate into applications.
 
-## 价值
+## Benefits
 
--   **确保数据格式一致**：即使由 LLM 生成内容，也必须符合预设格式，避免数据混乱。
--   **方便后续节点处理**：数据库、API 或前端可以直接解析 JSON Schema，而无需额外数据清洗。
--   **提升低代码开发体验**：开发者无需手写复杂数据校验逻辑，直接使用 JSON Schema 约束输出。
+- Consistent data formatting
+- Direct integration with databases and APIs
+- Simplified data validation through JSON Schema
 
-## 如何实现结构化输出？
+## Methods
 
 在 Dify 的操作界面中，可以通过以下两种方式实现结构化输出：
 
@@ -17,11 +17,11 @@
 
 ### 方式一：直接定义工具参数
 
-请参阅 **[Tool](https://docs.dify.ai/zh-hans/plugins/schema-definition/tool) > 数据结构 > 返回变量定义**。
+See **[Tool](https://docs.dify.ai/plugins/schema-definition/tool) > Data Structures > Return Variable Definitions**。
 
 ### 方式二：使用 LLM 节点中的 JSON Schema 编辑器
 
-请参阅 **[LLM](https://docs.dify.ai/zh-hans/guides/workflow/node/llm) > 高级功能 > 结构化输出**。
+See **[LLM](https://docs.dify.ai/guides/workflow/node/llm) > Advanced Features > Structured Outputs**。
 
 ## 异常处理方案
 
@@ -37,11 +37,10 @@
 
 1.  **优先使用支持 JSON Schema 的模型**。推荐列表如下：
     - Gemini 2.0 Flash/Flash-Lite
-    - Gemini 1.5 Flash 8B (0827/0924)
+    - Gemini 1.5 Flash 8B (versions 0827/0924)
     - Gemini-1.5 pro
-    - GPT-4o
-    - GPT-4o-mini
-    - o1-mini/o3-mini 系列
+    - GPT-4o and GPT-4o-mini
+    - o1-mini/o3-mini series
 
 2.  **适当调整系统提示词以增强指令遵循性，尽可能确保 LLM 输出符合 Schema 规范**。假如 JSON Schema 设计用于结构化数学公式的输入与输出，而系统提示词却要求模型进行法律条文解析，这种不匹配可能会导致模型无法正确理解任务，影响生成结果的准确性。
 

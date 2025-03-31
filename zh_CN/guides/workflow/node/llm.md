@@ -125,6 +125,8 @@ LLM 节点是 Chatflow/Workflow 的核心节点。该节点能够利用大语言
 
 **异常处理**：提供多样化的节点错误处理策略，能够在当前节点发生错误时抛出故障信息而不中断主流程；或通过备用路径继续完成任务。详细说明请参考[异常处理](https://docs.dify.ai/guides/workflow/error-handling)。
 
+**结构化输出**：确保 LLM 返回的数据格式可用、稳定、可预测，减少错误处理和格式转换的工作。详情请参阅[结构化输出](https://docs.dify.ai/guides/workflow/structured-outputs)。
+
 ***
 
 ### 使用案例
