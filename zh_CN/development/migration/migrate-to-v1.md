@@ -1,12 +1,12 @@
-# 将社区版迁移至 v1.0.0
+# 将社区版升级至 v1.0.0
 
 > 本文主要介绍如何将旧社区版本升级为 [v1.0.0](https://github.com/langgenius/dify/releases/tag/1.0.0)。如果你未曾安装过 Dify 社区版，可以直接克隆 [Dify 项目](https://github.com/langgenius/dify)，并切换至 `1.0.0` 分支。参考[文档](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose)执行安装命令。
 
 如需在社区版中体验插件功能，需要将版本号升级为 `v1.0.0`。本文将为你介绍如何从旧版本升级至 `v1.0.0` 以体验插件生态功能。
 
-## 开始迁移
+## 开始升级
 
-迁移分为以下步骤：
+升级分为以下步骤：
 
 1. 备份数据
 2. 插件迁移
@@ -35,8 +35,10 @@ tar -cvf volumes-$(date +%s).tgz volumes
 `v1.0.0` 支持通过 Docker Compose 部署。运行 `cd` 命令至你的 Dify 项目路径，运行以下命令升级 Dify 版本：
 
 ```bash
+git fetch origin
 git checkout 1.0.0 # 切换至 1.0.0 分支
 cd docker
+nano .env # 修改环境配置文件同步 .env.example 文件
 docker compose -f docker-compose.yaml up -d
 ```
 
@@ -72,9 +74,22 @@ poetry run flask extract-plugins --workers=20
 poetry run flask install-plugins --workers=2
 ```
 
-此命令将下载并安装所有必要的插件到最新的社区版本中。当终端出现 `Install plugins completed.` 标识时，迁移完成。
+此命令将下载并安装所有必要的插件到最新的社区版本中。
 
-## 验证迁移结果
+最后迁移插件数据。运行以下命令更新 `provider name`，并在其后附加 `langgenius/{provider_name}/{provider_name}`。
+
+```bash
+poetry run flask migrate-data-for-plugin
+``` 
+
+当终端出现以下标识时，迁移完成。
+
+```bash
+Migrate [tool_builtin_providers] data for plugin completed, total: 6
+Migrate data for plugin completed.
+```
+
+## 验证结果
 
 访问 Dify 平台，轻点右上角 **“插件”** 查看此前所使用的工具是否被正确安装。随机使用某个插件，验证是否能够正常运行。如果无误，说明你已完成版本升级和数据迁移。
 

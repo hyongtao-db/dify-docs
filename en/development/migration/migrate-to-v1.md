@@ -1,12 +1,12 @@
-# Migrating Community Edition to v1.0.0
+# Upgrading Community Edition to v1.0.0
 
 > This document primarily explains how to upgrade from an older Community Edition version to [v1.0.0](https://github.com/langgenius/dify/releases/tag/1.0.0). If you have not installed the Dify Community Edition yet, you can directly clone the [Dify project](https://github.com/langgenius/dify) and switch to the `1.0.0` branch. For installation commands, refer to the [documentation](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose).
 
 To experience the plugin functionality in the Community Edition, you need to upgrade to version`v1.0.0`. This document will guide you through the steps of upgrading from older versions to `v1.0.0` to access the plugin ecosystem features.
 
-## Start the Migration
+## Start the Upgrade
 
-Migration involves the following steps:
+The upgrade process involves the following steps:
 
 1. Backup your data
 2. Migrate plugins
@@ -35,8 +35,10 @@ tar -cvf volumes-$(date +%s).tgz volumes
 `v1.0.0` supports deployment via Docker Compose. Navigate to your Dify project path and run the following commands to upgrade to the Dify version:
 
 ```bash
+git fetch origin
 git checkout 1.0.0 # Switch to the 1.0.0 branch
 cd docker
+nano .env # Modify the environment configuration file to synchronizing .env.example file
 docker compose -f docker-compose.yaml up -d
 ```
 
@@ -72,7 +74,20 @@ Ensure your network can access the public internet and support access to: `https
 poetry run flask install-plugins --workers=2
 ```
 
-This command will download and install all necessary plugins into the latest Community Edition. When the terminal shows `Install plugins completed.`, the migration is complete.
+This command will download and install all necessary plugins into the latest Community Edition. 
+
+Finally, migrate the plugin data. Run the following command to update the `provider name` by appending `langgenius/{provider_name}/{provider_name}` to it.
+
+```bash
+poetry run flask migrate-data-for-plugin
+``` 
+
+The migration is complete when you see the results in your terminal.
+
+```bash
+Migrate [tool_builtin_providers] data for plugin completed, total: 6
+Migrate data for plugin completed.
+```
 
 ## Verify the Migration
 
