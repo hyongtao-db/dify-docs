@@ -73,11 +73,3 @@ A **Loop** node executes repetitive tasks that depend on previous iteration resu
 4. Loop ends when a number below 50 appears.
 
 ![Steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
-
-## Planned Enhancements
-
-**Future releases will include:**
-
-  - Loop variables: Store and reference values across iterations for improved state management and conditional logic.
-
-  - `break` node: Terminate loops from within the execution path, enabling more sophisticated control flow patterns.

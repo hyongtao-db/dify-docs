@@ -53,12 +53,26 @@
       <td>限制最多执行的轮次，避免无限循环</td>
       <td>例：最多执行 10 轮，不管是否满足退出条件。</td>
     </tr>
+    <tr>
+      <td><strong>循环变量</strong>（Loop Variables）</td>
+      <td>用于在循环的不同轮次间传递数据，并在循环结束后继续供下游节点使用</td>
+      <td>例：变量 <code>x < 50</code> 在每轮循环中递增 1，循环体内部可以基于 <code>x < 50</code> 进行计算，循环结束后，<code>x < 50</code> 的最终值可用于后续流程。</td>
+    </tr>
+    <tr>
+      <td><strong>退出节点</strong>（Exit Loop）</td>
+      <td>用于强制终止循环，一旦执行到此节点，循环立即结束</td>
+      <td>例：最多执行 10 轮，不管是否满足退出条件。</td>
+    </tr>
   </tbody>
 </table>
 
-你可以在 **循环退出条件** 中使用循环体内的变量或会话中的全局变量，让循环按照你的需求停止。
+{% hint style="info" %}
+**退出节点** 与 **循环退出条件** 均可作为循环的终止触发点，满足任意一个条件时，循环都会提前退出。如果未配置任何退出条件，则循环将持续运行（相当于 while (true)），直到达到 **最大循环次数**。
+{% endhint %}
 
-![Configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
+![Loop Node](https://assets-docs.dify.ai/2025/03/ba1b3a0150d40bf5cc331f2877717046.png)
+
+![Exit Loop](https://assets-docs.dify.ai/2025/03/d4d354dcc37488efc7ce8d405488a314.png)
 
 ## 示例：如何使用循环节点？
 
@@ -79,11 +93,3 @@
 4. 循环将在随机数小于 `50` 时自动停止。
 
 ![Case steps](https://assets-docs.dify.ai/2025/03/b1c277001fc3cb1fbb85fe7c22a6d0fc.png)
-
-## 未来扩展
-
-**后续版本将提供：**
-
-- 循环变量：支持在循环过程中存储和引用变量，增强逻辑控制能力。
-
-- `break` 节点：允许在循环体内部直接终止循环，适用于更复杂的流程控制。
