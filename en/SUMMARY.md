@@ -16,7 +16,6 @@
 * [Dify Premium on AWS](getting-started/dify-premium-on-aws.md)
 * [Dify for Education](getting-started/dify-for-education.md)
 
-
 ## Guides
 
 * [Model](guides/model-configuration/README.md)
