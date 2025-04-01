@@ -20,12 +20,12 @@
     <tr>
       <td><strong>循环</strong>（Loop）</td>
       <td>轮次之间存在依赖关系的优化型任务。即任务的每一轮执行都依赖上一轮的结果。</td>
-      <td>需要前一轮的计算结果，适用于递归、优化问题等。</td>
+      <td>需要前一轮的计算结果。</td>
     </tr>
     <tr>
       <td><strong>迭代</strong>（Iteration）</td>
       <td>轮次之间无依赖关系的批处理任务。即每一轮任务可以独立运行，无需依赖前一轮。</td>
-      <td>每轮独立执行，可用于数据批量处理等。</td>
+      <td>每轮独立执行。</td>
     </tr>
   </tbody>
 </table>
@@ -45,22 +45,22 @@
   <tbody>
     <tr>
       <td><strong>循环终止条件</strong>（Loop Termination Condition）</td>
-      <td>设置循环何时停止</td>
+      <td>设置循环何时停止。</td>
       <td>例：当变量 <code>x < 50</code> 时，停止循环。</td>
     </tr>
     <tr>
       <td><strong>最大循环次数</strong>（Maximum Loop Count）</td>
-      <td>限制最多执行的轮次，避免无限循环</td>
+      <td>限制最多执行的轮次，避免无限循环。</td>
       <td>例：最多执行 10 轮，不管是否满足退出条件。</td>
     </tr>
     <tr>
       <td><strong>循环变量</strong>（Loop Variables）</td>
-      <td>用于在循环的不同轮次间传递数据，并在循环结束后继续供下游节点使用</td>
+      <td>用于在循环的不同轮次间传递数据，并在循环结束后继续供下游节点使用。</td>
       <td>例：变量 <code>x < 50</code> 在每轮循环中递增 1，循环体内部可以基于 <code>x < 50</code> 进行计算，循环结束后，<code>x < 50</code> 的最终值可用于后续流程。</td>
     </tr>
     <tr>
       <td><strong>退出循环节点</strong>（Exit Loop）</td>
-      <td>用于强制终止循环，一旦执行到此节点，循环立即结束</td>
+      <td>当循环体内运行到此节点后，循环终止。</td>
       <td>例：最多执行 10 轮，不管是否满足退出条件。</td>
     </tr>
   </tbody>
