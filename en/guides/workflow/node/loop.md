@@ -49,10 +49,18 @@ A **Loop** node executes repetitive tasks that depend on previous iteration resu
       <td>Upper limit on iterations to prevent infinite loops</td>
       <td>10, 100, 1000</td>
     </tr>
+      <tr>
+      <td>Loop Variables</td>
+      <td>Upper limit on iterations to prevent infinite loops</td>
+      <td>10, 100, 1000</td>
+    </tr>
+      <tr>
+      <td>Exit Loop</td>
+      <td>Upper limit on iterations to prevent infinite loops</td>
+      <td>10, 100, 1000</td>
+    </tr>
   </tbody>
 </table>
-
-![Configuration](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
 
 ## Usage Example
 

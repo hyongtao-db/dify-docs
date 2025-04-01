@@ -52,8 +52,6 @@
   </tbody>
 </table>
 
-![設定](https://assets-docs.dify.ai/2025/03/13853bfaaa068cdbdeba1b1f75d482f2.png)
-
 ## 使用例
 
 **目標：50未満の値が出るまで、1から100までのランダムな数値を生成する。**
