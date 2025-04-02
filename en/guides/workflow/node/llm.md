@@ -261,9 +261,7 @@ Click **Add Field** and set parameters below:
 
 2. Click **Save**. Your schema will be validated automatically.
 
-**Managing Fields**
-
-Edit field types, descriptions, default values, etc. in the JSON code box, and then click **Save**.
+**Managing Fields**: Edit field types, descriptions, default values, etc. in the JSON code box, and then click **Save**.
 
 **Importing from JSON**
 
