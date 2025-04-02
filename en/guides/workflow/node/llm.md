@@ -154,7 +154,7 @@ Access the editor through **LLM Node > Output Variables > Structured > Configure
 
 **When to Use**
 
-- For simple fields like `name`, `email`, `age` without nested structures
+- For simple fields such as `name`, `email`, `age` without nested structures
 
 - If you prefer a drag-and-drop way over writing JSON
 
@@ -238,11 +238,11 @@ Click **Add Field** and set parameters below:
 
 **When to Use**
 
-- For complex fields that need nesting, like `order_details` or `product_lists`
+- For complex fields that need nesting, (e.g., `order_details`, `product_lists`)
 
 - When you want to import and modify existing JSON Schemas or API examples
 
-- When you need advanced schema features like `pattern` (regex matching) or `oneOf` (multiple type support)
+- When you need advanced schema features, such as `pattern` (regex matching) or `oneOf` (multiple type support)
 
 - When you want to fine-tune an AI-generated schema to fit your exact requirements
 
