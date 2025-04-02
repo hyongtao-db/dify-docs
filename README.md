@@ -22,3 +22,9 @@ Once the migration is successfully completed, this repository may be archived or
 ---
 
 Thank you to all contributors for your support and collaboration!
+
+---
+
+## License
+
+The Dify product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
