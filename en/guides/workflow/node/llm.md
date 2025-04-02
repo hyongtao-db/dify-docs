@@ -143,7 +143,7 @@ The **JSON Schema Editor** in LLM nodes lets you define how you want your data s
 
 - Models without Native Support: Not all models handle structured outputs reliably. We wll include your schema in the prompt, but response formatting may vary by model.</Info>
 
-**Getting Started**
+**Get Started**
 
 Access the editor through **LLM Node > Output Variables > Structured > Configure**. You can switch between visual and JSON Schema editing modes.
 
@@ -160,7 +160,7 @@ Access the editor through **LLM Node > Output Variables > Structured > Configure
 
 - When you need to quickly iterate on your schema structure
 
-**Adding Fields**
+**Add Fields**
 
 Click **Add Field** and set parameters below:
 
@@ -183,7 +183,7 @@ Click **Add Field** and set parameters below:
 }
 ```
 
-**Managing Fields**
+**Manage Fields**
 
 - To Edit: Hover over a field and click the Edit icon.
 
@@ -191,7 +191,7 @@ Click **Add Field** and set parameters below:
 
 > Note: Deleting an object or array removes all its child fields.
 
-**Importing from JSON**
+**Import from JSON**
 
 1. Click **Import from JSON** and paste your example:
 
@@ -204,7 +204,7 @@ Click **Add Field** and set parameters below:
 
 2. Click **Submit** to convert it into a schema.
 
-**Generating with AI**
+**Generate with AI**
 
 1. Click the AI Generate icon, select a model (like GPT-4o), and describe what you need:
 
@@ -246,7 +246,7 @@ Click **Add Field** and set parameters below:
 
 - When you want to fine-tune an AI-generated schema to fit your exact requirements
 
-**Adding Fields**
+**Add Fields**
 
 1. Click **Import from JSON** and add your field structure:
 
@@ -261,9 +261,9 @@ Click **Add Field** and set parameters below:
 
 2. Click **Save**. Your schema will be validated automatically.
 
-**Managing Fields**: Edit field types, descriptions, default values, etc. in the JSON code box, and then click **Save**.
+**Manage Fields**: Edit field types, descriptions, default values, etc. in the JSON code box, and then click **Save**.
 
-**Importing from JSON**
+**Import from JSON**
 
 1. Click **Import from JSON** and paste your example:
 
@@ -276,7 +276,7 @@ Click **Add Field** and set parameters below:
 
 2. Click **Submit** to convert it into a schema.
 
-**Generating with AI**
+**Generate with AI**
 
 1. Click the AI Generate icon, select a model (like GPT-4o), and describe what you need:
 
