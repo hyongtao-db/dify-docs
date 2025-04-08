@@ -74,7 +74,7 @@ If no exit conditions are specified, the loop will continue executing (similar t
 
 **Steps**:
 
-1. Set up a **Loop** node by configuring its **Loop Termination Condition** to trigger when the **Template Transformation** node returns `done`.
+1. Set up a **Loop** node by configuring its **Loop Termination Condition** to trigger when the **Template** node returns `done`.
 
 2. Set up a **Code** node that generates random integers between `1` and `100`.
 
