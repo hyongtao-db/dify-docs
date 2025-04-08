@@ -127,15 +127,18 @@ LLM 节点是 Chatflow/Workflow 的核心节点。该节点能够利用大语言
 
 **结构化输出**：确保 LLM 返回的数据格式可用、稳定、可预测，减少错误处理和格式转换的工作。
 
-<Accordion title="JSON Schema 编辑器">
+<details>
+<summary>JSON Schema 编辑器</summary>
 
 LLM 节点中的 **JSON Schema 编辑器** 让你能够定义 LLM 返回的数据结构，确保输出可解析、可复用、可控。你可以使用**可视化编辑模式**直观编辑，或通过**代码编辑模式**精细调整，适配不同复杂度的需求。
 
-<Info>作为节点级能力，JSON Schema 适用于所有模型的结构化输出定义和约束。
+{% hint style="info" %}
+作为节点级能力，JSON Schema 适用于所有模型的结构化输出定义和约束。
 
 -   **原生支持结构化输出的模型**：可直接使用 JSON Schema 定义结构化变量。
 
--   **不支持结构化输出的模型**：系统会将 JSON Schema 以提示词方式输入。你可以尝试引导模型按结构生成内容，但这并不保证一定可以正确解析输出。</Info>
+-   **不支持结构化输出的模型**：系统会将 JSON Schema 以提示词方式输入。你可以尝试引导模型按结构生成内容，但这并不保证一定可以正确解析输出。
+{% endhint %}
 
 **JSON Schema 编辑器入口**
 
@@ -143,8 +146,8 @@ LLM 节点中的 **JSON Schema 编辑器** 让你能够定义 LLM 返回的数�
 
 ![]()
 
-<Tabs>
-  <Tab title="可视化编辑">
+{% tabs %}
+{% tab title="可视化编辑" %}
 
 **适用场景**
 
@@ -234,8 +237,8 @@ LLM 节点中的 **JSON Schema 编辑器** 让你能够定义 LLM 返回的数�
   ]
 }
 ```
-  </Tab>
-  <Tab title="代码编辑">
+{% endtab %}
+{% tab title="代码编辑" %}
 
 **适用场景**
 
@@ -330,10 +333,10 @@ LLM 节点中的 **JSON Schema 编辑器** 让你能够定义 LLM 返回的数�
   ]
 }
 ```
-  </Tab>
-</Tabs>
+{% endtab %}
+{% endtabs %}
 
-</Accordion>
+</details>
 
 ***
 
