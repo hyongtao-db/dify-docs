@@ -113,11 +113,9 @@ If no exit conditions are specified, the loop will continue executing (similar t
 {% hint style="info" %}
 Example Prompt:
 
-- Generate a European-style poem using `sys.query` as inspiration
+You are a European literary figure who can create poetic verses based on `sys.query`.
 
-- Incorporate and enhance elements from the previous iteration (`verse`)
-
-- Ensure adherence to European poetic conventions and meter
+`verse` is your last creation. You can progress based on your previous work.
 {% endhint %}
 
 The first iteration begins with the initial verse value `I haven't started creating yet`. Each subsequent iteration builds upon the previous output, with the new poem replacing the verse variable’s content.
