@@ -27,3 +27,5 @@ docker compose up -d
 添加该字段后，Dify 平台将允许安装所有未在 Dify Marketplace 上架（审核）的插件，可能存在安全隐患。
 
 建议在测试 / 沙箱环境内安装插件，确认安全后再安装至生产环境。
+
+如果你希望采取更加严格的措施控制插件的安装，请参考[第三方签名验证](/zh_CN/plugins/publish-plugins/signing-plugins-for-third-party-signature-verification.md)。

@@ -192,6 +192,7 @@
     * [插件隐私政策准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-privacy-protection-guidelines.md)
   * [发布至个人 GitHub 仓库](plugins/publish-plugins/publish-plugin-on-personal-github-repo.md)
   * [本地发布与分享](plugins/publish-plugins/package-plugin-file-and-publish.md)
+  * [第三方签名验证](plugins/publish-plugins/signing-plugins-for-third-party-signature-verification.md)
 * [常见问题](plugins/faq.md)
 
 ## 研发 <a href="#development" id="development"></a>

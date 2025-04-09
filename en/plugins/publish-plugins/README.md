@@ -72,16 +72,4 @@ For detailed instructions, please refer to:
 * **Open-source sharing project** → **Recommended to use GitHub**, convenient for version management and community collaboration.
 * **Quick distribution or internal testing** → **Recommended to use plugin file**, allowing for straightforward and efficient installation and sharing.
 
-## Third-Party Signature Verification
-
-{% hint style="warning" %}
-This feature is only available in the Dify Community Edition. Third-party signature verification is not supported in Dify Cloud Edition at this time.
-{% endhint %}
-
-With third-party signature verification, Dify administrators can safely permit the installation of plugins not listed on the Dify Marketplace without completely disabling signature validation.
-
-Dify administrators can add signatures to verified plugins using pre-approved private keys. In addition, Dify can be configured to verify plugins using pre-approved public keys during installation.
-
-For more details, please refer to:
-
-[Sign Plugins for Third-Party Signature Verification](./sign-plugin-for-third-party-signature-verification)
+> When installing plugins that are not from the Dify Marketplace, you may encounter third-party signature verification issues. For solutions, please refer to [Signing Plugins for Third-Party Signature Verification](./signing-plugins-for-third-party-signature-verification.md).
