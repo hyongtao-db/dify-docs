@@ -98,3 +98,5 @@ cd docker
 docker compose down
 docker compose up -d
 ```
+
+サービスを再起動すると、現在のコミュニティ版環境でサードパーティ署名の検証機能が有効になります。

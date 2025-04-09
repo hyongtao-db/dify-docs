@@ -98,3 +98,5 @@ cd docker
 docker compose down
 docker compose up -d
 ```
+
+After restarting the service, the third-party signature verification feature will be enabled in the current Community Edition environment.
