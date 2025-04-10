@@ -4,7 +4,7 @@
 
 前往[“插件管理”](https://cloud.dify.ai/plugins)页获取远程服务器地址和调试 Key。
 
-<figure><img src="https://assets-docs.dify.ai/2024/12/053415ef127f1f4d6dd85dd3ae79626a.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/04/2779338a43687f3e00155baccdd6d06c.png)
 
 回到插件项目，拷贝 `.env.example` 文件并重命名为 `.env`，将获取的远程服务器地址和调试 Key 等信息填入其中。
 

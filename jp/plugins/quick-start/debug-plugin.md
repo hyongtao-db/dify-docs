@@ -4,7 +4,7 @@
 
 リモートサーバーのアドレスとデバッグキーは、[「プラグイン管理」](https://cloud.dify.ai/plugins)ページにアクセスすることで取得できます。
 
-<figure><img src="https://assets-docs.dify.ai/2024/11/1cf15bc59ea10eb67513c8bdca557111.png" alt=""><figcaption></figcaption></figure>
+![](https://assets-docs.dify.ai/2025/04/2779338a43687f3e00155baccdd6d06c.png)
 
 プラグインのプロジェクトに戻り、`.env.example`ファイルをコピーして`.env`にリネームします。そして、取得したリモートサーバーアドレスやデバッグキーなどの情報を入力してください。
 
