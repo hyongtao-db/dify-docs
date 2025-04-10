@@ -16,7 +16,7 @@ description: 'Author: Yeuoly, Allen'
 
 新的插件系统突破了原有框架的限制，提供更丰富和强大的扩展能力。提供五种类型插件，每一种类型对应成熟的场景解决方案，赋予开发者用无限的创意改造 Dify 应用的空间。
 
-同时，插件系统还具备更加友好的传播属性，你可以通过 [Dify Marketplace](https://marketplace.dify.ai/) 或 [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md) 以及[本地文件](publish-plugins/package-and-publish-plugin-file.md)的形式分享你的插件，让其他开发者能够便捷地安装插件。
+同时，插件系统还具备更加友好的传播属性，你可以通过 [Dify Marketplace](https://marketplace.dify.ai/) 或 [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md) 以及[本地文件](publish-plugins/package-plugin-file-and-publish.md)的形式分享你的插件，让其他开发者能够便捷地安装插件。
 
 > Dify Marketplace 是一个面向开发者的开放生态系统，提供模型、工具、AI Agent、Extensions 和插件包等丰富的资源。通过 Marketplace，你可以为现有 Dify 应用无缝接入第三方服务，增强现有应用的能力，共同推动 Dify 生态的发展。
 

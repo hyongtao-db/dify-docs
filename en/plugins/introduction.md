@@ -12,7 +12,7 @@ To enable more agile development, we have opened up the ecosystem and provided a
 
 The new plugin system goes beyond the limitations of the previous framework, offering richer and more powerful extension capabilities. It contains five distinct plugin types, each designed to solve well-defined scenarios, giving developers limitless freedom to customize and enhance Dify applications.
 
-Additionally, the plugin system is designed to be easily shared. You can distribute your plugins via the [Dify Marketplace](https://marketplace.dify.ai/), [GitHub](publish-plugins/publish-plugin-on-personal-github-repo/), or as a [Local file package](publish-plugins/package-and-publish-plugin-file/). Other developers can quickly install these plugins and benefit from them.
+Additionally, the plugin system is designed to be easily shared. You can distribute your plugins via the [Dify Marketplace](https://marketplace.dify.ai/), [GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md), or as a [Local file package](publish-plugins/package-plugin-file-and-publish.md). Other developers can quickly install these plugins and benefit from them.
 
 > Dify Marketplace is an open ecosystem designed for developers, offering a broad range of resources—models, tools, AI Agents, Extensions, and plugin bundles. You can seamlessly integrate third-party services into your existing Dify applications through the Marketplace, enhancing their capabilities and advancing the overall Dify community.
 

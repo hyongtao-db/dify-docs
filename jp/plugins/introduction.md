@@ -12,7 +12,7 @@
 
 新しいプラグインシステムは、従来のフレームワークの制約を超え、より豊富で強力な拡張機能を提供します。明確に定義されたシナリオに対応するために、5つの異なるプラグインタイプを用意しており、開発者はDifyアプリケーションを自由にカスタマイズし、強化することができます。
 
-さらに、プラグインシステムは共有しやすいように設計されています。[Difyマーケットプレイス](https://marketplace.dify.ai/)、[GitHub](publish-plugins/publish-plugin-on-personal-github-repo/)、または[ローカルファイルパッケージ](publish-plugins/package-and-publish-plugin-file/)を通じてプラグインを配布できます。他の開発者は、これらのプラグインを迅速にインストールし、そのメリットを享受できます。
+さらに、プラグインシステムは共有しやすいように設計されています。[Difyマーケットプレイス](https://marketplace.dify.ai/)、[GitHub](publish-plugins/publish-plugin-on-personal-github-repo.md)、または[ローカルファイルパッケージ](publish-plugins/package-plugin-file-and-publish)を通じてプラグインを配布できます。他の開発者は、これらのプラグインを迅速にインストールし、そのメリットを享受できます。
 
 > Difyマーケットプレイスは、開発者向けのオープンなエコシステムであり、モデル、ツール、AIエージェント、拡張機能、プラグインバンドルなど、幅広いリソースを提供しています。マーケットプレイスを通じて、サードパーティのサービスを既存のDifyアプリケーションにシームレスに統合し、機能を強化し、Difyコミュニティ全体の発展に貢献できます。
 
