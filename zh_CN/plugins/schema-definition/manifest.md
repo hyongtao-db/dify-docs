@@ -53,6 +53,10 @@ meta:
 privacy: "./privacy.md"
 ```
 
+### 版本管理
+
+插件的版本由 `manifest` 文件中的 `version` 字段管理。版本号必须符合 `大版本.小版本.补丁版本` 格式，否则自动更新可能无法正常工作。
+
 ### 结构
 
 * `version`(version, required)：插件的版本

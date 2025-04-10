@@ -47,6 +47,10 @@ meta:
 privacy: "./privacy.md"
 ```
 
+### **Version Management**
+
+The version of the plugin is managed by the `version` field in manifest file. The version number must be in the format of `major.minor.patch`, otherwise, auto-update may dose not work as expected.
+
 ### **Structure**
 
 * `version` (version, required): Plugin version
