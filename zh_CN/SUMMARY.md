@@ -186,6 +186,7 @@
     * [Node](plugins/schema-definition/reverse-invocation-of-the-dify-service/node.md)
 * [最佳实践](plugins/best-practice/README.md)
   * [开发 Slack Bot 插件](plugins/best-practice/develop-a-slack-bot-plugin.md)
+  * [Dify MCP 插件指南：一键连接 Zapier 并自动发送邮件](plugins/best-practice/how-to-use-mcp-zapier.md)
 * [发布插件](plugins/publish-plugins/README.md)
   * [发布至 Dify Marketplace](plugins/publish-plugins/publish-to-dify-marketplace/README.md)
     * [插件开发者准则](plugins/publish-plugins/publish-to-dify-marketplace/plugin-developer-guidelines.md)
