@@ -39,4 +39,4 @@ Currently, Web App supports multiple languages: English, Simplified Chinese, Tra
 
 ### Embedding Your AI Site
 
-You can also integrate Dify Web App into your own web project, blog, or any other web page. For more details, please take a refer to [Embedding In Websites](https://docs.dify.ai/guides/application-publishing/embedding-in-websites).
+You can also integrate Dify Web App into your own web project, blog, or any other web page. For more details, please refer to [Embedding In Websites](https://docs.dify.ai/guides/application-publishing/embedding-in-websites).
